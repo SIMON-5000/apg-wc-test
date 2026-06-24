@@ -7,11 +7,20 @@ class WcModal extends HTMLElement{
 
 
   connectedCallback() {
-    this.attachShadow({ mode: 'open', delegatesFocus: true });
+    console.log(this.nodeName);
+    this.attachShadow({ mode: 'open'});
 
     this.shadowRoot.innerHTML = `
     <style>${styles}</style>
-    <slot></slot>
+    <dialog 
+      id="modal-dialog"
+      closedby="closerequest"
+      aria-label="modal"
+      aria-labelledby="dialog-label"
+      >
+      <slot></slot>
+      <button id="close" commandfor="modal-dialog" command="close">Close</button>
+    </dialog>
     `;
   }
 }
