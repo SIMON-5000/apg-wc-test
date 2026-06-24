@@ -5,16 +5,17 @@
     "main": "main.js",
     "type": "module",
     "scripts": {
-        "test": "npx playwright test",
-        "start": "web-dev-server --node-resolve --open --watch --port 5001"
+        "start": "web-dev-server --node-resolve --open --watch --port 5001",
+        "test": "npx playwright test"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
         "@axe-core/playwright": "^4.11.2",
-        "@playwright/test": "^1.59.1",
+        "@playwright/test": "^1.60.0",
         "@types/node": "^25.6.0",
-        "@web/dev-server": "^0.4.6"
+        "@web/dev-server": "^0.4.6",
+        "lighthouse": "^13.4.0"
     }
 }
