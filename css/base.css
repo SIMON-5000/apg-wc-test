@@ -1,17 +1,23 @@
-@import url("menu.css");
+/* @import url("menu.css"); */
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+    /* border: 2px solid red; */
 }
 
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    /* color: red; */
+    margin: 0;
+    padding: 0;
+}
+
+main {
     max-width: 62rem;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 p,
