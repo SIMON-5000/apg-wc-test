@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 3
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "webkit",
         "name": "webkit",
@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 538,
+                      "duration": 622,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T11:33:20.413Z",
+                      "startTime": "2026-06-25T12:26:17.422Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -135,6 +135,210 @@
               "id": "4f5218e02fee5a5bd4ca-08251780ff128c7c3d45",
               "file": "modal.spec.js",
               "line": 9,
+              "column": 3
+            },
+            {
+              "title": "MD-01-B Dialog opens on enter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 532,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:17.432Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-0afc316cf967eac6caa3",
+              "file": "modal.spec.js",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "MD-01-C Dialog opens on space",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 535,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:17.397Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-a2bfc0ddd7c644971569",
+              "file": "modal.spec.js",
+              "line": 22,
+              "column": 3
+            },
+            {
+              "title": "MD-02 Escape closes dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 632,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:17.393Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-1f96f408e0b9bd34fe12",
+              "file": "modal.spec.js",
+              "line": 29,
+              "column": 3
+            },
+            {
+              "title": "MD-04-A Focus returns to invoking element (click)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 318,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:18.396Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-30380358d2715e714466",
+              "file": "modal.spec.js",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "MD-04-B Focus returns to invoking element (Enter)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 264,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:18.397Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-78fed15257be4fc08b39",
+              "file": "modal.spec.js",
+              "line": 45,
+              "column": 3
+            },
+            {
+              "title": "MD-04-B Focus returns to invoking element (Space)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 233,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:18.504Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-9136693e3828dbda4cc2",
+              "file": "modal.spec.js",
+              "line": 54,
               "column": 3
             },
             {
@@ -150,15 +354,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 4,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1537,
+                      "duration": 2490,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T11:33:20.383Z",
+                      "startTime": "2026-06-25T12:26:19.737Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -169,6 +373,210 @@
               "id": "4f5218e02fee5a5bd4ca-9eb510ef8c5e951b236d",
               "file": "modal.spec.js",
               "line": 9,
+              "column": 3
+            },
+            {
+              "title": "MD-01-B Dialog opens on enter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1839,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:19.897Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-8203747be8abd2cb0fbb",
+              "file": "modal.spec.js",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "MD-01-C Dialog opens on space",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2670,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:19.893Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-aeccbea6533a19a4c799",
+              "file": "modal.spec.js",
+              "line": 22,
+              "column": 3
+            },
+            {
+              "title": "MD-02 Escape closes dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2840,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:19.901Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-5dc0251d0c738f0fbb69",
+              "file": "modal.spec.js",
+              "line": 29,
+              "column": 3
+            },
+            {
+              "title": "MD-04-A Focus returns to invoking element (click)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1046,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:22.824Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-1b9c89131e70a709e0ba",
+              "file": "modal.spec.js",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "MD-04-B Focus returns to invoking element (Enter)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 731,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:23.901Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-fe93328046ef5e3fdfe4",
+              "file": "modal.spec.js",
+              "line": 45,
+              "column": 3
+            },
+            {
+              "title": "MD-04-B Focus returns to invoking element (Space)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 738,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:24.605Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-da358180aea69dbdc5b2",
+              "file": "modal.spec.js",
+              "line": 54,
               "column": 3
             },
             {
@@ -184,15 +592,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1820,
+                      "duration": 1821,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T11:33:20.412Z",
+                      "startTime": "2026-06-25T12:26:26.449Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -204,6 +612,240 @@
               "file": "modal.spec.js",
               "line": 9,
               "column": 3
+            },
+            {
+              "title": "MD-01-B Dialog opens on enter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1305,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:26.967Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-0e93bb2447c00576c249",
+              "file": "modal.spec.js",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "MD-01-C Dialog opens on space",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1518,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:27.139Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-1e2db2e05e73c572096a",
+              "file": "modal.spec.js",
+              "line": 22,
+              "column": 3
+            },
+            {
+              "title": "MD-02 Escape closes dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1002,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:28.735Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-2592af73f94e4ade199c",
+              "file": "modal.spec.js",
+              "line": 29,
+              "column": 3
+            },
+            {
+              "title": "MD-04-A Focus returns to invoking element (click)",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5975,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('button', { name: /open modal dialog/i })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /open modal dialog/i })\u001b[22m\n\u001b[2m    14 × locator resolved to <button commandfor=\"wc-modal\" command=\"--show-modal\">Open Modal Dialog</button>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('button', { name: /open modal dialog/i })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /open modal dialog/i })\u001b[22m\n\u001b[2m    14 × locator resolved to <button commandfor=\"wc-modal\" command=\"--show-modal\">Open Modal Dialog</button>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:42:30",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                          "column": 30,
+                          "line": 42
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 40 |\u001b[39m\n \u001b[90m 41 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mkeyboard\u001b[33m.\u001b[39mpress(\u001b[32m'Escape'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m expect(openButton)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 43 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m   test(\u001b[32m'MD-04-B Focus returns to invoking element (Enter)'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                            "column": 30,
+                            "line": 42
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('button', { name: /open modal dialog/i })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /open modal dialog/i })\u001b[22m\n\u001b[2m    14 × locator resolved to <button commandfor=\"wc-modal\" command=\"--show-modal\">Open Modal Dialog</button>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 40 |\u001b[39m\n \u001b[90m 41 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mkeyboard\u001b[33m.\u001b[39mpress(\u001b[32m'Escape'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m expect(openButton)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 43 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m   test(\u001b[32m'MD-04-B Focus returns to invoking element (Enter)'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:42:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:28.805Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--8d557--to-invoking-element-click--webkit/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                        "column": 30,
+                        "line": 42
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-5366cdde889bfe45d5a0",
+              "file": "modal.spec.js",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "MD-04-B Focus returns to invoking element (Enter)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 908,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:28.860Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-88db8c0556d89afd36d4",
+              "file": "modal.spec.js",
+              "line": 45,
+              "column": 3
+            },
+            {
+              "title": "MD-04-B Focus returns to invoking element (Space)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 811,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-25T12:26:29.408Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-894954b02446ae7e021f",
+              "file": "modal.spec.js",
+              "line": 54,
+              "column": 3
             }
           ]
         }
@@ -212,11 +854,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-06-25T11:33:19.341Z",
-    "duration": 5237.767,
-    "expected": 3,
+    "startTime": "2026-06-25T12:26:16.127Z",
+    "duration": 18759.558,
+    "expected": 20,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
