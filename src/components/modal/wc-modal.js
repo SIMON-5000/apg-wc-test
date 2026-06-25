@@ -23,13 +23,23 @@ class WcModal extends HTMLElement{
     `;
     
     this.dialog = this.shadowRoot.getElementById('modal-dialog');
+    this.invokingEl = null;
 
     // Add an eventlistener, listening for commands sent to wc-modal
-    this.addEventListener('command', (e)=> {
+    this.addEventListener('command', (e) => {
       if(e.command == '--show-modal') {
         // Opens dialog (located in shadow DOM) in modal-mode
         this.dialog.showModal();
+        // Webkit does not focus back on invoking button when clicked with mouse
+        this.invokingEl = e.source || document.activeElement;
       }
+    })
+
+    // Explicitly return focus to trigger element (solves Safari/Webkit issue)
+    // This behaviour does however seem to be by design, see:
+    // Darin Adler (Apples current VicePresident) explains why a click does not shift focus in Sagari/Webkit https://bugs.webkit.org/show_bug.cgi?id=22261#c68
+    this.dialog.addEventListener('close', () => {
+      this.invokingEl.focus();
     })
   }
 }
