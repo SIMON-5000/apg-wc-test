@@ -5,7 +5,6 @@ class WcModal extends HTMLElement{
     super();
   }
 
-
   connectedCallback() {
     console.log(this.nodeName);
     this.attachShadow({ mode: 'open'});
@@ -22,6 +21,16 @@ class WcModal extends HTMLElement{
       <button id="close" commandfor="modal-dialog" command="close">Close</button>
     </dialog>
     `;
+    
+    this.dialog = this.shadowRoot.getElementById('modal-dialog');
+
+    // Add an eventlistener, listening for commands sent to wc-modal
+    this.addEventListener('command', (e)=> {
+      if(e.command == '--show-modal') {
+        // Opens dialog (located in shadow DOM) in modal-mode
+        this.dialog.showModal();
+      }
+    })
   }
 }
 
