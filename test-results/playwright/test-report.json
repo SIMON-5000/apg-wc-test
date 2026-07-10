@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1125,
+                      "duration": 510,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:40.239Z",
+                      "startTime": "2026-07-10T20:01:14.653Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -153,12 +153,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 972,
+                      "duration": 433,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:40.332Z",
+                      "startTime": "2026-07-10T20:01:14.650Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -187,12 +187,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1003,
+                      "duration": 444,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:40.475Z",
+                      "startTime": "2026-07-10T20:01:14.655Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -221,12 +221,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1015,
+                      "duration": 448,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:40.246Z",
+                      "startTime": "2026-07-10T20:01:14.646Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -255,12 +255,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 561,
+                      "duration": 248,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:41.839Z",
+                      "startTime": "2026-07-10T20:01:15.493Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -289,12 +289,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 518,
+                      "duration": 147,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:41.851Z",
+                      "startTime": "2026-07-10T20:01:15.504Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -323,12 +323,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 511,
+                      "duration": 149,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:41.871Z",
+                      "startTime": "2026-07-10T20:01:15.508Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -357,12 +357,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 454,
+                      "duration": 191,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:41.962Z",
+                      "startTime": "2026-07-10T20:01:15.577Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -391,12 +391,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1053,
+                      "duration": 579,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:42.409Z",
+                      "startTime": "2026-07-10T20:01:15.665Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -425,12 +425,12 @@
                       "workerIndex": 4,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 4150,
+                      "duration": 1421,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:43.864Z",
+                      "startTime": "2026-07-10T20:01:16.370Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -459,12 +459,12 @@
                       "workerIndex": 5,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2723,
+                      "duration": 1706,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:43.852Z",
+                      "startTime": "2026-07-10T20:01:16.442Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -493,12 +493,12 @@
                       "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3481,
+                      "duration": 1469,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:43.887Z",
+                      "startTime": "2026-07-10T20:01:16.464Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -527,12 +527,12 @@
                       "workerIndex": 7,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2933,
+                      "duration": 1577,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:44.718Z",
+                      "startTime": "2026-07-10T20:01:16.974Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -558,15 +558,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 1,
+                      "workerIndex": 4,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1701,
+                      "duration": 592,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:48.240Z",
+                      "startTime": "2026-07-10T20:01:19.150Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -592,15 +592,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 2,
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1341,
+                      "duration": 861,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:49.701Z",
+                      "startTime": "2026-07-10T20:01:19.703Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -626,15 +626,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 1,
+                      "workerIndex": 4,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1658,
+                      "duration": 560,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:49.985Z",
+                      "startTime": "2026-07-10T20:01:19.763Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -649,7 +649,7 @@
             },
             {
               "title": "MD-05 Focus moves to first focusable element inside dialog",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -660,50 +660,20 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 2,
-                      "status": "failed",
-                      "duration": 5904,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    13 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    13 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:73:36",
-                        "location": {
-                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                          "column": 36,
-                          "line": 73
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m firstFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'wc-modal p[tabindex=\"-1\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m     \u001b[36mawait\u001b[39m expect(firstFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m   })\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                            "column": 36,
-                            "line": 73
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    13 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m firstFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'wc-modal p[tabindex=\"-1\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m     \u001b[36mawait\u001b[39m expect(firstFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m   })\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:73:36\u001b[22m"
-                        }
-                      ],
+                      "workerIndex": 4,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 382,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:51.075Z",
+                      "startTime": "2026-07-10T20:01:20.339Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--edd9a-sable-element-inside-dialog-firefox/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                        "column": 36,
-                        "line": 73
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "4f5218e02fee5a5bd4ca-34d042ca829ace1c1efb",
@@ -724,15 +694,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 1,
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2542,
+                      "duration": 1065,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:51.669Z",
+                      "startTime": "2026-07-10T20:01:20.582Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -759,14 +729,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1928,
+                      "duration": 1978,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:54.730Z",
+                      "startTime": "2026-07-10T20:01:22.071Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -793,14 +763,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 0,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1729,
+                      "duration": 1940,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:55.150Z",
+                      "startTime": "2026-07-10T20:01:22.100Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -827,14 +797,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1562,
+                      "duration": 1940,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:56.419Z",
+                      "startTime": "2026-07-10T20:01:22.602Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -860,15 +830,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1028,
+                      "duration": 1956,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:57.387Z",
+                      "startTime": "2026-07-10T20:01:23.051Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -895,14 +865,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 0,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1202,
+                      "duration": 1887,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:57.623Z",
+                      "startTime": "2026-07-10T20:01:25.396Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -928,15 +898,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 10,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 850,
+                      "duration": 1573,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:58.451Z",
+                      "startTime": "2026-07-10T20:01:25.398Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -963,14 +933,14 @@
                   "results": [
                     {
                       "workerIndex": 11,
-                      "parallelIndex": 2,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 942,
+                      "duration": 1515,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:59.990Z",
+                      "startTime": "2026-07-10T20:01:25.435Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -985,7 +955,7 @@
             },
             {
               "title": "MD-05 Focus moves to first focusable element inside dialog",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -996,50 +966,20 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 8,
                       "parallelIndex": 1,
-                      "status": "failed",
-                      "duration": 5893,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    14 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    14 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:73:36",
-                        "location": {
-                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                          "column": 36,
-                          "line": 73
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m firstFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'wc-modal p[tabindex=\"-1\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m     \u001b[36mawait\u001b[39m expect(firstFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m   })\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                            "column": 36,
-                            "line": 73
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    14 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m firstFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'wc-modal p[tabindex=\"-1\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m     \u001b[36mawait\u001b[39m expect(firstFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m   })\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:73:36\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 1470,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:58.593Z",
+                      "startTime": "2026-07-10T20:01:25.543Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--edd9a-sable-element-inside-dialog-webkit/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                        "column": 36,
-                        "line": 73
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "4f5218e02fee5a5bd4ca-8cadb310158bc5ce9687",
@@ -1060,15 +1000,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 0,
+                      "workerIndex": 10,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1839,
+                      "duration": 1389,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T19:12:58.948Z",
+                      "startTime": "2026-07-10T20:01:27.024Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1088,11 +1028,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-10T19:12:38.278Z",
-    "duration": 26292.983,
-    "expected": 25,
+    "startTime": "2026-07-10T20:01:13.843Z",
+    "duration": 14609.785,
+    "expected": 27,
     "skipped": 0,
-    "unexpected": 2,
+    "unexpected": 0,
     "flaky": 0
   }
 }

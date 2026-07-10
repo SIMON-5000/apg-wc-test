@@ -23,16 +23,35 @@ class WcModal extends HTMLElement{
     `;
     
     this.dialog = this.shadowRoot.getElementById('modal-dialog');
-    this.invokingEl = null;
+    this.invokingElement = null;
+    // Find elements set to autofocus from slotted content in the Light DOM
+    this.autoFocusElement = this.querySelector('[autofocus]');
 
-    // Add an eventlistener, listening for commands sent to wc-modal
+    this.#bindEvents();
+  }
+
+
+  openModal() {
+
+    // Opens dialog (located in shadow DOM) in modal-mode
+    this.dialog.showModal();
+
+    // Works but leaves responsibility to developer using the component
+    if(this.autoFocusElement) {
+      this.autoFocusElement.focus();
+    } else return;
+  }
+
+  #bindEvents() {
+    // Add an eventlistener for commands sent to wc-modal
     this.addEventListener('command', (e) => {
-      if(e.command == '--show-modal') {
-        // Opens dialog (located in shadow DOM) in modal-mode
-        this.dialog.showModal();
-        // Webkit does not focus back on invoking button when clicked with mouse
-        this.invokingEl = e.source || document.activeElement;
-      }
+      if(e.command !== '--show-modal') return;
+      
+      // Webkit does not focus back on invoking button when clicked with mouse
+      this.invokingEl = e.source || document.activeElement;
+
+      this.openModal();
+
     })
 
     // Explicitly return focus to trigger element (solves Safari/Webkit issue)
