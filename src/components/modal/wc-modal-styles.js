@@ -1,8 +1,12 @@
 const styles = `
 * {
     font-family: sans-serif;
-    background-color: wheat;
     border-radius: 8px;
+}
+
+#modal-dialog {
+  max-width: 24rem;
+  margin: 1rem auto;
 }
 
 #close {

@@ -37,7 +37,7 @@ class WcModal extends HTMLElement{
 
     // Explicitly return focus to trigger element (solves Safari/Webkit issue)
     // This behaviour does however seem to be by design, see:
-    // Darin Adler (Apples current VicePresident) explains why a click does not shift focus in Sagari/Webkit https://bugs.webkit.org/show_bug.cgi?id=22261#c68
+    // Darin Adler (Apples current VicePresident) explains why a click does not shift focus in Safari/Webkit https://bugs.webkit.org/show_bug.cgi?id=22261#c68
     this.dialog.addEventListener('close', () => {
       this.invokingEl.focus();
     })

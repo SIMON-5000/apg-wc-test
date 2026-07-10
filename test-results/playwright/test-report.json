@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 669,
+                      "duration": 1125,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:25.240Z",
+                      "startTime": "2026-07-10T19:12:40.239Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -153,12 +153,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 463,
+                      "duration": 972,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:25.228Z",
+                      "startTime": "2026-07-10T19:12:40.332Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -187,12 +187,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 647,
+                      "duration": 1003,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:25.205Z",
+                      "startTime": "2026-07-10T19:12:40.475Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -221,12 +221,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 760,
+                      "duration": 1015,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:25.269Z",
+                      "startTime": "2026-07-10T19:12:40.246Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -255,12 +255,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 342,
+                      "duration": 561,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:26.385Z",
+                      "startTime": "2026-07-10T19:12:41.839Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -270,7 +270,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-30380358d2715e714466",
               "file": "modal.spec.js",
-              "line": 37,
+              "line": 40,
               "column": 3
             },
             {
@@ -289,12 +289,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 213,
+                      "duration": 518,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:26.385Z",
+                      "startTime": "2026-07-10T19:12:41.851Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -304,11 +304,11 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-78fed15257be4fc08b39",
               "file": "modal.spec.js",
-              "line": 45,
+              "line": 48,
               "column": 3
             },
             {
-              "title": "MD-04-B Focus returns to invoking element (Space)",
+              "title": "MD-04-C Focus returns to invoking element (Space)",
               "ok": true,
               "tags": [],
               "tests": [
@@ -323,12 +323,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 192,
+                      "duration": 511,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:26.491Z",
+                      "startTime": "2026-07-10T19:12:41.871Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -336,9 +336,77 @@
                   "status": "expected"
                 }
               ],
-              "id": "4f5218e02fee5a5bd4ca-9136693e3828dbda4cc2",
+              "id": "4f5218e02fee5a5bd4ca-b1165dae90b4b4f59a3c",
               "file": "modal.spec.js",
-              "line": 54,
+              "line": 57,
+              "column": 3
+            },
+            {
+              "title": "MD-05 Focus moves to first focusable element inside dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 454,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-10T19:12:41.962Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-32148c91ebbe9355ba13",
+              "file": "modal.spec.js",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "MD-STATIC Static test on open dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1053,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-10T19:12:42.409Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-27ed9c9ca48d570fe479",
+              "file": "modal.spec.js",
+              "line": 76,
               "column": 3
             },
             {
@@ -355,14 +423,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 0,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2730,
+                      "duration": 4150,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:27.639Z",
+                      "startTime": "2026-07-10T19:12:43.864Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -389,14 +457,14 @@
                   "results": [
                     {
                       "workerIndex": 5,
-                      "parallelIndex": 2,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2250,
+                      "duration": 2723,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:27.701Z",
+                      "startTime": "2026-07-10T19:12:43.852Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -422,15 +490,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2319,
+                      "duration": 3481,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:27.816Z",
+                      "startTime": "2026-07-10T19:12:43.887Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -456,15 +524,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 1,
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3241,
+                      "duration": 2933,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:27.863Z",
+                      "startTime": "2026-07-10T19:12:44.718Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -491,14 +559,14 @@
                   "results": [
                     {
                       "workerIndex": 5,
-                      "parallelIndex": 2,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 955,
+                      "duration": 1701,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:31.614Z",
+                      "startTime": "2026-07-10T19:12:48.240Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -508,7 +576,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-1b9c89131e70a709e0ba",
               "file": "modal.spec.js",
-              "line": 37,
+              "line": 40,
               "column": 3
             },
             {
@@ -524,15 +592,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 7,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 787,
+                      "duration": 1341,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:32.598Z",
+                      "startTime": "2026-07-10T19:12:49.701Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -542,11 +610,11 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-fe93328046ef5e3fdfe4",
               "file": "modal.spec.js",
-              "line": 45,
+              "line": 48,
               "column": 3
             },
             {
-              "title": "MD-04-B Focus returns to invoking element (Space)",
+              "title": "MD-04-C Focus returns to invoking element (Space)",
               "ok": true,
               "tags": [],
               "tests": [
@@ -559,14 +627,14 @@
                   "results": [
                     {
                       "workerIndex": 5,
-                      "parallelIndex": 2,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 818,
+                      "duration": 1658,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:33.407Z",
+                      "startTime": "2026-07-10T19:12:49.985Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -574,9 +642,107 @@
                   "status": "expected"
                 }
               ],
-              "id": "4f5218e02fee5a5bd4ca-da358180aea69dbdc5b2",
+              "id": "4f5218e02fee5a5bd4ca-caacf4efd96b9d6e4ba4",
               "file": "modal.spec.js",
-              "line": 54,
+              "line": 57,
+              "column": 3
+            },
+            {
+              "title": "MD-05 Focus moves to first focusable element inside dialog",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 5904,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    13 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    13 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:73:36",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                          "column": 36,
+                          "line": 73
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m firstFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'wc-modal p[tabindex=\"-1\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m     \u001b[36mawait\u001b[39m expect(firstFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m   })\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                            "column": 36,
+                            "line": 73
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    13 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m firstFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'wc-modal p[tabindex=\"-1\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m     \u001b[36mawait\u001b[39m expect(firstFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m   })\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:73:36\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-10T19:12:51.075Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--edd9a-sable-element-inside-dialog-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                        "column": 36,
+                        "line": 73
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-34d042ca829ace1c1efb",
+              "file": "modal.spec.js",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "MD-STATIC Static test on open dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2542,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-10T19:12:51.669Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-3bbce2c8cb8441ff3b58",
+              "file": "modal.spec.js",
+              "line": 76,
               "column": 3
             },
             {
@@ -593,14 +759,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2172,
+                      "duration": 1928,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:35.244Z",
+                      "startTime": "2026-07-10T19:12:54.730Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -629,12 +795,12 @@
                       "workerIndex": 9,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2085,
+                      "duration": 1729,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:35.734Z",
+                      "startTime": "2026-07-10T19:12:55.150Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -661,14 +827,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 2,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2051,
+                      "duration": 1562,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:35.829Z",
+                      "startTime": "2026-07-10T19:12:56.419Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -694,15 +860,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 8,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1710,
+                      "duration": 1028,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:36.419Z",
+                      "startTime": "2026-07-10T19:12:57.387Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -728,15 +894,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 2,
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 953,
+                      "duration": 1202,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:38.584Z",
+                      "startTime": "2026-07-10T19:12:57.623Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -746,7 +912,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-5366cdde889bfe45d5a0",
               "file": "modal.spec.js",
-              "line": 37,
+              "line": 40,
               "column": 3
             },
             {
@@ -762,15 +928,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 0,
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 834,
+                      "duration": 850,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:38.625Z",
+                      "startTime": "2026-07-10T19:12:58.451Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -780,11 +946,11 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-88db8c0556d89afd36d4",
               "file": "modal.spec.js",
-              "line": 45,
+              "line": 48,
               "column": 3
             },
             {
-              "title": "MD-04-B Focus returns to invoking element (Space)",
+              "title": "MD-04-C Focus returns to invoking element (Space)",
               "ok": true,
               "tags": [],
               "tests": [
@@ -796,15 +962,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 1,
+                      "workerIndex": 11,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1011,
+                      "duration": 942,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-25T13:08:38.683Z",
+                      "startTime": "2026-07-10T19:12:59.990Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -812,9 +978,107 @@
                   "status": "expected"
                 }
               ],
-              "id": "4f5218e02fee5a5bd4ca-894954b02446ae7e021f",
+              "id": "4f5218e02fee5a5bd4ca-39ef1d60bca658ab73bf",
               "file": "modal.spec.js",
-              "line": 54,
+              "line": 57,
+              "column": 3
+            },
+            {
+              "title": "MD-05 Focus moves to first focusable element inside dialog",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 5893,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    14 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    14 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:73:36",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                          "column": 36,
+                          "line": 73
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m firstFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'wc-modal p[tabindex=\"-1\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m     \u001b[36mawait\u001b[39m expect(firstFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m   })\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                            "column": 36,
+                            "line": 73
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal p[tabindex=\"-1\"]')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal p[tabindex=\"-1\"]')\u001b[22m\n\u001b[2m    14 × locator resolved to <p autofocus=\"\" tabindex=\"-1\">…</p>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m firstFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'wc-modal p[tabindex=\"-1\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m     \u001b[36mawait\u001b[39m expect(firstFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m   })\n \u001b[90m 75 |\u001b[39m\n \u001b[90m 76 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:73:36\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-10T19:12:58.593Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--edd9a-sable-element-inside-dialog-webkit/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                        "column": 36,
+                        "line": 73
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-8cadb310158bc5ce9687",
+              "file": "modal.spec.js",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "MD-STATIC Static test on open dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1839,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-10T19:12:58.948Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-9cc0efb1301f68cb9e2e",
+              "file": "modal.spec.js",
+              "line": 76,
               "column": 3
             }
           ]
@@ -824,11 +1088,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-06-25T13:08:23.982Z",
-    "duration": 15851.173,
-    "expected": 21,
+    "startTime": "2026-07-10T19:12:38.278Z",
+    "duration": 26292.983,
+    "expected": 25,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 2,
     "flaky": 0
   }
 }
