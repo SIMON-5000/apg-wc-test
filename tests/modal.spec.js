@@ -73,6 +73,52 @@ test.describe('wc-modal A11y tests', () => {
     await expect(firstFocusableEl).toBeFocused();
   })
 
+  test('MD-06 Tab moves focus forward', async ({page}) => {
+    const openButton = page.getByRole('button', { name: /open modal dialog/i });
+    await openButton.focus();
+    await page.keyboard.press('Space');
+    await page.keyboard.press('Tab');
+
+    const secondFocusableEl = page.getByRole('link', {name: 'Important HELP link'});
+
+    await expect(secondFocusableEl).toBeFocused();
+  })
+
+  test('MD-06-B Tab moves focus forward', async ({page}) => {
+    const openButton = page.getByRole('button', { name: /open modal dialog/i });
+    await openButton.focus();
+    await page.keyboard.press('Space');
+
+    // TAB SEQUENCE
+    await page.keyboard.press('Tab');
+    console.log(
+      await page.evaluate(() => {
+        const modal = document.querySelector('wc-modal');
+
+        return {
+          documentFocus: document.activeElement?.outerHTML,
+          shadowFocus: modal?.shadowRoot?.activeElement?.outerHTML,
+        };
+      }),
+    );
+
+    await page.keyboard.press('Tab');
+    console.log(
+      await page.evaluate(() => {
+        const modal = document.querySelector('wc-modal');
+
+        return {
+          documentFocus: document.activeElement?.outerHTML,
+          shadowFocus: modal?.shadowRoot?.activeElement?.outerHTML,
+        };
+      }),
+    );
+
+    const thirdFocusableEl = page.getByRole('button', {name: /close/i });
+
+    await expect(thirdFocusableEl).toBeFocused();
+  })
+
   test('MD-STATIC Static test on open dialog', async ({page}) => {
     const openButton = page.getByRole('button', { name: /open modal dialog/i });
     await openButton.click();

@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 510,
+                      "duration": 634,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:14.653Z",
+                      "startTime": "2026-07-11T10:35:42.100Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -153,12 +153,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 433,
+                      "duration": 563,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:14.650Z",
+                      "startTime": "2026-07-11T10:35:42.087Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -187,12 +187,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 444,
+                      "duration": 584,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:14.655Z",
+                      "startTime": "2026-07-11T10:35:42.099Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -221,12 +221,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 448,
+                      "duration": 580,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:14.646Z",
+                      "startTime": "2026-07-11T10:35:42.064Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -255,12 +255,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 248,
+                      "duration": 384,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:15.493Z",
+                      "startTime": "2026-07-11T10:35:43.167Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -286,15 +286,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 147,
+                      "duration": 325,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:15.504Z",
+                      "startTime": "2026-07-11T10:35:43.170Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -320,15 +320,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 149,
+                      "duration": 304,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:15.508Z",
+                      "startTime": "2026-07-11T10:35:43.171Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -357,12 +357,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 191,
+                      "duration": 307,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:15.577Z",
+                      "startTime": "2026-07-11T10:35:43.236Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -373,6 +373,81 @@
               "id": "4f5218e02fee5a5bd4ca-32148c91ebbe9355ba13",
               "file": "modal.spec.js",
               "line": 66,
+              "column": 3
+            },
+            {
+              "title": "MD-06 Tab moves focus forward",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 278,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T10:35:43.492Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-6156e183edfcdfca3d6d",
+              "file": "modal.spec.js",
+              "line": 76,
+              "column": 3
+            },
+            {
+              "title": "MD-06-B Tab moves focus forward",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 299,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  documentFocus: \u001b[32m'<a href=\"#\" id=\"help-link\">Important HELP link</a>'\u001b[39m,\n  shadowFocus: \u001b[90mundefined\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "{\n  documentFocus: \u001b[32m'<wc-modal id=\"wc-modal\">\\n'\u001b[39m +\n    \u001b[32m'                <h1 id=\"dialog-label\">Verification Result</h1>\\n'\u001b[39m +\n    \u001b[32m'                <p autofocus=\"\" tabindex=\"-1\">\\n'\u001b[39m +\n    \u001b[32m'                    This is just a demonstration.\\n'\u001b[39m +\n    \u001b[32m'                    But this text could be <strong>important validation results</strong>.\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'                <p>\\n'\u001b[39m +\n    \u001b[32m'                    For demonstration purposes, this dialog has a lot of text.\\n'\u001b[39m +\n    \u001b[32m'                    It demonstrates a scenario where:\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The first interactive element, the help link, is at the bottom of the dialog.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>If focus is placed on the first interactive element when the dialog opens, the\\n'\u001b[39m +\n    \u001b[32m'                        validation message may not be visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>If the validation message is visible and the focus is on the help link, then the\\n'\u001b[39m +\n    \u001b[32m'                        focus may not be visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>\\n'\u001b[39m +\n    \u001b[32m'                        When the dialog opens, it is important that both:\\n'\u001b[39m +\n    \u001b[32m'                        <ul>\\n'\u001b[39m +\n    \u001b[32m'                            <li>The beginning of the text is visible so users do not have to scroll back to\\n'\u001b[39m +\n    \u001b[32m'                                start reading.</li>\\n'\u001b[39m +\n    \u001b[32m'                            <li>The keyboard focus always remains visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                        </ul>\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>There are several ways to resolve this issue:</p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>Place an interactive element at the top of the dialog, e.g., a button or link.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>Make a static element focusable, e.g., the dialog title or the first block of text.\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>Please <em>DO NOT </em> make the element with role dialog focusable!</p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The larger a focusable element is, the more difficult it is to visually identify the\\n'\u001b[39m +\n    \u001b[32m'                        location of focus, especially for users with a narrow field of view.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The dialog has a visual border, so creating a clear visual indicator of focus when\\n'\u001b[39m +\n    \u001b[32m'                        the\\n'\u001b[39m +\n    \u001b[32m'                        entire dialog has focus is not very feasible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>\\n'\u001b[39m +\n    \u001b[32m'                        Screen readers read the label and content of focusable elements.\\n'\u001b[39m +\n    \u001b[32m'                        The dialog contains its label and a lot of content! If a dialog like this one has\\n'\u001b[39m +\n    \u001b[32m'                        focus,\\n'\u001b[39m +\n    \u001b[32m'                        the\\n'\u001b[39m +\n    \u001b[32m'                        actual focus is difficult to comprehend.\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>\\n'\u001b[39m +\n    \u001b[32m'                    In this dialog, the first paragraph has <code>tabindex=<q>-1</q></code>.\\n'\u001b[39m +\n    \u001b[32m'                    The first paragraph is also contained inside the element that provides the dialog\\n'\u001b[39m +\n    \u001b[32m'                    description,\\n'\u001b[39m +\n    \u001b[32m'                    i.e., the element that is referenced by <code>aria-describedby</code>.\\n'\u001b[39m +\n    \u001b[32m'                    With some screen readers, this may have one negative but relatively insignificant side\\n'\u001b[39m +\n    \u001b[32m'                    effect\\n'\u001b[39m +\n    \u001b[32m'                    when the dialog opens -- the first paragraph may be announced twice.\\n'\u001b[39m +\n    \u001b[32m'                    Nonetheless, making the first paragraph focusable and setting the initial focus on it is\\n'\u001b[39m +\n    \u001b[32m'                    the\\n'\u001b[39m +\n    \u001b[32m'                    most broadly accessible option. <a href=\"#\" id=\"help-link\">Important HELP link</a>\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'            </wc-modal>'\u001b[39m,\n  shadowFocus: \u001b[32m'<button id=\"close\" commandfor=\"modal-dialog\" command=\"close\">Close</button>'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T10:35:43.514Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-a69c3d52b1b4ec25dd94",
+              "file": "modal.spec.js",
+              "line": 87,
               "column": 3
             },
             {
@@ -388,15 +463,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 579,
+                      "duration": 987,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:15.665Z",
+                      "startTime": "2026-07-11T10:35:43.569Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -406,7 +481,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-27ed9c9ca48d570fe479",
               "file": "modal.spec.js",
-              "line": 76,
+              "line": 122,
               "column": 3
             },
             {
@@ -423,14 +498,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1421,
+                      "duration": 2983,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:16.370Z",
+                      "startTime": "2026-07-11T10:35:44.816Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -457,14 +532,14 @@
                   "results": [
                     {
                       "workerIndex": 5,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1706,
+                      "duration": 2180,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:16.442Z",
+                      "startTime": "2026-07-11T10:35:44.843Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -491,14 +566,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1469,
+                      "duration": 2509,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:16.464Z",
+                      "startTime": "2026-07-11T10:35:44.920Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -525,14 +600,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 2,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1577,
+                      "duration": 2999,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:16.974Z",
+                      "startTime": "2026-07-11T10:35:45.600Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -558,15 +633,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 3,
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 592,
+                      "duration": 1255,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:19.150Z",
+                      "startTime": "2026-07-11T10:35:48.231Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -592,15 +667,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 861,
+                      "duration": 881,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:19.703Z",
+                      "startTime": "2026-07-11T10:35:49.512Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -626,15 +701,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 6,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 560,
+                      "duration": 1295,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:19.763Z",
+                      "startTime": "2026-07-11T10:35:49.614Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -660,15 +735,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 3,
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 382,
+                      "duration": 803,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:20.339Z",
+                      "startTime": "2026-07-11T10:35:50.416Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -679,6 +754,81 @@
               "id": "4f5218e02fee5a5bd4ca-34d042ca829ace1c1efb",
               "file": "modal.spec.js",
               "line": 66,
+              "column": 3
+            },
+            {
+              "title": "MD-06 Tab moves focus forward",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 829,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T10:35:50.933Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-463e65d80a89cc6b54df",
+              "file": "modal.spec.js",
+              "line": 76,
+              "column": 3
+            },
+            {
+              "title": "MD-06-B Tab moves focus forward",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1103,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  documentFocus: \u001b[32m'<a href=\"#\" id=\"help-link\">Important HELP link</a>'\u001b[39m,\n  shadowFocus: \u001b[90mundefined\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "{\n  documentFocus: \u001b[32m'<wc-modal id=\"wc-modal\">\\n'\u001b[39m +\n    \u001b[32m'                <h1 id=\"dialog-label\">Verification Result</h1>\\n'\u001b[39m +\n    \u001b[32m'                <p autofocus=\"\" tabindex=\"-1\">\\n'\u001b[39m +\n    \u001b[32m'                    This is just a demonstration.\\n'\u001b[39m +\n    \u001b[32m'                    But this text could be <strong>important validation results</strong>.\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'                <p>\\n'\u001b[39m +\n    \u001b[32m'                    For demonstration purposes, this dialog has a lot of text.\\n'\u001b[39m +\n    \u001b[32m'                    It demonstrates a scenario where:\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The first interactive element, the help link, is at the bottom of the dialog.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>If focus is placed on the first interactive element when the dialog opens, the\\n'\u001b[39m +\n    \u001b[32m'                        validation message may not be visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>If the validation message is visible and the focus is on the help link, then the\\n'\u001b[39m +\n    \u001b[32m'                        focus may not be visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>\\n'\u001b[39m +\n    \u001b[32m'                        When the dialog opens, it is important that both:\\n'\u001b[39m +\n    \u001b[32m'                        <ul>\\n'\u001b[39m +\n    \u001b[32m'                            <li>The beginning of the text is visible so users do not have to scroll back to\\n'\u001b[39m +\n    \u001b[32m'                                start reading.</li>\\n'\u001b[39m +\n    \u001b[32m'                            <li>The keyboard focus always remains visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                        </ul>\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>There are several ways to resolve this issue:</p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>Place an interactive element at the top of the dialog, e.g., a button or link.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>Make a static element focusable, e.g., the dialog title or the first block of text.\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>Please <em>DO NOT </em> make the element with role dialog focusable!</p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The larger a focusable element is, the more difficult it is to visually identify the\\n'\u001b[39m +\n    \u001b[32m'                        location of focus, especially for users with a narrow field of view.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The dialog has a visual border, so creating a clear visual indicator of focus when\\n'\u001b[39m +\n    \u001b[32m'                        the\\n'\u001b[39m +\n    \u001b[32m'                        entire dialog has focus is not very feasible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>\\n'\u001b[39m +\n    \u001b[32m'                        Screen readers read the label and content of focusable elements.\\n'\u001b[39m +\n    \u001b[32m'                        The dialog contains its label and a lot of content! If a dialog like this one has\\n'\u001b[39m +\n    \u001b[32m'                        focus,\\n'\u001b[39m +\n    \u001b[32m'                        the\\n'\u001b[39m +\n    \u001b[32m'                        actual focus is difficult to comprehend.\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>\\n'\u001b[39m +\n    \u001b[32m'                    In this dialog, the first paragraph has <code>tabindex=<q>-1</q></code>.\\n'\u001b[39m +\n    \u001b[32m'                    The first paragraph is also contained inside the element that provides the dialog\\n'\u001b[39m +\n    \u001b[32m'                    description,\\n'\u001b[39m +\n    \u001b[32m'                    i.e., the element that is referenced by <code>aria-describedby</code>.\\n'\u001b[39m +\n    \u001b[32m'                    With some screen readers, this may have one negative but relatively insignificant side\\n'\u001b[39m +\n    \u001b[32m'                    effect\\n'\u001b[39m +\n    \u001b[32m'                    when the dialog opens -- the first paragraph may be announced twice.\\n'\u001b[39m +\n    \u001b[32m'                    Nonetheless, making the first paragraph focusable and setting the initial focus on it is\\n'\u001b[39m +\n    \u001b[32m'                    the\\n'\u001b[39m +\n    \u001b[32m'                    most broadly accessible option. <a href=\"#\" id=\"help-link\">Important HELP link</a>\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'            </wc-modal>'\u001b[39m,\n  shadowFocus: \u001b[32m'<button id=\"close\" commandfor=\"modal-dialog\" command=\"close\">Close</button>'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T10:35:51.088Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-7cefc4c681acc7232237",
+              "file": "modal.spec.js",
+              "line": 87,
               "column": 3
             },
             {
@@ -694,15 +844,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1065,
+                      "duration": 1987,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:20.582Z",
+                      "startTime": "2026-07-11T10:35:51.245Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -712,7 +862,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-3bbce2c8cb8441ff3b58",
               "file": "modal.spec.js",
-              "line": 76,
+              "line": 122,
               "column": 3
             },
             {
@@ -729,14 +879,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1978,
+                      "duration": 2286,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:22.071Z",
+                      "startTime": "2026-07-11T10:35:53.702Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -763,14 +913,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 3,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1940,
+                      "duration": 1831,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:22.100Z",
+                      "startTime": "2026-07-11T10:35:54.037Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -797,14 +947,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 2,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1940,
+                      "duration": 1809,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:22.602Z",
+                      "startTime": "2026-07-11T10:35:54.405Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -831,14 +981,14 @@
                   "results": [
                     {
                       "workerIndex": 11,
-                      "parallelIndex": 0,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1956,
+                      "duration": 1642,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:23.051Z",
+                      "startTime": "2026-07-11T10:35:55.418Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -865,14 +1015,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 3,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1887,
+                      "duration": 1110,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:25.396Z",
+                      "startTime": "2026-07-11T10:35:56.689Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -898,15 +1048,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 2,
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1573,
+                      "duration": 1082,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:25.398Z",
+                      "startTime": "2026-07-11T10:35:56.709Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -932,15 +1082,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 0,
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1515,
+                      "duration": 1149,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:25.435Z",
+                      "startTime": "2026-07-11T10:35:57.176Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -966,15 +1116,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 1,
+                      "workerIndex": 11,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1470,
+                      "duration": 847,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:25.543Z",
+                      "startTime": "2026-07-11T10:35:57.822Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -985,6 +1135,141 @@
               "id": "4f5218e02fee5a5bd4ca-8cadb310158bc5ce9687",
               "file": "modal.spec.js",
               "line": 66,
+              "column": 3
+            },
+            {
+              "title": "MD-06 Tab moves focus forward",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 6011,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('link', { name: 'Important HELP link' })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Important HELP link' })\u001b[22m\n\u001b[2m    14 × locator resolved to <a href=\"#\" id=\"help-link\">Important HELP link</a>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('link', { name: 'Important HELP link' })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Important HELP link' })\u001b[22m\n\u001b[2m    14 × locator resolved to <a href=\"#\" id=\"help-link\">Important HELP link</a>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:84:37",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                          "column": 37,
+                          "line": 84
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 82 |\u001b[39m     \u001b[36mconst\u001b[39m secondFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m {name\u001b[33m:\u001b[39m \u001b[32m'Important HELP link'\u001b[39m})\u001b[33m;\u001b[39m\n \u001b[90m 83 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 84 |\u001b[39m     \u001b[36mawait\u001b[39m expect(secondFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 85 |\u001b[39m   })\n \u001b[90m 86 |\u001b[39m\n \u001b[90m 87 |\u001b[39m   test(\u001b[32m'MD-06-B Tab moves focus forward'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                            "column": 37,
+                            "line": 84
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('link', { name: 'Important HELP link' })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Important HELP link' })\u001b[22m\n\u001b[2m    14 × locator resolved to <a href=\"#\" id=\"help-link\">Important HELP link</a>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 82 |\u001b[39m     \u001b[36mconst\u001b[39m secondFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m {name\u001b[33m:\u001b[39m \u001b[32m'Important HELP link'\u001b[39m})\u001b[33m;\u001b[39m\n \u001b[90m 83 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 84 |\u001b[39m     \u001b[36mawait\u001b[39m expect(secondFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 85 |\u001b[39m   })\n \u001b[90m 86 |\u001b[39m\n \u001b[90m 87 |\u001b[39m   test(\u001b[32m'MD-06-B Tab moves focus forward'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:84:37\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T10:35:57.838Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests-MD-06-Tab-moves-focus-forward-webkit/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                        "column": 37,
+                        "line": 84
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-3bf9a89e3ab5ef5df3c1",
+              "file": "modal.spec.js",
+              "line": 76,
+              "column": 3
+            },
+            {
+              "title": "MD-06-B Tab moves focus forward",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5845,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('button', { name: /close/i })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /close/i })\u001b[22m\n\u001b[2m    14 × locator resolved to <button id=\"close\" command=\"close\" commandfor=\"modal-dialog\">Close</button>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('button', { name: /close/i })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /close/i })\u001b[22m\n\u001b[2m    14 × locator resolved to <button id=\"close\" command=\"close\" commandfor=\"modal-dialog\">Close</button>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:119:36",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                          "column": 36,
+                          "line": 119
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 117 |\u001b[39m     \u001b[36mconst\u001b[39m thirdFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m {name\u001b[33m:\u001b[39m \u001b[35m/close/i\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 118 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 119 |\u001b[39m     \u001b[36mawait\u001b[39m expect(thirdFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 120 |\u001b[39m   })\n \u001b[90m 121 |\u001b[39m\n \u001b[90m 122 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                            "column": 36,
+                            "line": 119
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('button', { name: /close/i })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /close/i })\u001b[22m\n\u001b[2m    14 × locator resolved to <button id=\"close\" command=\"close\" commandfor=\"modal-dialog\">Close</button>\u001b[22m\n\u001b[2m       - unexpected value \"inactive\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 117 |\u001b[39m     \u001b[36mconst\u001b[39m thirdFocusableEl \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m {name\u001b[33m:\u001b[39m \u001b[35m/close/i\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 118 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 119 |\u001b[39m     \u001b[36mawait\u001b[39m expect(thirdFocusableEl)\u001b[33m.\u001b[39mtoBeFocused()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 120 |\u001b[39m   })\n \u001b[90m 121 |\u001b[39m\n \u001b[90m 122 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:119:36\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "{\n  documentFocus: \u001b[32m'<wc-modal id=\"wc-modal\">\\n'\u001b[39m +\n    \u001b[32m'                <h1 id=\"dialog-label\">Verification Result</h1>\\n'\u001b[39m +\n    \u001b[32m'                <p autofocus=\"\" tabindex=\"-1\">\\n'\u001b[39m +\n    \u001b[32m'                    This is just a demonstration.\\n'\u001b[39m +\n    \u001b[32m'                    But this text could be <strong>important validation results</strong>.\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'                <p>\\n'\u001b[39m +\n    \u001b[32m'                    For demonstration purposes, this dialog has a lot of text.\\n'\u001b[39m +\n    \u001b[32m'                    It demonstrates a scenario where:\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The first interactive element, the help link, is at the bottom of the dialog.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>If focus is placed on the first interactive element when the dialog opens, the\\n'\u001b[39m +\n    \u001b[32m'                        validation message may not be visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>If the validation message is visible and the focus is on the help link, then the\\n'\u001b[39m +\n    \u001b[32m'                        focus may not be visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>\\n'\u001b[39m +\n    \u001b[32m'                        When the dialog opens, it is important that both:\\n'\u001b[39m +\n    \u001b[32m'                        <ul>\\n'\u001b[39m +\n    \u001b[32m'                            <li>The beginning of the text is visible so users do not have to scroll back to\\n'\u001b[39m +\n    \u001b[32m'                                start reading.</li>\\n'\u001b[39m +\n    \u001b[32m'                            <li>The keyboard focus always remains visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                        </ul>\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>There are several ways to resolve this issue:</p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>Place an interactive element at the top of the dialog, e.g., a button or link.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>Make a static element focusable, e.g., the dialog title or the first block of text.\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>Please <em>DO NOT </em> make the element with role dialog focusable!</p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The larger a focusable element is, the more difficult it is to visually identify the\\n'\u001b[39m +\n    \u001b[32m'                        location of focus, especially for users with a narrow field of view.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The dialog has a visual border, so creating a clear visual indicator of focus when\\n'\u001b[39m +\n    \u001b[32m'                        the\\n'\u001b[39m +\n    \u001b[32m'                        entire dialog has focus is not very feasible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>\\n'\u001b[39m +\n    \u001b[32m'                        Screen readers read the label and content of focusable elements.\\n'\u001b[39m +\n    \u001b[32m'                        The dialog contains its label and a lot of content! If a dialog like this one has\\n'\u001b[39m +\n    \u001b[32m'                        focus,\\n'\u001b[39m +\n    \u001b[32m'                        the\\n'\u001b[39m +\n    \u001b[32m'                        actual focus is difficult to comprehend.\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>\\n'\u001b[39m +\n    \u001b[32m'                    In this dialog, the first paragraph has <code>tabindex=<q>-1</q></code>.\\n'\u001b[39m +\n    \u001b[32m'                    The first paragraph is also contained inside the element that provides the dialog\\n'\u001b[39m +\n    \u001b[32m'                    description,\\n'\u001b[39m +\n    \u001b[32m'                    i.e., the element that is referenced by <code>aria-describedby</code>.\\n'\u001b[39m +\n    \u001b[32m'                    With some screen readers, this may have one negative but relatively insignificant side\\n'\u001b[39m +\n    \u001b[32m'                    effect\\n'\u001b[39m +\n    \u001b[32m'                    when the dialog opens -- the first paragraph may be announced twice.\\n'\u001b[39m +\n    \u001b[32m'                    Nonetheless, making the first paragraph focusable and setting the initial focus on it is\\n'\u001b[39m +\n    \u001b[32m'                    the\\n'\u001b[39m +\n    \u001b[32m'                    most broadly accessible option. <a href=\"#\" id=\"help-link\">Important HELP link</a>\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'            </wc-modal>'\u001b[39m,\n  shadowFocus: \u001b[32m'<button id=\"close\" commandfor=\"modal-dialog\" command=\"close\">Close</button>'\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "{\n  documentFocus: \u001b[32m'<body>\\n'\u001b[39m +\n    \u001b[32m'    <main>\\n'\u001b[39m +\n    \u001b[32m'        <article>\\n'\u001b[39m +\n    \u001b[32m'            <h1>WebComponent version of Modal Dialog</h1>\\n'\u001b[39m +\n    \u001b[32m'            <button command=\"--show-modal\" commandfor=\"wc-modal\">Open Modal Dialog</button>\\n'\u001b[39m +\n    \u001b[32m'            <wc-modal id=\"wc-modal\">\\n'\u001b[39m +\n    \u001b[32m'                <h1 id=\"dialog-label\">Verification Result</h1>\\n'\u001b[39m +\n    \u001b[32m'                <p autofocus=\"\" tabindex=\"-1\">\\n'\u001b[39m +\n    \u001b[32m'                    This is just a demonstration.\\n'\u001b[39m +\n    \u001b[32m'                    But this text could be <strong>important validation results</strong>.\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'                <p>\\n'\u001b[39m +\n    \u001b[32m'                    For demonstration purposes, this dialog has a lot of text.\\n'\u001b[39m +\n    \u001b[32m'                    It demonstrates a scenario where:\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The first interactive element, the help link, is at the bottom of the dialog.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>If focus is placed on the first interactive element when the dialog opens, the\\n'\u001b[39m +\n    \u001b[32m'                        validation message may not be visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>If the validation message is visible and the focus is on the help link, then the\\n'\u001b[39m +\n    \u001b[32m'                        focus may not be visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>\\n'\u001b[39m +\n    \u001b[32m'                        When the dialog opens, it is important that both:\\n'\u001b[39m +\n    \u001b[32m'                        <ul>\\n'\u001b[39m +\n    \u001b[32m'                            <li>The beginning of the text is visible so users do not have to scroll back to\\n'\u001b[39m +\n    \u001b[32m'                                start reading.</li>\\n'\u001b[39m +\n    \u001b[32m'                            <li>The keyboard focus always remains visible.</li>\\n'\u001b[39m +\n    \u001b[32m'                        </ul>\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>There are several ways to resolve this issue:</p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>Place an interactive element at the top of the dialog, e.g., a button or link.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>Make a static element focusable, e.g., the dialog title or the first block of text.\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>Please <em>DO NOT </em> make the element with role dialog focusable!</p>\\n'\u001b[39m +\n    \u001b[32m'                <ul>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The larger a focusable element is, the more difficult it is to visually identify the\\n'\u001b[39m +\n    \u001b[32m'                        location of focus, especially for users with a narrow field of view.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>The dialog has a visual border, so creating a clear visual indicator of focus when\\n'\u001b[39m +\n    \u001b[32m'                        the\\n'\u001b[39m +\n    \u001b[32m'                        entire dialog has focus is not very feasible.</li>\\n'\u001b[39m +\n    \u001b[32m'                    <li>\\n'\u001b[39m +\n    \u001b[32m'                        Screen readers read the label and content of focusable elements.\\n'\u001b[39m +\n    \u001b[32m'                        The dialog contains its label and a lot of content! If a dialog like this one has\\n'\u001b[39m +\n    \u001b[32m'                        focus,\\n'\u001b[39m +\n    \u001b[32m'                        the\\n'\u001b[39m +\n    \u001b[32m'                        actual focus is difficult to comprehend.\\n'\u001b[39m +\n    \u001b[32m'                    </li>\\n'\u001b[39m +\n    \u001b[32m'                </ul>\\n'\u001b[39m +\n    \u001b[32m'                <p>\\n'\u001b[39m +\n    \u001b[32m'                    In this dialog, the first paragraph has <code>tabindex=<q>-1</q></code>.\\n'\u001b[39m +\n    \u001b[32m'                    The first paragraph is also contained inside the element that provides the dialog\\n'\u001b[39m +\n    \u001b[32m'                    description,\\n'\u001b[39m +\n    \u001b[32m'                    i.e., the element that is referenced by <code>aria-describedby</code>.\\n'\u001b[39m +\n    \u001b[32m'                    With some screen readers, this may have one negative but relatively insignificant side\\n'\u001b[39m +\n    \u001b[32m'                    effect\\n'\u001b[39m +\n    \u001b[32m'                    when the dialog opens -- the first paragraph may be announced twice.\\n'\u001b[39m +\n    \u001b[32m'                    Nonetheless, making the first paragraph focusable and setting the initial focus on it is\\n'\u001b[39m +\n    \u001b[32m'                    the\\n'\u001b[39m +\n    \u001b[32m'                    most broadly accessible option. <a href=\"#\" id=\"help-link\">Important HELP link</a>\\n'\u001b[39m +\n    \u001b[32m'                </p>\\n'\u001b[39m +\n    \u001b[32m'            </wc-modal>\\n'\u001b[39m +\n    \u001b[32m'        </article>\\n'\u001b[39m +\n    \u001b[32m'    </main>\\n'\u001b[39m +\n    \u001b[32m'<!-- injected by web-dev-server -->\\n'\u001b[39m +\n    \u001b[32m'<script type=\"module\" src=\"/__web-dev-server__web-socket.js\"></script>\\n'\u001b[39m +\n    \u001b[32m'\\n'\u001b[39m +\n    \u001b[32m'</body>'\u001b[39m,\n  shadowFocus: \u001b[90mundefined\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T10:35:57.840Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests-MD-06-B-Tab-moves-focus-forward-webkit/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                        "column": 36,
+                        "line": 119
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-315bc66e1f60d46cdc20",
+              "file": "modal.spec.js",
+              "line": 87,
               "column": 3
             },
             {
@@ -1001,14 +1286,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 2,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1389,
+                      "duration": 1387,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-10T20:01:27.024Z",
+                      "startTime": "2026-07-11T10:35:58.358Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1018,7 +1303,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-9cc0efb1301f68cb9e2e",
               "file": "modal.spec.js",
-              "line": 76,
+              "line": 122,
               "column": 3
             }
           ]
@@ -1028,11 +1313,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-10T20:01:13.843Z",
-    "duration": 14609.785,
-    "expected": 27,
+    "startTime": "2026-07-11T10:35:40.681Z",
+    "duration": 23221.559,
+    "expected": 31,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 2,
     "flaky": 0
   }
 }
