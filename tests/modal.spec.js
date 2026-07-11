@@ -73,46 +73,70 @@ test.describe('wc-modal A11y tests', () => {
     await expect(firstFocusableEl).toBeFocused();
   })
 
-  test('MD-06 Tab moves focus forward', async ({page}) => {
+  test('MD-06 Tab moves focus forward', async ({page, browserName}) => {
     const openButton = page.getByRole('button', { name: /open modal dialog/i });
     await openButton.focus();
     await page.keyboard.press('Space');
-    await page.keyboard.press('Tab');
+    // await page.keyboard.press('Tab');
+    
+    /**
+     *     Playwrights webkit version needs Alt+Tab, Safaris behaviour in manual testing is fine.
+     */
+    if (browserName === 'webkit') {
+     await page.keyboard.press('Alt+Tab');
+    } else {
+      await page.keyboard.press('Tab');
+    }
 
     const secondFocusableEl = page.getByRole('link', {name: 'Important HELP link'});
 
     await expect(secondFocusableEl).toBeFocused();
   })
 
-  test('MD-06-B Tab moves focus forward', async ({page}) => {
+  test('MD-06-B Tab moves focus forward', async ({page, browserName}) => {
     const openButton = page.getByRole('button', { name: /open modal dialog/i });
     await openButton.focus();
     await page.keyboard.press('Space');
 
     // TAB SEQUENCE
-    await page.keyboard.press('Tab');
-    console.log(
-      await page.evaluate(() => {
-        const modal = document.querySelector('wc-modal');
 
-        return {
-          documentFocus: document.activeElement?.outerHTML,
-          shadowFocus: modal?.shadowRoot?.activeElement?.outerHTML,
-        };
-      }),
-    );
+    // await page.keyboard.press('Tab');
+    if (browserName === 'webkit') {
+     await page.keyboard.press('Alt+Tab');
+    } else {
+      await page.keyboard.press('Tab');
+    }
+    
+    // console.log(
+    //   await page.evaluate(() => {
+    //     const modal = document.querySelector('wc-modal');
 
-    await page.keyboard.press('Tab');
-    console.log(
-      await page.evaluate(() => {
-        const modal = document.querySelector('wc-modal');
+    //     return {
+    //       documentFocus: document.activeElement?.outerHTML,
+    //       shadowFocus: modal?.shadowRoot?.activeElement?.outerHTML,
+    //     };
+    //   }),
+    // );
 
-        return {
-          documentFocus: document.activeElement?.outerHTML,
-          shadowFocus: modal?.shadowRoot?.activeElement?.outerHTML,
-        };
-      }),
-    );
+
+    // await page.keyboard.press('Tab');
+
+    if (browserName === 'webkit') {
+      await page.keyboard.press('Alt+Tab');
+    } else {
+      await page.keyboard.press('Tab');
+    }
+
+    // console.log(
+    //   await page.evaluate(() => {
+    //     const modal = document.querySelector('wc-modal');
+
+    //     return {
+    //       documentFocus: document.activeElement?.outerHTML,
+    //       shadowFocus: modal?.shadowRoot?.activeElement?.outerHTML,
+    //     };
+    //   }),
+    // );
 
     const thirdFocusableEl = page.getByRole('button', {name: /close/i });
 
