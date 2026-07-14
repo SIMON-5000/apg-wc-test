@@ -177,7 +177,7 @@ test.describe('wc-modal A11y tests', () => {
    */
   test('MD 08 Focus loops via browser controls from last to first focusable element', async ({page, browserName}) => {
     test.skip(browserName === 'firefox',
-      'Firefox does not allow me to traverse with tab through browser controls'
+      'Playwright Firefox does not allow me to traverse with tab through browser controls'
     );
     
     const { helpLink, closeButton } = getLocators(page);
@@ -204,6 +204,40 @@ test.describe('wc-modal A11y tests', () => {
     }
 
     await expect(helpLink).toBeFocused();
+  })
+
+  test('MD 09 Assert that focus does not reach the background page content', async ({ page, browserName }) => {
+    test.skip(browserName === 'firefox',
+      'Playwright Firefox does not allow me to traverse with tab through browser controls'
+    );
+    
+    const { helpLink, openButton } = getLocators(page);
+    const forwardTab = getTab(browserName);
+
+    await openModalWithKeyboard(page);
+    await page.keyboard.press(forwardTab);
+    await expect(helpLink).toBeFocused();
+
+    let completedLoop = false;
+
+    for (let i = 0; i<10; i++) {
+      await page.keyboard.press(forwardTab);
+
+      // The open button, the only focusable element in the background, must not recieve focus.
+      await expect(openButton).not.toBeFocused;
+
+      const helpLinkIsFocused = await helpLink.evaluate((element) => {
+        return element === element.getRootNode().activeElement;
+      })
+
+      if (helpLinkIsFocused && i > 1) {
+        // Loop is completed
+        completedLoop = true;
+        break;
+      }
+    }
+
+    await expect(completedLoop).toBe(true);
   })
 
   test('MD-STATIC Static test on open dialog', async ({page}) => {
