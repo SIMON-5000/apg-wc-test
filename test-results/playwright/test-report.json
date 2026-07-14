@@ -100,7 +100,7 @@
         {
           "title": "wc-modal A11y tests",
           "file": "modal.spec.js",
-          "line": 4,
+          "line": 30,
           "column": 6,
           "specs": [
             {
@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 907,
+                      "duration": 591,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:37.052Z",
+                      "startTime": "2026-07-14T21:43:48.395Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -134,7 +134,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-08251780ff128c7c3d45",
               "file": "modal.spec.js",
-              "line": 9,
+              "line": 35,
               "column": 3
             },
             {
@@ -153,12 +153,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 771,
+                      "duration": 523,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:36.935Z",
+                      "startTime": "2026-07-14T21:43:48.401Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -168,7 +168,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-0afc316cf967eac6caa3",
               "file": "modal.spec.js",
-              "line": 15,
+              "line": 41,
               "column": 3
             },
             {
@@ -187,12 +187,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 846,
+                      "duration": 528,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:36.933Z",
+                      "startTime": "2026-07-14T21:43:48.392Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -202,7 +202,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-a2bfc0ddd7c644971569",
               "file": "modal.spec.js",
-              "line": 22,
+              "line": 47,
               "column": 3
             },
             {
@@ -221,12 +221,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 756,
+                      "duration": 529,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:36.947Z",
+                      "startTime": "2026-07-14T21:43:48.396Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -236,7 +236,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-1f96f408e0b9bd34fe12",
               "file": "modal.spec.js",
-              "line": 29,
+              "line": 53,
               "column": 3
             },
             {
@@ -252,15 +252,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 392,
+                      "duration": 238,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:38.867Z",
+                      "startTime": "2026-07-14T21:43:49.337Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -270,7 +270,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-30380358d2715e714466",
               "file": "modal.spec.js",
-              "line": 40,
+              "line": 62,
               "column": 3
             },
             {
@@ -286,15 +286,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 336,
+                      "duration": 155,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:38.867Z",
+                      "startTime": "2026-07-14T21:43:49.338Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -304,7 +304,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-78fed15257be4fc08b39",
               "file": "modal.spec.js",
-              "line": 48,
+              "line": 70,
               "column": 3
             },
             {
@@ -320,15 +320,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 322,
+                      "duration": 154,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:38.868Z",
+                      "startTime": "2026-07-14T21:43:49.338Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -338,11 +338,11 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-b1165dae90b4b4f59a3c",
               "file": "modal.spec.js",
-              "line": 57,
+              "line": 79,
               "column": 3
             },
             {
-              "title": "MD-05 Focus moves to first focusable element inside dialog",
+              "title": "MD-04-D Focus returns to invoking element using Close Button",
               "ok": true,
               "tags": [],
               "tests": [
@@ -357,12 +357,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 327,
+                      "duration": 241,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:38.931Z",
+                      "startTime": "2026-07-14T21:43:49.408Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -370,9 +370,43 @@
                   "status": "expected"
                 }
               ],
-              "id": "4f5218e02fee5a5bd4ca-32148c91ebbe9355ba13",
+              "id": "4f5218e02fee5a5bd4ca-cbcc587ef23ee3c75b8c",
               "file": "modal.spec.js",
-              "line": 66,
+              "line": 88,
+              "column": 3
+            },
+            {
+              "title": "MD-05 Focus moves to intended first focus element inside dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 160,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-14T21:43:49.508Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-539a1cdf6c0dc3791f01",
+              "file": "modal.spec.js",
+              "line": 97,
               "column": 3
             },
             {
@@ -388,15 +422,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 323,
+                      "duration": 159,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:39.217Z",
+                      "startTime": "2026-07-14T21:43:49.509Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -406,7 +440,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-6156e183edfcdfca3d6d",
               "file": "modal.spec.js",
-              "line": 76,
+              "line": 105,
               "column": 3
             },
             {
@@ -422,15 +456,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 324,
+                      "duration": 212,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:39.222Z",
+                      "startTime": "2026-07-14T21:43:49.592Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -440,7 +474,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-a69c3d52b1b4ec25dd94",
               "file": "modal.spec.js",
-              "line": 100,
+              "line": 122,
               "column": 3
             },
             {
@@ -459,12 +493,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 297,
+                      "duration": 152,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:39.277Z",
+                      "startTime": "2026-07-14T21:43:49.686Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -474,7 +508,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-56c030861612eb68a7d0",
               "file": "modal.spec.js",
-              "line": 133,
+              "line": 151,
               "column": 3
             },
             {
@@ -490,15 +524,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 602,
+                      "duration": 209,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:39.301Z",
+                      "startTime": "2026-07-14T21:43:49.687Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -508,7 +542,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-42a5d93702f94c54b7d3",
               "file": "modal.spec.js",
-              "line": 163,
+              "line": 178,
               "column": 3
             },
             {
@@ -524,15 +558,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1445,
+                      "duration": 588,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:39.558Z",
+                      "startTime": "2026-07-14T21:43:49.688Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -542,7 +576,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-27ed9c9ca48d570fe479",
               "file": "modal.spec.js",
-              "line": 198,
+              "line": 209,
               "column": 3
             },
             {
@@ -559,14 +593,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1991,
+                      "duration": 1432,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:41.066Z",
+                      "startTime": "2026-07-14T21:43:50.520Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -576,7 +610,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-9eb510ef8c5e951b236d",
               "file": "modal.spec.js",
-              "line": 9,
+              "line": 35,
               "column": 3
             },
             {
@@ -595,12 +629,12 @@
                       "workerIndex": 5,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3055,
+                      "duration": 2175,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:41.071Z",
+                      "startTime": "2026-07-14T21:43:50.539Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -610,7 +644,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-8203747be8abd2cb0fbb",
               "file": "modal.spec.js",
-              "line": 15,
+              "line": 41,
               "column": 3
             },
             {
@@ -627,14 +661,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2776,
+                      "duration": 1827,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:41.105Z",
+                      "startTime": "2026-07-14T21:43:50.570Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -644,7 +678,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-aeccbea6533a19a4c799",
               "file": "modal.spec.js",
-              "line": 22,
+              "line": 47,
               "column": 3
             },
             {
@@ -661,14 +695,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2609,
+                      "duration": 1876,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:41.959Z",
+                      "startTime": "2026-07-14T21:43:50.982Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -678,7 +712,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-5dc0251d0c738f0fbb69",
               "file": "modal.spec.js",
-              "line": 29,
+              "line": 53,
               "column": 3
             },
             {
@@ -695,14 +729,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1121,
+                      "duration": 692,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:44.406Z",
+                      "startTime": "2026-07-14T21:43:52.925Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -712,7 +746,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-1b9c89131e70a709e0ba",
               "file": "modal.spec.js",
-              "line": 40,
+              "line": 62,
               "column": 3
             },
             {
@@ -729,14 +763,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 789,
+                      "duration": 452,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:45.547Z",
+                      "startTime": "2026-07-14T21:43:53.639Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -746,7 +780,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-fe93328046ef5e3fdfe4",
               "file": "modal.spec.js",
-              "line": 48,
+              "line": 70,
               "column": 3
             },
             {
@@ -763,14 +797,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1528,
+                      "duration": 463,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:45.812Z",
+                      "startTime": "2026-07-14T21:43:53.852Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -780,11 +814,11 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-caacf4efd96b9d6e4ba4",
               "file": "modal.spec.js",
-              "line": 57,
+              "line": 79,
               "column": 3
             },
             {
-              "title": "MD-05 Focus moves to first focusable element inside dialog",
+              "title": "MD-04-D Focus returns to invoking element using Close Button",
               "ok": true,
               "tags": [],
               "tests": [
@@ -797,14 +831,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 708,
+                      "duration": 457,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:46.360Z",
+                      "startTime": "2026-07-14T21:43:54.105Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -812,9 +846,43 @@
                   "status": "expected"
                 }
               ],
-              "id": "4f5218e02fee5a5bd4ca-34d042ca829ace1c1efb",
+              "id": "4f5218e02fee5a5bd4ca-c0f15f1515acd519cf51",
               "file": "modal.spec.js",
-              "line": 66,
+              "line": 88,
+              "column": 3
+            },
+            {
+              "title": "MD-05 Focus moves to intended first focus element inside dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 414,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-14T21:43:54.336Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-80000952f58f3289b322",
+              "file": "modal.spec.js",
+              "line": 97,
               "column": 3
             },
             {
@@ -831,14 +899,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1286,
+                      "duration": 1078,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:46.999Z",
+                      "startTime": "2026-07-14T21:43:54.348Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -848,7 +916,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-463e65d80a89cc6b54df",
               "file": "modal.spec.js",
-              "line": 76,
+              "line": 105,
               "column": 3
             },
             {
@@ -865,14 +933,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 800,
+                      "duration": 652,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:47.087Z",
+                      "startTime": "2026-07-14T21:43:54.574Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -882,7 +950,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-7cefc4c681acc7232237",
               "file": "modal.spec.js",
-              "line": 100,
+              "line": 122,
               "column": 3
             },
             {
@@ -899,14 +967,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 984,
+                      "duration": 896,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:47.357Z",
+                      "startTime": "2026-07-14T21:43:54.767Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -916,7 +984,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-6a080757cb9897f25a00",
               "file": "modal.spec.js",
-              "line": 133,
+              "line": 151,
               "column": 3
             },
             {
@@ -932,7 +1000,7 @@
                       "description": "Firefox does not allow me to traverse with tab through browser controls",
                       "location": {
                         "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                        "line": 164,
+                        "line": 179,
                         "column": 10
                       }
                     }
@@ -943,21 +1011,21 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "skipped",
-                      "duration": 625,
+                      "duration": 687,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:47.919Z",
+                      "startTime": "2026-07-14T21:43:55.260Z",
                       "annotations": [
                         {
                           "type": "skip",
                           "description": "Firefox does not allow me to traverse with tab through browser controls",
                           "location": {
                             "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                            "line": 164,
+                            "line": 179,
                             "column": 10
                           }
                         }
@@ -970,7 +1038,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-c1e7230f329b5f31da3c",
               "file": "modal.spec.js",
-              "line": 163,
+              "line": 178,
               "column": 3
             },
             {
@@ -987,14 +1055,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1822,
+                      "duration": 1824,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:48.313Z",
+                      "startTime": "2026-07-14T21:43:55.447Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1004,7 +1072,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-3bbce2c8cb8441ff3b58",
               "file": "modal.spec.js",
-              "line": 198,
+              "line": 209,
               "column": 3
             },
             {
@@ -1021,14 +1089,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2053,
+                      "duration": 3026,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:50.237Z",
+                      "startTime": "2026-07-14T21:43:57.444Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1038,7 +1106,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-35c114f320338e770889",
               "file": "modal.spec.js",
-              "line": 9,
+              "line": 35,
               "column": 3
             },
             {
@@ -1055,14 +1123,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1810,
+                      "duration": 2865,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:50.367Z",
+                      "startTime": "2026-07-14T21:43:57.553Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1072,7 +1140,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-0e93bb2447c00576c249",
               "file": "modal.spec.js",
-              "line": 15,
+              "line": 41,
               "column": 3
             },
             {
@@ -1089,14 +1157,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1750,
+                      "duration": 2615,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:50.424Z",
+                      "startTime": "2026-07-14T21:43:57.738Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1106,7 +1174,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-1e2db2e05e73c572096a",
               "file": "modal.spec.js",
-              "line": 22,
+              "line": 47,
               "column": 3
             },
             {
@@ -1123,14 +1191,14 @@
                   "results": [
                     {
                       "workerIndex": 11,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1678,
+                      "duration": 1560,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:52.255Z",
+                      "startTime": "2026-07-14T21:44:01.526Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1140,7 +1208,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-2592af73f94e4ade199c",
               "file": "modal.spec.js",
-              "line": 29,
+              "line": 53,
               "column": 3
             },
             {
@@ -1157,14 +1225,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1045,
+                      "duration": 961,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:52.632Z",
+                      "startTime": "2026-07-14T21:44:00.927Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1174,7 +1242,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-5366cdde889bfe45d5a0",
               "file": "modal.spec.js",
-              "line": 40,
+              "line": 62,
               "column": 3
             },
             {
@@ -1191,14 +1259,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 991,
+                      "duration": 1097,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:52.635Z",
+                      "startTime": "2026-07-14T21:44:01.149Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1208,7 +1276,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-88db8c0556d89afd36d4",
               "file": "modal.spec.js",
-              "line": 48,
+              "line": 70,
               "column": 3
             },
             {
@@ -1225,14 +1293,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1293,
+                      "duration": 1282,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:52.945Z",
+                      "startTime": "2026-07-14T21:44:01.183Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1242,11 +1310,45 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-39ef1d60bca658ab73bf",
               "file": "modal.spec.js",
-              "line": 57,
+              "line": 79,
               "column": 3
             },
             {
-              "title": "MD-05 Focus moves to first focusable element inside dialog",
+              "title": "MD-04-D Focus returns to invoking element using Close Button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1033,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-14T21:44:01.911Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-2d00fdb95eaeb1346c17",
+              "file": "modal.spec.js",
+              "line": 88,
+              "column": 3
+            },
+            {
+              "title": "MD-05 Focus moves to intended first focus element inside dialog",
               "ok": true,
               "tags": [],
               "tests": [
@@ -1259,14 +1361,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 976,
+                      "duration": 855,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:53.705Z",
+                      "startTime": "2026-07-14T21:44:02.426Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1274,9 +1376,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "4f5218e02fee5a5bd4ca-8cadb310158bc5ce9687",
+              "id": "4f5218e02fee5a5bd4ca-d4936f9f7af8fa9784bf",
               "file": "modal.spec.js",
-              "line": 66,
+              "line": 97,
               "column": 3
             },
             {
@@ -1292,15 +1394,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 8,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1020,
+                      "duration": 1035,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:53.706Z",
+                      "startTime": "2026-07-14T21:44:02.639Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1310,7 +1412,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-3bf9a89e3ab5ef5df3c1",
               "file": "modal.spec.js",
-              "line": 76,
+              "line": 105,
               "column": 3
             },
             {
@@ -1326,15 +1428,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 10,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 825,
+                      "duration": 1069,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:54.272Z",
+                      "startTime": "2026-07-14T21:44:02.978Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1344,7 +1446,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-315bc66e1f60d46cdc20",
               "file": "modal.spec.js",
-              "line": 100,
+              "line": 122,
               "column": 3
             },
             {
@@ -1360,15 +1462,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 9,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 896,
+                      "duration": 944,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:54.441Z",
+                      "startTime": "2026-07-14T21:44:03.443Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1378,7 +1480,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-4700c36474e0d4f9a286",
               "file": "modal.spec.js",
-              "line": 133,
+              "line": 151,
               "column": 3
             },
             {
@@ -1394,15 +1496,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 11,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 859,
+                      "duration": 912,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:54.715Z",
+                      "startTime": "2026-07-14T21:44:03.713Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1412,7 +1514,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-4c7cf3e1eed3b481577a",
               "file": "modal.spec.js",
-              "line": 163,
+              "line": 178,
               "column": 3
             },
             {
@@ -1428,15 +1530,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 8,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1435,
+                      "duration": 1697,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T18:35:54.766Z",
+                      "startTime": "2026-07-14T21:44:03.713Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1446,7 +1548,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-9cc0efb1301f68cb9e2e",
               "file": "modal.spec.js",
-              "line": 198,
+              "line": 209,
               "column": 3
             }
           ]
@@ -1456,9 +1558,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-14T18:35:35.472Z",
-    "duration": 20830.515,
-    "expected": 38,
+    "startTime": "2026-07-14T21:43:47.425Z",
+    "duration": 18029.398999999998,
+    "expected": 41,
     "skipped": 1,
     "unexpected": 0,
     "flaky": 0

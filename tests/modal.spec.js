@@ -1,6 +1,32 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
+// ----- Helpers -----
+function getTab(browserName) {
+  return browserName === 'webkit' ? 'Alt+Tab' : 'Tab';
+}
+
+function getShiftTab(browserName) {
+  return browserName === 'webkit' ? 'Shift+Alt+Tab' : 'Shift+Tab';
+}
+
+async function openModalWithKeyboard(page, key='Space') {
+  const openButton = page.getByRole('button', { name: /open modal dialog/i });
+  await openButton.focus()
+  await page.keyboard.press(key);
+}
+
+function getLocators(page) {
+  return {
+    openButton: page.getByRole('button', { name: /open modal dialog/i }),
+    autofocusElement: page.locator('wc-mnodal [autofocus]'),
+    helpLink: page.getByRole('link', {name: /help link/i}),
+    closeButton: page.getByRole('button', {name: /close/i }),
+  }
+}
+
+// ----- Tests -----
+
 test.describe('wc-modal A11y tests', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('http://127.0.0.1:5001/modal.html');
@@ -13,32 +39,28 @@ test.describe('wc-modal A11y tests', () => {
   })
 
   test('MD-01-B Dialog opens on enter', async ({page}) => {
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
-    await openButton.focus()
-    await page.keyboard.press('Enter');
+    await openModalWithKeyboard(page, 'Enter');
+    
     await expect(page.getByRole('dialog')).toBeVisible();
   })
 
   test('MD-01-C Dialog opens on space', async ({page}) => {
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
-    await openButton.focus()
-    await page.keyboard.press('Space');
+    await openModalWithKeyboard(page, 'Space');
+
     await expect(page.getByRole('dialog')).toBeVisible();
   })
 
   test('MD-02 Escape closes dialog', async ({page}) => {
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
-    await openButton.focus()
-    await page.keyboard.press('Space');
+    await openModalWithKeyboard(page, 'Space');
 
     await page.keyboard.press('Escape');
     await expect(page.getByRole('dialog')).not.toBeVisible();
   })
 
-  // Webkit does not return focus to button when modal is opened with click,
+  // Webkit does not automatically return focus to button when modal is opened with click,
   // But when opened with keyboard it does.
   test('MD-04-A Focus returns to invoking element (click)', async ({ page }) => {
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
+    const { openButton } = getLocators(page);
     await openButton.click();
 
     await page.keyboard.press('Escape');
@@ -46,39 +68,41 @@ test.describe('wc-modal A11y tests', () => {
   });
 
   test('MD-04-B Focus returns to invoking element (Enter)', async ({page}) => {
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
-    await openButton.focus()
-    await page.keyboard.press('Enter');
+    const { openButton } = getLocators(page);
+
+    await openModalWithKeyboard(page, 'Enter');
 
     await page.keyboard.press('Escape');
     await expect(openButton).toBeFocused();
   })
 
   test('MD-04-C Focus returns to invoking element (Space)', async ({page}) => {
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
-    await openButton.focus()
-    await page.keyboard.press(' ');
+    const { openButton } = getLocators(page);
+
+    await openModalWithKeyboard(page, ' ');
 
     await page.keyboard.press('Escape');
     await expect(openButton).toBeFocused();
   })
 
-  test('MD-05 Focus moves to first focusable element inside dialog', async ({page}) => {
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
-    await openButton.focus();
-    await page.keyboard.press('Space');
+  test('MD-04-D Focus returns to invoking element using Close Button', async ({page}) => {
+    const { openButton, closeButton } = getLocators(page);
+
+    await openModalWithKeyboard(page);
+
+    await closeButton.click();
+    await expect(openButton).toBeFocused();
+  })
+
+  test('MD-05 Focus moves to intended first focus element inside dialog', async ({page}) => {
+    await openModalWithKeyboard(page);
 
     const firstFocusableEl = page.locator('wc-modal p[tabindex="-1"]');
 
     await expect(firstFocusableEl).toBeFocused();
   })
 
-  test('MD-06 Tab moves focus forward', async ({page, browserName}) => {
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
-    await openButton.focus();
-    await page.keyboard.press('Space');
-    // await page.keyboard.press('Tab');
-    
+  test('MD-06 Tab moves focus forward', async ({page, browserName}) => {    
     /**
      * Playwright WebKit skips links with plain Tab in this test
      * environment. Alt+Tab includes links in the focus order.
@@ -86,26 +110,19 @@ test.describe('wc-modal A11y tests', () => {
      * Manual Safari tests used the corresponding Safari keyboard
      * preference and produced the expected focus sequence.
      */
-    if (browserName === 'webkit') {
-     await page.keyboard.press('Alt+Tab');
-    } else {
-      await page.keyboard.press('Tab');
-    }
+    const forwardTab = getTab(browserName);
+    const { helpLink } = await getLocators(page);
 
-    const secondFocusableEl = page.getByRole('link', {name: 'Important HELP link'});
+    await openModalWithKeyboard(page);
+    await page.keyboard.press(forwardTab);
 
-    await expect(secondFocusableEl).toBeFocused();
+    await expect(helpLink).toBeFocused();
   })
 
   test('MD-06-B Tab moves focus forward', async ({page, browserName}) => {
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
-    await openButton.focus();
-    await page.keyboard.press('Space');
+    await openModalWithKeyboard(page);
 
-    let focusMover = 'Tab';
-    if (browserName === 'webkit') {
-     focusMover = 'Alt+Tab';
-    }
+    const forwardTab = getTab(browserName);
     
     // console.log(
     //   await page.evaluate(() => {
@@ -120,26 +137,24 @@ test.describe('wc-modal A11y tests', () => {
     
     // TAB SEQUENCE
     // Link
-    await page.keyboard.press(focusMover);
+    await page.keyboard.press(forwardTab);
     // Input
-    await page.keyboard.press(focusMover);
+    await page.keyboard.press(forwardTab);
     // Button
-    await page.keyboard.press(focusMover);
+    await page.keyboard.press(forwardTab);
 
     const thirdFocusableEl = page.getByRole('button', {name: /close/i });
 
     await expect(thirdFocusableEl).toBeFocused();
   });
-  test('MD-07 Shift+Tab moves focus backwards', async ({page, browserName}) => {
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
-    await openButton.focus();
-    await page.keyboard.press('Space');
 
+  test('MD-07 Shift+Tab moves focus backwards', async ({page, browserName}) => {
     const helpLink = page.getByRole('link', {name: 'Important HELP link'});
     const closeButton = page.getByRole('button', {name: /Close/ });
-    const forwardTab = browserName === 'webkit' ? 'Alt+Tab' : 'Tab';
-    const backwardsTab = browserName === 'webkit' ? 'Shift+Alt+Tab' : 'Shift+Tab';
+    const forwardTab = getTab(browserName);
+    const backwardsTab = getShiftTab(browserName);
 
+    await openModalWithKeyboard(page);
 
     await page.keyboard.press(forwardTab);
     await page.keyboard.press(forwardTab);
@@ -165,14 +180,10 @@ test.describe('wc-modal A11y tests', () => {
       'Firefox does not allow me to traverse with tab through browser controls'
     );
     
-    const openButton = page.getByRole('button', { name: /open modal dialog/i });
-    await openButton.focus();
-    await page.keyboard.press('Space');
+    const { helpLink, closeButton } = getLocators(page);
+    const forwardTab = getTab(browserName);
 
-    const helpLink = page.getByRole('link', {name: 'Important HELP link'});
-    const closeButton = page.getByRole('button', {name: /Close/ });
-    const forwardTab = browserName === 'webkit' ? 'Alt+Tab' : 'Tab';
-
+    await openModalWithKeyboard(page);
     await page.keyboard.press(forwardTab);
     await page.keyboard.press(forwardTab);
     await page.keyboard.press(forwardTab);
