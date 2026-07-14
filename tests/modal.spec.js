@@ -15,7 +15,7 @@ test.describe('wc-modal A11y tests', () => {
   test('MD-01-B Dialog opens on enter', async ({page}) => {
     const openButton = page.getByRole('button', { name: /open modal dialog/i });
     await openButton.focus()
-    page.keyboard.press('Enter');
+    await page.keyboard.press('Enter');
     await expect(page.getByRole('dialog')).toBeVisible();
   })
 
@@ -80,7 +80,11 @@ test.describe('wc-modal A11y tests', () => {
     // await page.keyboard.press('Tab');
     
     /**
-     *     Playwrights webkit version needs Alt+Tab, Safaris behaviour in manual testing is fine.
+     * Playwright WebKit skips links with plain Tab in this test
+     * environment. Alt+Tab includes links in the focus order.
+     *
+     * Manual Safari tests used the corresponding Safari keyboard
+     * preference and produced the expected focus sequence.
      */
     if (browserName === 'webkit') {
      await page.keyboard.press('Alt+Tab');
@@ -98,13 +102,9 @@ test.describe('wc-modal A11y tests', () => {
     await openButton.focus();
     await page.keyboard.press('Space');
 
-    // TAB SEQUENCE
-
-    // await page.keyboard.press('Tab');
+    let focusMover = 'Tab';
     if (browserName === 'webkit') {
-     await page.keyboard.press('Alt+Tab');
-    } else {
-      await page.keyboard.press('Tab');
+     focusMover = 'Alt+Tab';
     }
     
     // console.log(
@@ -117,30 +117,82 @@ test.describe('wc-modal A11y tests', () => {
     //     };
     //   }),
     // );
-
-
-    // await page.keyboard.press('Tab');
-
-    if (browserName === 'webkit') {
-      await page.keyboard.press('Alt+Tab');
-    } else {
-      await page.keyboard.press('Tab');
-    }
-
-    // console.log(
-    //   await page.evaluate(() => {
-    //     const modal = document.querySelector('wc-modal');
-
-    //     return {
-    //       documentFocus: document.activeElement?.outerHTML,
-    //       shadowFocus: modal?.shadowRoot?.activeElement?.outerHTML,
-    //     };
-    //   }),
-    // );
+    
+    // TAB SEQUENCE
+    // Link
+    await page.keyboard.press(focusMover);
+    // Input
+    await page.keyboard.press(focusMover);
+    // Button
+    await page.keyboard.press(focusMover);
 
     const thirdFocusableEl = page.getByRole('button', {name: /close/i });
 
     await expect(thirdFocusableEl).toBeFocused();
+  });
+  test('MD-07 Shift+Tab moves focus backwards', async ({page, browserName}) => {
+    const openButton = page.getByRole('button', { name: /open modal dialog/i });
+    await openButton.focus();
+    await page.keyboard.press('Space');
+
+    const helpLink = page.getByRole('link', {name: 'Important HELP link'});
+    const closeButton = page.getByRole('button', {name: /Close/ });
+    const forwardTab = browserName === 'webkit' ? 'Alt+Tab' : 'Tab';
+    const backwardsTab = browserName === 'webkit' ? 'Shift+Alt+Tab' : 'Shift+Tab';
+
+
+    await page.keyboard.press(forwardTab);
+    await page.keyboard.press(forwardTab);
+    await page.keyboard.press(forwardTab);
+
+    await expect(closeButton).toBeFocused();
+
+    await page.keyboard.press(backwardsTab);
+    await page.keyboard.press(backwardsTab);
+
+    await expect(helpLink).toBeFocused();
+  });
+
+  /**
+   * Testing focus loops that includes the browser controls is problematic in Playwright:
+   * https://github.com/microsoft/playwright/issues/39268
+   * 
+   * In Playwright’s Firefox environment repeated Tab presses stays on the last element of the page.
+   * In manual tests Firefox lets me loop from end to start via browser controls, like Chrome and WebKit.
+   */
+  test('MD 08 Focus loops via browser controls from last to first focusable element', async ({page, browserName}) => {
+    test.skip(browserName === 'firefox',
+      'Firefox does not allow me to traverse with tab through browser controls'
+    );
+    
+    const openButton = page.getByRole('button', { name: /open modal dialog/i });
+    await openButton.focus();
+    await page.keyboard.press('Space');
+
+    const helpLink = page.getByRole('link', {name: 'Important HELP link'});
+    const closeButton = page.getByRole('button', {name: /Close/ });
+    const forwardTab = browserName === 'webkit' ? 'Alt+Tab' : 'Tab';
+
+    await page.keyboard.press(forwardTab);
+    await page.keyboard.press(forwardTab);
+    await page.keyboard.press(forwardTab);
+
+    // Dialogs last element is focused
+    await expect(closeButton).toBeFocused();
+
+    for (let i = 0; i<10; i++) {
+      await page.keyboard.press(forwardTab);
+
+      const helpLinkIsFocused = await helpLink.evaluate((element) => {
+        return element === element.getRootNode().activeElement
+      })
+
+      if (helpLinkIsFocused) {
+        break;
+      }
+    }
+
+    await expect(helpLink).toBeFocused();
   })
 
   test('MD-STATIC Static test on open dialog', async ({page}) => {

@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 744,
+                      "duration": 907,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:02.650Z",
+                      "startTime": "2026-07-14T18:35:37.052Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -153,12 +153,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 590,
+                      "duration": 771,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:02.594Z",
+                      "startTime": "2026-07-14T18:35:36.935Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -187,12 +187,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 596,
+                      "duration": 846,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:02.613Z",
+                      "startTime": "2026-07-14T18:35:36.933Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -221,12 +221,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 600,
+                      "duration": 756,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:02.599Z",
+                      "startTime": "2026-07-14T18:35:36.947Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -252,15 +252,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 378,
+                      "duration": 392,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:03.704Z",
+                      "startTime": "2026-07-14T18:35:38.867Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -286,15 +286,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 297,
+                      "duration": 336,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:03.706Z",
+                      "startTime": "2026-07-14T18:35:38.867Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -320,15 +320,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 285,
+                      "duration": 322,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:03.707Z",
+                      "startTime": "2026-07-14T18:35:38.868Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -357,12 +357,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 253,
+                      "duration": 327,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:03.886Z",
+                      "startTime": "2026-07-14T18:35:38.931Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -388,15 +388,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 293,
+                      "duration": 323,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:04.017Z",
+                      "startTime": "2026-07-14T18:35:39.217Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -422,15 +422,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 286,
+                      "duration": 324,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:04.024Z",
+                      "startTime": "2026-07-14T18:35:39.222Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -440,7 +440,75 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-a69c3d52b1b4ec25dd94",
               "file": "modal.spec.js",
-              "line": 96,
+              "line": 100,
+              "column": 3
+            },
+            {
+              "title": "MD-07 Shift+Tab moves focus backwards",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 297,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-14T18:35:39.277Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-56c030861612eb68a7d0",
+              "file": "modal.spec.js",
+              "line": 133,
+              "column": 3
+            },
+            {
+              "title": "MD 08 Focus loops via browser controls from last to first focusable element",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 602,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-14T18:35:39.301Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-42a5d93702f94c54b7d3",
+              "file": "modal.spec.js",
+              "line": 163,
               "column": 3
             },
             {
@@ -456,15 +524,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 996,
+                      "duration": 1445,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:04.103Z",
+                      "startTime": "2026-07-14T18:35:39.558Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -474,7 +542,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-27ed9c9ca48d570fe479",
               "file": "modal.spec.js",
-              "line": 146,
+              "line": 198,
               "column": 3
             },
             {
@@ -491,14 +559,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3507,
+                      "duration": 1991,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:05.332Z",
+                      "startTime": "2026-07-14T18:35:41.066Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -527,12 +595,12 @@
                       "workerIndex": 5,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2876,
+                      "duration": 3055,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:05.505Z",
+                      "startTime": "2026-07-14T18:35:41.071Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -559,14 +627,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2459,
+                      "duration": 2776,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:05.476Z",
+                      "startTime": "2026-07-14T18:35:41.105Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -593,14 +661,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 3223,
+                      "duration": 2609,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:06.188Z",
+                      "startTime": "2026-07-14T18:35:41.959Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -626,15 +694,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1405,
+                      "duration": 1121,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:09.149Z",
+                      "startTime": "2026-07-14T18:35:44.406Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -660,15 +728,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 776,
+                      "duration": 789,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:10.586Z",
+                      "startTime": "2026-07-14T18:35:45.547Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -695,14 +763,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 958,
+                      "duration": 1528,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:10.832Z",
+                      "startTime": "2026-07-14T18:35:45.812Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -728,15 +796,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 834,
+                      "duration": 708,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:11.380Z",
+                      "startTime": "2026-07-14T18:35:46.360Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -762,15 +830,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 1,
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 708,
+                      "duration": 1286,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:11.808Z",
+                      "startTime": "2026-07-14T18:35:46.999Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -796,15 +864,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 817,
+                      "duration": 800,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:12.234Z",
+                      "startTime": "2026-07-14T18:35:47.087Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -814,7 +882,95 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-7cefc4c681acc7232237",
               "file": "modal.spec.js",
-              "line": 96,
+              "line": 100,
+              "column": 3
+            },
+            {
+              "title": "MD-07 Shift+Tab moves focus backwards",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 984,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-14T18:35:47.357Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-6a080757cb9897f25a00",
+              "file": "modal.spec.js",
+              "line": 133,
+              "column": 3
+            },
+            {
+              "title": "MD 08 Focus loops via browser controls from last to first focusable element",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Firefox does not allow me to traverse with tab through browser controls",
+                      "location": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                        "line": 164,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
+                      "status": "skipped",
+                      "duration": 625,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-14T18:35:47.919Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Firefox does not allow me to traverse with tab through browser controls",
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                            "line": 164,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-c1e7230f329b5f31da3c",
+              "file": "modal.spec.js",
+              "line": 163,
               "column": 3
             },
             {
@@ -830,15 +986,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1877,
+                      "duration": 1822,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:12.258Z",
+                      "startTime": "2026-07-14T18:35:48.313Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -848,7 +1004,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-3bbce2c8cb8441ff3b58",
               "file": "modal.spec.js",
-              "line": 146,
+              "line": 198,
               "column": 3
             },
             {
@@ -865,14 +1021,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1900,
+                      "duration": 2053,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:14.324Z",
+                      "startTime": "2026-07-14T18:35:50.237Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -899,14 +1055,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 2,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1707,
+                      "duration": 1810,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:14.512Z",
+                      "startTime": "2026-07-14T18:35:50.367Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -933,14 +1089,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 3,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1833,
+                      "duration": 1750,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:14.707Z",
+                      "startTime": "2026-07-14T18:35:50.424Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -969,12 +1125,12 @@
                       "workerIndex": 11,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2225,
+                      "duration": 1678,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:16.594Z",
+                      "startTime": "2026-07-14T18:35:52.255Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1000,15 +1156,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 10,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1264,
+                      "duration": 1045,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:16.724Z",
+                      "startTime": "2026-07-14T18:35:52.632Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1034,15 +1190,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 9,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1199,
+                      "duration": 991,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:16.861Z",
+                      "startTime": "2026-07-14T18:35:52.635Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1068,15 +1224,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 8,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1054,
+                      "duration": 1293,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:17.243Z",
+                      "startTime": "2026-07-14T18:35:52.945Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1103,14 +1259,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 2,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1406,
+                      "duration": 976,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:18.050Z",
+                      "startTime": "2026-07-14T18:35:53.705Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1136,15 +1292,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 1,
+                      "workerIndex": 10,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1290,
+                      "duration": 1020,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:18.138Z",
+                      "startTime": "2026-07-14T18:35:53.706Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1170,15 +1326,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 8,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1532,
+                      "duration": 825,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:18.324Z",
+                      "startTime": "2026-07-14T18:35:54.272Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1188,7 +1344,75 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-315bc66e1f60d46cdc20",
               "file": "modal.spec.js",
-              "line": 96,
+              "line": 100,
+              "column": 3
+            },
+            {
+              "title": "MD-07 Shift+Tab moves focus backwards",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 896,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-14T18:35:54.441Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-4700c36474e0d4f9a286",
+              "file": "modal.spec.js",
+              "line": 133,
+              "column": 3
+            },
+            {
+              "title": "MD 08 Focus loops via browser controls from last to first focusable element",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 859,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-14T18:35:54.715Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-4c7cf3e1eed3b481577a",
+              "file": "modal.spec.js",
+              "line": 163,
               "column": 3
             },
             {
@@ -1204,15 +1428,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 1,
+                      "workerIndex": 10,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1346,
+                      "duration": 1435,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T10:55:19.464Z",
+                      "startTime": "2026-07-14T18:35:54.766Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1222,7 +1446,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-9cc0efb1301f68cb9e2e",
               "file": "modal.spec.js",
-              "line": 146,
+              "line": 198,
               "column": 3
             }
           ]
@@ -1232,10 +1456,10 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-11T10:55:01.335Z",
-    "duration": 19514.393999999997,
-    "expected": 33,
-    "skipped": 0,
+    "startTime": "2026-07-14T18:35:35.472Z",
+    "duration": 20830.515,
+    "expected": 38,
+    "skipped": 1,
     "unexpected": 0,
     "flaky": 0
   }
