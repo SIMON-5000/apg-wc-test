@@ -100,7 +100,7 @@
         {
           "title": "wc-modal A11y tests",
           "file": "modal.spec.js",
-          "line": 30,
+          "line": 31,
           "column": 6,
           "specs": [
             {
@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 566,
+                      "duration": 587,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:43.058Z",
+                      "startTime": "2026-08-01T09:26:22.935Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -134,7 +134,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-08251780ff128c7c3d45",
               "file": "modal.spec.js",
-              "line": 35,
+              "line": 36,
               "column": 3
             },
             {
@@ -153,12 +153,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 527,
+                      "duration": 505,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:43.063Z",
+                      "startTime": "2026-08-01T09:26:22.899Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -168,7 +168,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-0afc316cf967eac6caa3",
               "file": "modal.spec.js",
-              "line": 41,
+              "line": 42,
               "column": 3
             },
             {
@@ -187,12 +187,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 524,
+                      "duration": 504,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:43.045Z",
+                      "startTime": "2026-08-01T09:26:22.911Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -202,7 +202,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-a2bfc0ddd7c644971569",
               "file": "modal.spec.js",
-              "line": 47,
+              "line": 48,
               "column": 3
             },
             {
@@ -221,12 +221,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 527,
+                      "duration": 498,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:43.048Z",
+                      "startTime": "2026-08-01T09:26:22.911Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -236,7 +236,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-1f96f408e0b9bd34fe12",
               "file": "modal.spec.js",
-              "line": 53,
+              "line": 54,
               "column": 3
             },
             {
@@ -252,15 +252,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 272,
+                      "duration": 467,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:43.985Z",
+                      "startTime": "2026-08-01T09:26:23.834Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -270,7 +270,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-30380358d2715e714466",
               "file": "modal.spec.js",
-              "line": 62,
+              "line": 63,
               "column": 3
             },
             {
@@ -289,12 +289,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 185,
+                      "duration": 378,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:43.986Z",
+                      "startTime": "2026-08-01T09:26:23.839Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -304,7 +304,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-78fed15257be4fc08b39",
               "file": "modal.spec.js",
-              "line": 70,
+              "line": 71,
               "column": 3
             },
             {
@@ -320,15 +320,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 186,
+                      "duration": 374,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:43.986Z",
+                      "startTime": "2026-08-01T09:26:23.843Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -338,7 +338,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-b1165dae90b4b4f59a3c",
               "file": "modal.spec.js",
-              "line": 79,
+              "line": 80,
               "column": 3
             },
             {
@@ -357,12 +357,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 262,
+                      "duration": 504,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:44.027Z",
+                      "startTime": "2026-08-01T09:26:23.927Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -372,7 +372,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-cbcc587ef23ee3c75b8c",
               "file": "modal.spec.js",
-              "line": 88,
+              "line": 89,
               "column": 3
             },
             {
@@ -391,12 +391,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 162,
+                      "duration": 392,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:44.188Z",
+                      "startTime": "2026-08-01T09:26:24.238Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -406,7 +406,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-539a1cdf6c0dc3791f01",
               "file": "modal.spec.js",
-              "line": 97,
+              "line": 98,
               "column": 3
             },
             {
@@ -422,15 +422,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 161,
+                      "duration": 393,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:44.190Z",
+                      "startTime": "2026-08-01T09:26:24.241Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -440,7 +440,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-6156e183edfcdfca3d6d",
               "file": "modal.spec.js",
-              "line": 105,
+              "line": 106,
               "column": 3
             },
             {
@@ -456,15 +456,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 217,
+                      "duration": 430,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:44.274Z",
+                      "startTime": "2026-08-01T09:26:24.337Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -474,7 +474,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-a69c3d52b1b4ec25dd94",
               "file": "modal.spec.js",
-              "line": 122,
+              "line": 123,
               "column": 3
             },
             {
@@ -493,12 +493,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 205,
+                      "duration": 517,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:44.302Z",
+                      "startTime": "2026-08-01T09:26:24.481Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -508,7 +508,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-56c030861612eb68a7d0",
               "file": "modal.spec.js",
-              "line": 151,
+              "line": 152,
               "column": 3
             },
             {
@@ -527,12 +527,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 214,
+                      "duration": 670,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:44.371Z",
+                      "startTime": "2026-08-01T09:26:24.652Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -542,7 +542,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-42a5d93702f94c54b7d3",
               "file": "modal.spec.js",
-              "line": 178,
+              "line": 179,
               "column": 3
             },
             {
@@ -558,15 +558,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 211,
+                      "duration": 1096,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:44.372Z",
+                      "startTime": "2026-08-01T09:26:24.660Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -576,7 +576,139 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-4045811fa1b90034c379",
               "file": "modal.spec.js",
-              "line": 209,
+              "line": 210,
+              "column": 3
+            },
+            {
+              "title": "MD 10 Assert modal is in modal mode",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 886,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T09:26:24.875Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-d6f43270a08004f77ef8",
+              "file": "modal.spec.js",
+              "line": 244,
+              "column": 3
+            },
+            {
+              "title": "MD 11 Dialog exposes a role of dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 638,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T09:26:25.042Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-adb506a14e29b33ece09",
+              "file": "modal.spec.js",
+              "line": 256,
+              "column": 3
+            },
+            {
+              "title": "MD 12 Dialog exposes a accessible name",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 5655,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                          "column": 26,
+                          "line": 270
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                            "column": 26,
+                            "line": 270
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T09:26:25.353Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--cb808-g-exposes-a-accessible-name-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                        "column": 26,
+                        "line": 270
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-3c262063a5611f2a86e3",
+              "file": "modal.spec.js",
+              "line": 264,
               "column": 3
             },
             {
@@ -595,12 +727,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 609,
+                      "duration": 1026,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:44.509Z",
+                      "startTime": "2026-08-01T09:26:25.865Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -610,7 +742,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-27ed9c9ca48d570fe479",
               "file": "modal.spec.js",
-              "line": 243,
+              "line": 273,
               "column": 3
             },
             {
@@ -626,15 +758,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3200,
+                      "duration": 3916,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:45.337Z",
+                      "startTime": "2026-08-01T09:26:27.568Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -644,7 +776,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-9eb510ef8c5e951b236d",
               "file": "modal.spec.js",
-              "line": 35,
+              "line": 36,
               "column": 3
             },
             {
@@ -660,15 +792,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 4,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2050,
+                      "duration": 2349,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:45.454Z",
+                      "startTime": "2026-08-01T09:26:27.469Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -678,7 +810,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-8203747be8abd2cb0fbb",
               "file": "modal.spec.js",
-              "line": 41,
+              "line": 42,
               "column": 3
             },
             {
@@ -694,15 +826,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 2,
+                      "workerIndex": 6,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2964,
+                      "duration": 2988,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:45.453Z",
+                      "startTime": "2026-08-01T09:26:28.085Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -712,7 +844,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-aeccbea6533a19a4c799",
               "file": "modal.spec.js",
-              "line": 47,
+              "line": 48,
               "column": 3
             },
             {
@@ -728,15 +860,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 1,
+                      "workerIndex": 4,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2659,
+                      "duration": 1341,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:46.318Z",
+                      "startTime": "2026-08-01T09:26:31.141Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -746,7 +878,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-5dc0251d0c738f0fbb69",
               "file": "modal.spec.js",
-              "line": 53,
+              "line": 54,
               "column": 3
             },
             {
@@ -762,15 +894,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1081,
+                      "duration": 3450,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:49.078Z",
+                      "startTime": "2026-08-01T09:26:33.462Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -780,7 +912,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-1b9c89131e70a709e0ba",
               "file": "modal.spec.js",
-              "line": 62,
+              "line": 63,
               "column": 3
             },
             {
@@ -796,15 +928,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 4,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 772,
+                      "duration": 892,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:50.185Z",
+                      "startTime": "2026-08-01T09:26:32.520Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -814,7 +946,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-fe93328046ef5e3fdfe4",
               "file": "modal.spec.js",
-              "line": 70,
+              "line": 71,
               "column": 3
             },
             {
@@ -830,15 +962,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
+                      "workerIndex": 6,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1657,
+                      "duration": 1347,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:50.466Z",
+                      "startTime": "2026-08-01T09:26:32.548Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -848,7 +980,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-caacf4efd96b9d6e4ba4",
               "file": "modal.spec.js",
-              "line": 79,
+              "line": 80,
               "column": 3
             },
             {
@@ -864,15 +996,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 4,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 831,
+                      "duration": 1377,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:50.974Z",
+                      "startTime": "2026-08-01T09:26:33.440Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -882,7 +1014,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-c0f15f1515acd519cf51",
               "file": "modal.spec.js",
-              "line": 88,
+              "line": 89,
               "column": 3
             },
             {
@@ -899,14 +1031,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 673,
+                      "duration": 1337,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:51.820Z",
+                      "startTime": "2026-08-01T09:26:33.918Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -916,7 +1048,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-80000952f58f3289b322",
               "file": "modal.spec.js",
-              "line": 97,
+              "line": 98,
               "column": 3
             },
             {
@@ -932,15 +1064,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 797,
+                      "duration": 1077,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:52.010Z",
+                      "startTime": "2026-08-01T09:26:34.543Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -950,7 +1082,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-463e65d80a89cc6b54df",
               "file": "modal.spec.js",
-              "line": 105,
+              "line": 106,
               "column": 3
             },
             {
@@ -966,15 +1098,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 1,
+                      "workerIndex": 4,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 720,
+                      "duration": 899,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:52.143Z",
+                      "startTime": "2026-08-01T09:26:34.856Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -984,7 +1116,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-7cefc4c681acc7232237",
               "file": "modal.spec.js",
-              "line": 122,
+              "line": 123,
               "column": 3
             },
             {
@@ -1001,14 +1133,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1172,
+                      "duration": 841,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:52.508Z",
+                      "startTime": "2026-08-01T09:26:35.274Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1018,7 +1150,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-6a080757cb9897f25a00",
               "file": "modal.spec.js",
-              "line": 151,
+              "line": 152,
               "column": 3
             },
             {
@@ -1034,7 +1166,7 @@
                       "description": "Playwright Firefox does not allow me to traverse with tab through browser controls",
                       "location": {
                         "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                        "line": 179,
+                        "line": 180,
                         "column": 10
                       }
                     }
@@ -1044,22 +1176,22 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "skipped",
-                      "duration": 807,
+                      "duration": 1114,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:52.826Z",
+                      "startTime": "2026-08-01T09:26:35.654Z",
                       "annotations": [
                         {
                           "type": "skip",
                           "description": "Playwright Firefox does not allow me to traverse with tab through browser controls",
                           "location": {
                             "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                            "line": 179,
+                            "line": 180,
                             "column": 10
                           }
                         }
@@ -1072,7 +1204,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-c1e7230f329b5f31da3c",
               "file": "modal.spec.js",
-              "line": 178,
+              "line": 179,
               "column": 3
             },
             {
@@ -1088,7 +1220,7 @@
                       "description": "Playwright Firefox does not allow me to traverse with tab through browser controls",
                       "location": {
                         "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                        "line": 210,
+                        "line": 211,
                         "column": 10
                       }
                     }
@@ -1098,22 +1230,22 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 1,
+                      "workerIndex": 4,
+                      "parallelIndex": 3,
                       "status": "skipped",
-                      "duration": 882,
+                      "duration": 458,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:52.881Z",
+                      "startTime": "2026-08-01T09:26:35.777Z",
                       "annotations": [
                         {
                           "type": "skip",
                           "description": "Playwright Firefox does not allow me to traverse with tab through browser controls",
                           "location": {
                             "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                            "line": 210,
+                            "line": 211,
                             "column": 10
                           }
                         }
@@ -1126,7 +1258,139 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-06e6fe1bb48c0cc6c359",
               "file": "modal.spec.js",
-              "line": 209,
+              "line": 210,
+              "column": 3
+            },
+            {
+              "title": "MD 10 Assert modal is in modal mode",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 874,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T09:26:36.139Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-42f53f8fd7eedcf042ad",
+              "file": "modal.spec.js",
+              "line": 244,
+              "column": 3
+            },
+            {
+              "title": "MD 11 Dialog exposes a role of dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1534,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T09:26:36.254Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-ff47f54a35197f7f05f2",
+              "file": "modal.spec.js",
+              "line": 256,
+              "column": 3
+            },
+            {
+              "title": "MD 12 Dialog exposes a accessible name",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6083,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    13 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    13 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                          "column": 26,
+                          "line": 270
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                            "column": 26,
+                            "line": 270
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    13 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T09:26:36.791Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--cb808-g-exposes-a-accessible-name-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                        "column": 26,
+                        "line": 270
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-ccba13f27cee5c6d5822",
+              "file": "modal.spec.js",
+              "line": 264,
               "column": 3
             },
             {
@@ -1142,15 +1406,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 2,
+                      "workerIndex": 6,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2314,
+                      "duration": 3081,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:53.006Z",
+                      "startTime": "2026-08-01T09:26:37.039Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1160,7 +1424,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-3bbce2c8cb8441ff3b58",
               "file": "modal.spec.js",
-              "line": 243,
+              "line": 273,
               "column": 3
             },
             {
@@ -1176,15 +1440,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 0,
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 4514,
+                      "duration": 2016,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:55.542Z",
+                      "startTime": "2026-08-01T09:26:40.579Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1194,7 +1458,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-35c114f320338e770889",
               "file": "modal.spec.js",
-              "line": 35,
+              "line": 36,
               "column": 3
             },
             {
@@ -1210,15 +1474,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3956,
+                      "duration": 1431,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:55.523Z",
+                      "startTime": "2026-08-01T09:26:41.608Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1228,7 +1492,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-0e93bb2447c00576c249",
               "file": "modal.spec.js",
-              "line": 41,
+              "line": 42,
               "column": 3
             },
             {
@@ -1247,12 +1511,12 @@
                       "workerIndex": 10,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3950,
+                      "duration": 1564,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:55.924Z",
+                      "startTime": "2026-08-01T09:26:41.849Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1262,7 +1526,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-1e2db2e05e73c572096a",
               "file": "modal.spec.js",
-              "line": 47,
+              "line": 48,
               "column": 3
             },
             {
@@ -1278,15 +1542,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 2,
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1756,
+                      "duration": 1099,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:11:58.149Z",
+                      "startTime": "2026-08-01T09:26:43.096Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1296,7 +1560,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-2592af73f94e4ade199c",
               "file": "modal.spec.js",
-              "line": 53,
+              "line": 54,
               "column": 3
             },
             {
@@ -1312,15 +1576,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 1,
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1251,
+                      "duration": 1037,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:00.334Z",
+                      "startTime": "2026-08-01T09:26:43.491Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1330,7 +1594,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-5366cdde889bfe45d5a0",
               "file": "modal.spec.js",
-              "line": 62,
+              "line": 63,
               "column": 3
             },
             {
@@ -1346,15 +1610,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1067,
+                      "duration": 920,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:00.334Z",
+                      "startTime": "2026-08-01T09:26:43.930Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1364,7 +1628,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-88db8c0556d89afd36d4",
               "file": "modal.spec.js",
-              "line": 70,
+              "line": 71,
               "column": 3
             },
             {
@@ -1380,15 +1644,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 2,
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1090,
+                      "duration": 770,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:00.335Z",
+                      "startTime": "2026-08-01T09:26:44.292Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1398,7 +1662,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-39ef1d60bca658ab73bf",
               "file": "modal.spec.js",
-              "line": 79,
+              "line": 80,
               "column": 3
             },
             {
@@ -1414,15 +1678,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 11,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1277,
+                      "duration": 1361,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:00.978Z",
+                      "startTime": "2026-08-01T09:26:46.231Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1432,7 +1696,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-2d00fdb95eaeb1346c17",
               "file": "modal.spec.js",
-              "line": 88,
+              "line": 89,
               "column": 3
             },
             {
@@ -1448,15 +1712,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1278,
+                      "duration": 773,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:01.435Z",
+                      "startTime": "2026-08-01T09:26:44.628Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1466,7 +1730,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-d4936f9f7af8fa9784bf",
               "file": "modal.spec.js",
-              "line": 97,
+              "line": 98,
               "column": 3
             },
             {
@@ -1482,15 +1746,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 2,
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1162,
+                      "duration": 819,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:01.443Z",
+                      "startTime": "2026-08-01T09:26:44.907Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1500,7 +1764,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-3bf9a89e3ab5ef5df3c1",
               "file": "modal.spec.js",
-              "line": 105,
+              "line": 106,
               "column": 3
             },
             {
@@ -1516,15 +1780,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 1,
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1399,
+                      "duration": 952,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:01.628Z",
+                      "startTime": "2026-08-01T09:26:45.085Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1534,7 +1798,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-315bc66e1f60d46cdc20",
               "file": "modal.spec.js",
-              "line": 122,
+              "line": 123,
               "column": 3
             },
             {
@@ -1551,14 +1815,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 0,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1124,
+                      "duration": 886,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:02.295Z",
+                      "startTime": "2026-08-01T09:26:45.438Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1568,7 +1832,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-4700c36474e0d4f9a286",
               "file": "modal.spec.js",
-              "line": 151,
+              "line": 152,
               "column": 3
             },
             {
@@ -1584,15 +1848,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 2,
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 992,
+                      "duration": 985,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:02.697Z",
+                      "startTime": "2026-08-01T09:26:45.752Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1602,7 +1866,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-4c7cf3e1eed3b481577a",
               "file": "modal.spec.js",
-              "line": 178,
+              "line": 179,
               "column": 3
             },
             {
@@ -1621,12 +1885,12 @@
                       "workerIndex": 8,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1062,
+                      "duration": 1344,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:02.753Z",
+                      "startTime": "2026-08-01T09:26:46.081Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1636,7 +1900,139 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-4afc733951b12bfb1486",
               "file": "modal.spec.js",
-              "line": 209,
+              "line": 210,
+              "column": 3
+            },
+            {
+              "title": "MD 10 Assert modal is in modal mode",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1124,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T09:26:46.346Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-8256a6ccbfb11cace4ff",
+              "file": "modal.spec.js",
+              "line": 244,
+              "column": 3
+            },
+            {
+              "title": "MD 11 Dialog exposes a role of dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 871,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T09:26:46.777Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-79bbc81775693a3cd716",
+              "file": "modal.spec.js",
+              "line": 256,
+              "column": 3
+            },
+            {
+              "title": "MD 12 Dialog exposes a accessible name",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 5786,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                          "column": 26,
+                          "line": 270
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                            "column": 26,
+                            "line": 270
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T09:26:47.460Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--cb808-g-exposes-a-accessible-name-webkit/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
+                        "column": 26,
+                        "line": 270
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4f5218e02fee5a5bd4ca-043ff795aa33aaf72a5f",
+              "file": "modal.spec.js",
+              "line": 264,
               "column": 3
             },
             {
@@ -1652,15 +2048,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 1,
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1533,
+                      "duration": 1422,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T22:12:03.065Z",
+                      "startTime": "2026-08-01T09:26:47.500Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1670,7 +2066,7 @@
               ],
               "id": "4f5218e02fee5a5bd4ca-9cc0efb1301f68cb9e2e",
               "file": "modal.spec.js",
-              "line": 243,
+              "line": 273,
               "column": 3
             }
           ]
@@ -1680,11 +2076,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-14T22:11:42.120Z",
-    "duration": 22521.32,
-    "expected": 43,
+    "startTime": "2026-08-01T09:26:21.952Z",
+    "duration": 31352.536,
+    "expected": 49,
     "skipped": 2,
-    "unexpected": 0,
+    "unexpected": 3,
     "flaky": 0
   }
 }

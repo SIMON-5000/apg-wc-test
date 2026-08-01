@@ -11,7 +11,7 @@ function getShiftTab(browserName) {
 }
 
 async function openModalWithKeyboard(page, key='Space') {
-  const openButton = page.getByRole('button', { name: /open modal dialog/i });
+  const { openButton } = getLocators(page);
   await openButton.focus()
   await page.keyboard.press(key);
 }
@@ -22,6 +22,7 @@ function getLocators(page) {
     autofocusElement: page.locator('wc-mnodal [autofocus]'),
     helpLink: page.getByRole('link', {name: /help link/i}),
     closeButton: page.getByRole('button', {name: /close/i }),
+    dialog: page.locator('wc-modal dialog'),
   }
 }
 
@@ -238,6 +239,35 @@ test.describe('wc-modal A11y tests', () => {
     }
 
     await expect(completedLoop).toBe(true);
+  })
+
+  test('MD 10 Assert modal is in modal mode', async ({page}) => {
+    const { dialog } = getLocators(page);
+    let isModal = await dialog.evaluate(element => element.matches(':modal'));
+
+    await expect(isModal).toBe(false);
+
+    await openModalWithKeyboard(page);
+    isModal = await dialog.evaluate(element => element.matches(':modal'));
+
+    await expect(isModal).toBe(true);
+  })
+
+  test('MD 11 Dialog exposes a role of dialog', async ({page}) => {
+    const { dialog } = getLocators(page);
+    
+    await openModalWithKeyboard(page);
+
+    await expect(dialog).toHaveRole('dialog');
+  })
+
+  test('MD 12 Dialog exposes a accessible name', async ({page}) => {
+    const { dialog } = getLocators(page);
+    
+    await openModalWithKeyboard(page);
+
+    await expect(dialog).toHaveRole('dialog');
+    await expect(dialog).toHaveAccessibleName('Verification results');
   })
 
   test('MD-STATIC Static test on open dialog', async ({page}) => {
