@@ -14,9 +14,7 @@ class WcModal extends HTMLElement{
     <dialog 
       id="modal-dialog"
       closedby="closerequest"
-      aria-label="modal"
-      aria-labelledby="dialog-label"
-      >
+      aria-label="modal">
       <slot></slot>
       <button id="close" commandfor="modal-dialog" command="close">Close</button>
     </dialog>
@@ -26,6 +24,12 @@ class WcModal extends HTMLElement{
     this.invokingElement = null;
     // Find elements set to autofocus from slotted content in the Light DOM
     this.autoFocusElement = this.querySelector('[autofocus]');
+
+    // To allow the consuming developer to set a label on the dialog we can pass a label attribute from the host:
+    if (this.hasAttribute('modal-label')) {
+      console.log("MODAL-LABEL: ", this.getAttribute('modal-label'))
+      this.dialog.ariaLabel = this.getAttribute('modal-label');
+    }
 
     this.#bindEvents();
   }

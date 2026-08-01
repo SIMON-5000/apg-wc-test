@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 587,
+                      "duration": 567,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:22.935Z",
+                      "startTime": "2026-08-01T09:39:27.428Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -153,12 +153,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 505,
+                      "duration": 530,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:22.899Z",
+                      "startTime": "2026-08-01T09:39:27.425Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -187,12 +187,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 504,
+                      "duration": 532,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:22.911Z",
+                      "startTime": "2026-08-01T09:39:27.433Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -221,12 +221,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 498,
+                      "duration": 532,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:22.911Z",
+                      "startTime": "2026-08-01T09:39:27.433Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -252,15 +252,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 467,
+                      "duration": 260,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:23.834Z",
+                      "startTime": "2026-08-01T09:39:28.333Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -286,15 +286,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 378,
+                      "duration": 213,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:23.839Z",
+                      "startTime": "2026-08-01T09:39:28.333Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -320,15 +320,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 374,
+                      "duration": 212,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:23.843Z",
+                      "startTime": "2026-08-01T09:39:28.337Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -357,12 +357,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 504,
+                      "duration": 230,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:23.927Z",
+                      "startTime": "2026-08-01T09:39:28.367Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -388,15 +388,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 392,
+                      "duration": 183,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:24.238Z",
+                      "startTime": "2026-08-01T09:39:28.561Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -422,15 +422,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 393,
+                      "duration": 165,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:24.241Z",
+                      "startTime": "2026-08-01T09:39:28.563Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -456,15 +456,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 430,
+                      "duration": 162,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:24.337Z",
+                      "startTime": "2026-08-01T09:39:28.612Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -493,12 +493,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 517,
+                      "duration": 168,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:24.481Z",
+                      "startTime": "2026-08-01T09:39:28.613Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -527,12 +527,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 670,
+                      "duration": 230,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:24.652Z",
+                      "startTime": "2026-08-01T09:39:28.745Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -558,15 +558,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1096,
+                      "duration": 223,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:24.660Z",
+                      "startTime": "2026-08-01T09:39:28.757Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -592,15 +592,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 886,
+                      "duration": 179,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:24.875Z",
+                      "startTime": "2026-08-01T09:39:28.787Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -629,12 +629,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 638,
+                      "duration": 158,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:25.042Z",
+                      "startTime": "2026-08-01T09:39:28.794Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -649,7 +649,7 @@
             },
             {
               "title": "MD 12 Dialog exposes a accessible name",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -660,50 +660,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "failed",
-                      "duration": 5655,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26",
-                        "location": {
-                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                          "column": 26,
-                          "line": 270
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                            "column": 26,
-                            "line": 270
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26\u001b[22m"
-                        }
-                      ],
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 140,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:25.353Z",
+                      "startTime": "2026-08-01T09:39:28.967Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--cb808-g-exposes-a-accessible-name-chromium/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                        "column": 26,
-                        "line": 270
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "4f5218e02fee5a5bd4ca-3c262063a5611f2a86e3",
@@ -727,12 +697,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1026,
+                      "duration": 581,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:25.865Z",
+                      "startTime": "2026-08-01T09:39:28.979Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -758,15 +728,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 0,
+                      "workerIndex": 4,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3916,
+                      "duration": 1636,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:27.568Z",
+                      "startTime": "2026-08-01T09:39:29.679Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -792,15 +762,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2349,
+                      "duration": 1369,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:27.469Z",
+                      "startTime": "2026-08-01T09:39:29.692Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -827,14 +797,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2988,
+                      "duration": 2637,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:28.085Z",
+                      "startTime": "2026-08-01T09:39:29.811Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -860,15 +830,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 3,
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1341,
+                      "duration": 1910,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:31.141Z",
+                      "startTime": "2026-08-01T09:39:30.256Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -894,15 +864,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 2,
+                      "workerIndex": 5,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 3450,
+                      "duration": 683,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:33.462Z",
+                      "startTime": "2026-08-01T09:39:32.027Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -928,15 +898,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 892,
+                      "duration": 491,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:32.520Z",
+                      "startTime": "2026-08-01T09:39:32.732Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -962,15 +932,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 1,
+                      "workerIndex": 4,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1347,
+                      "duration": 680,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:32.548Z",
+                      "startTime": "2026-08-01T09:39:32.800Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -996,15 +966,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1377,
+                      "duration": 834,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:33.440Z",
+                      "startTime": "2026-08-01T09:39:33.237Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1030,15 +1000,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 1,
+                      "workerIndex": 4,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1337,
+                      "duration": 1423,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:33.918Z",
+                      "startTime": "2026-08-01T09:39:33.509Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1064,15 +1034,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 0,
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1077,
+                      "duration": 1310,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:34.543Z",
+                      "startTime": "2026-08-01T09:39:33.663Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1098,15 +1068,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 899,
+                      "duration": 714,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:34.856Z",
+                      "startTime": "2026-08-01T09:39:34.086Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1132,15 +1102,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 1,
+                      "workerIndex": 5,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 841,
+                      "duration": 1253,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:35.274Z",
+                      "startTime": "2026-08-01T09:39:34.818Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1176,15 +1146,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 0,
+                      "workerIndex": 4,
+                      "parallelIndex": 2,
                       "status": "skipped",
-                      "duration": 1114,
+                      "duration": 1025,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:35.654Z",
+                      "startTime": "2026-08-01T09:39:34.948Z",
                       "annotations": [
                         {
                           "type": "skip",
@@ -1230,15 +1200,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 3,
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
                       "status": "skipped",
-                      "duration": 458,
+                      "duration": 853,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:35.777Z",
+                      "startTime": "2026-08-01T09:39:34.994Z",
                       "annotations": [
                         {
                           "type": "skip",
@@ -1275,14 +1245,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 874,
+                      "duration": 1557,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:36.139Z",
+                      "startTime": "2026-08-01T09:39:35.188Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1308,15 +1278,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 3,
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1534,
+                      "duration": 898,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:36.254Z",
+                      "startTime": "2026-08-01T09:39:35.864Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1331,7 +1301,7 @@
             },
             {
               "title": "MD 12 Dialog exposes a accessible name",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1342,50 +1312,20 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 6083,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    13 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    13 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26",
-                        "location": {
-                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                          "column": 26,
-                          "line": 270
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                            "column": 26,
-                            "line": 270
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    13 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26\u001b[22m"
-                        }
-                      ],
+                      "workerIndex": 4,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 854,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:36.791Z",
+                      "startTime": "2026-08-01T09:39:35.996Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--cb808-g-exposes-a-accessible-name-firefox/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                        "column": 26,
-                        "line": 270
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "4f5218e02fee5a5bd4ca-ccba13f27cee5c6d5822",
@@ -1406,15 +1346,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 1,
+                      "workerIndex": 5,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 3081,
+                      "duration": 1641,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:37.039Z",
+                      "startTime": "2026-08-01T09:39:36.085Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1440,15 +1380,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2016,
+                      "duration": 2455,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:40.579Z",
+                      "startTime": "2026-08-01T09:39:38.697Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1474,15 +1414,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 2,
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1431,
+                      "duration": 2324,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:41.608Z",
+                      "startTime": "2026-08-01T09:39:38.628Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1509,14 +1449,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1564,
+                      "duration": 2287,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:41.849Z",
+                      "startTime": "2026-08-01T09:39:38.839Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1542,15 +1482,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 11,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1099,
+                      "duration": 1716,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:43.096Z",
+                      "startTime": "2026-08-01T09:39:40.437Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1576,15 +1516,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 2,
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1037,
+                      "duration": 969,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:43.491Z",
+                      "startTime": "2026-08-01T09:39:41.611Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1611,14 +1551,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 920,
+                      "duration": 1014,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:43.930Z",
+                      "startTime": "2026-08-01T09:39:41.614Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1644,15 +1584,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 770,
+                      "duration": 1182,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:44.292Z",
+                      "startTime": "2026-08-01T09:39:41.826Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1679,14 +1619,14 @@
                   "results": [
                     {
                       "workerIndex": 11,
-                      "parallelIndex": 0,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1361,
+                      "duration": 919,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:46.231Z",
+                      "startTime": "2026-08-01T09:39:42.544Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1712,15 +1652,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 10,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 773,
+                      "duration": 747,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:44.628Z",
+                      "startTime": "2026-08-01T09:39:42.663Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1746,15 +1686,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 8,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 819,
+                      "duration": 946,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:44.907Z",
+                      "startTime": "2026-08-01T09:39:42.796Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1780,15 +1720,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 952,
+                      "duration": 1158,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:45.085Z",
+                      "startTime": "2026-08-01T09:39:43.117Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1814,15 +1754,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 10,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 886,
+                      "duration": 994,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:45.438Z",
+                      "startTime": "2026-08-01T09:39:43.472Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1848,15 +1788,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 1,
+                      "workerIndex": 11,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 985,
+                      "duration": 1036,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:45.752Z",
+                      "startTime": "2026-08-01T09:39:43.495Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1883,14 +1823,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1344,
+                      "duration": 1233,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:46.081Z",
+                      "startTime": "2026-08-01T09:39:43.838Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1917,14 +1857,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 2,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1124,
+                      "duration": 791,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:46.346Z",
+                      "startTime": "2026-08-01T09:39:44.303Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1951,14 +1891,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 871,
+                      "duration": 847,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:46.777Z",
+                      "startTime": "2026-08-01T09:39:44.509Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1973,7 +1913,7 @@
             },
             {
               "title": "MD 12 Dialog exposes a accessible name",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1984,50 +1924,20 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 11,
                       "parallelIndex": 3,
-                      "status": "failed",
-                      "duration": 5786,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26",
-                        "location": {
-                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                          "column": 26,
-                          "line": 270
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                            "column": 26,
-                            "line": 270
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAccessibleName\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-modal dialog')\nExpected: \u001b[32m\"Verification results\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAccessibleName\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-modal dialog')\u001b[22m\n\u001b[2m    14 × locator resolved to <dialog open=\"\" id=\"modal-dialog\" closedby=\"closerequest\">…</dialog>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 268 |\u001b[39m\n \u001b[90m 269 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveRole(\u001b[32m'dialog'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m expect(dialog)\u001b[33m.\u001b[39mtoHaveAccessibleName(\u001b[32m'Verification results'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m   })\n \u001b[90m 272 |\u001b[39m\n \u001b[90m 273 |\u001b[39m   test(\u001b[32m'MD-STATIC Static test on open dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js:270:26\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 814,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:47.460Z",
+                      "startTime": "2026-08-01T09:39:44.582Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/modal-wc-modal-A11y-tests--cb808-g-exposes-a-accessible-name-webkit/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/modal.spec.js",
-                        "column": 26,
-                        "line": 270
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "4f5218e02fee5a5bd4ca-043ff795aa33aaf72a5f",
@@ -2048,15 +1958,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 2,
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1422,
+                      "duration": 1344,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-01T09:26:47.500Z",
+                      "startTime": "2026-08-01T09:39:45.091Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2076,11 +1986,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-01T09:26:21.952Z",
-    "duration": 31352.536,
-    "expected": 49,
+    "startTime": "2026-08-01T09:39:26.607Z",
+    "duration": 19871.137000000002,
+    "expected": 52,
     "skipped": 2,
-    "unexpected": 3,
+    "unexpected": 0,
     "flaky": 0
   }
 }
