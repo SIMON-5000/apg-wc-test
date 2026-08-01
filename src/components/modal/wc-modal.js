@@ -16,13 +16,13 @@ class WcModal extends HTMLElement{
       closedby="closerequest"
       aria-label="modal">
       <slot></slot>
-      <button id="close" commandfor="modal-dialog" command="close">Close</button>
+      <button id="close" commandfor="modal-dialog" command="close">Close Dialog</button>
     </dialog>
     `;
     
     this.dialog = this.shadowRoot.getElementById('modal-dialog');
     this.invokingElement = null;
-    // Find elements set to autofocus from slotted content in the Light DOM
+    // Find first element set to autofocus from slotted content in the Light DOM
     this.autoFocusElement = this.querySelector('[autofocus]');
 
     // To allow the consuming developer to set a label on the dialog we can pass a label attribute from the host:
@@ -60,7 +60,7 @@ class WcModal extends HTMLElement{
 
     // Explicitly return focus to trigger element (solves Safari/Webkit issue)
     // This behaviour does however seem to be by design, see:
-    // Darin Adler (Apples current VicePresident) explains why a click does not shift focus in Safari/Webkit https://bugs.webkit.org/show_bug.cgi?id=22261#c68
+    // Darin Adler (Vice President at Apple) explains why a click does not shift focus in Safari/Webkit https://bugs.webkit.org/show_bug.cgi?id=22261#c68
     this.dialog.addEventListener('close', () => {
       this.invokingEl.focus();
     })

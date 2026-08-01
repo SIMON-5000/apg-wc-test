@@ -19,8 +19,9 @@ async function openModalWithKeyboard(page, key='Space') {
 function getLocators(page) {
   return {
     openButton: page.getByRole('button', { name: /open modal dialog/i }),
-    autofocusElement: page.locator('wc-mnodal [autofocus]'),
+    autofocusElement: page.locator('wc-modal [autofocus]'),
     helpLink: page.getByRole('link', {name: /help link/i}),
+    input: page.getByRole('textbox', {name: /test input/i}),
     closeButton: page.getByRole('button', {name: /close/i }),
     dialog: page.locator('wc-modal dialog'),
   }
@@ -58,8 +59,30 @@ test.describe('wc-modal A11y tests', () => {
     await expect(page.getByRole('dialog')).not.toBeVisible();
   })
 
+  test('MD-03-A Enter activates the Close button', async ({ page }) => {
+    const { dialog, closeButton } = getLocators(page);
+
+    await openModalWithKeyboard(page);
+    await closeButton.focus();
+    await closeButton.press('Enter');
+
+    await expect(dialog).not.toBeVisible();
+  });
+
+  test('MD-03-B Space activates the Close button', async ({ page }) => {
+    const { dialog, closeButton } = getLocators(page);
+
+    await openModalWithKeyboard(page);
+    await closeButton.focus();
+    await closeButton.press('Space');
+
+    await expect(dialog).not.toBeVisible();
+  });
+
   // Webkit does not automatically return focus to button when modal is opened with click,
   // But when opened with keyboard it does.
+  // This behaviour does however seem to be by design, see:
+  // Darin Adler (Vice President at Apple) explains why a click does not shift focus in Safari/Webkit https://bugs.webkit.org/show_bug.cgi?id=22261#c68
   test('MD-04-A Focus returns to invoking element (click)', async ({ page }) => {
     const { openButton } = getLocators(page);
     await openButton.click();
@@ -98,9 +121,9 @@ test.describe('wc-modal A11y tests', () => {
   test('MD-05 Focus moves to intended first focus element inside dialog', async ({page}) => {
     await openModalWithKeyboard(page);
 
-    const firstFocusableEl = page.locator('wc-modal p[tabindex="-1"]');
+    const {autofocusElement} = getLocators(page);
 
-    await expect(firstFocusableEl).toBeFocused();
+    await expect(autofocusElement).toBeFocused();
   })
 
   test('MD-06 Tab moves focus forward', async ({page, browserName}) => {    
@@ -124,6 +147,7 @@ test.describe('wc-modal A11y tests', () => {
     await openModalWithKeyboard(page);
 
     const forwardTab = getTab(browserName);
+    const {helpLink, input, closeButton } = getLocators(page);
     
     // console.log(
     //   await page.evaluate(() => {
@@ -139,14 +163,13 @@ test.describe('wc-modal A11y tests', () => {
     // TAB SEQUENCE
     // Link
     await page.keyboard.press(forwardTab);
+    await expect(helpLink).toBeFocused();
     // Input
     await page.keyboard.press(forwardTab);
+    await expect(input).toBeFocused();
     // Button
     await page.keyboard.press(forwardTab);
-
-    const thirdFocusableEl = page.getByRole('button', {name: /close/i });
-
-    await expect(thirdFocusableEl).toBeFocused();
+    await expect(closeButton).toBeFocused();
   });
 
   test('MD-07 Shift+Tab moves focus backwards', async ({page, browserName}) => {
@@ -225,7 +248,7 @@ test.describe('wc-modal A11y tests', () => {
       await page.keyboard.press(forwardTab);
 
       // The open button, the only focusable element in the background, must not recieve focus.
-      await expect(openButton).not.toBeFocused;
+      await expect(openButton).not.toBeFocused();
 
       const helpLinkIsFocused = await helpLink.evaluate((element) => {
         return element === element.getRootNode().activeElement;
@@ -269,6 +292,14 @@ test.describe('wc-modal A11y tests', () => {
     await expect(dialog).toHaveRole('dialog');
     await expect(dialog).toHaveAccessibleName('Verification results');
   })
+
+  test('MD-13 Close button has an accessible name', async ({ page }) => {
+    const { closeButton } = getLocators(page);
+
+    await openModalWithKeyboard(page);
+
+    await expect(closeButton).toHaveAccessibleName('Close Dialog');
+  });
 
   test('MD-STATIC Static test on open dialog', async ({page}) => {
     const openButton = page.getByRole('button', { name: /open modal dialog/i });
