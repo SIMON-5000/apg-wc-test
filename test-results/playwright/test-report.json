@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 3
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "webkit",
         "name": "webkit",
@@ -100,7 +100,7 @@
         {
           "title": "wc-combobox tests",
           "file": "combobox.spec.js",
-          "line": 4,
+          "line": 12,
           "column": 6,
           "specs": [
             {
@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1216,
+                      "duration": 1284,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-16T07:26:26.350Z",
+                      "startTime": "2026-08-16T17:01:06.720Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -134,7 +134,109 @@
               ],
               "id": "9a4d1d94da37a628fdce-2847b681dd95dbc985b6",
               "file": "combobox.spec.js",
-              "line": 9,
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "CB-01 input has role combobox",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 622,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-16T17:01:06.735Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4d1d94da37a628fdce-c2859b73587a6dad50b3",
+              "file": "combobox.spec.js",
+              "line": 29,
+              "column": 3
+            },
+            {
+              "title": "CB-02 input has aria-expanded false on init",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 622,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-16T17:01:06.732Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4d1d94da37a628fdce-e12aaa55df4f9433dcfc",
+              "file": "combobox.spec.js",
+              "line": 34,
+              "column": 3
+            },
+            {
+              "title": "CB-03 button click changes aria-expanded to true",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 726,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-16T17:01:06.724Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4d1d94da37a628fdce-20487a0a6d13b7eb9266",
+              "file": "combobox.spec.js",
+              "line": 39,
               "column": 3
             },
             {
@@ -150,15 +252,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1897,
+                      "duration": 4462,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-16T07:26:26.350Z",
+                      "startTime": "2026-08-16T17:01:09.235Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -168,7 +270,109 @@
               ],
               "id": "9a4d1d94da37a628fdce-336f6f649df9b7d8ddd9",
               "file": "combobox.spec.js",
-              "line": 9,
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "CB-01 input has role combobox",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3350,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-16T17:01:09.225Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4d1d94da37a628fdce-183c7b481f09bbb778c3",
+              "file": "combobox.spec.js",
+              "line": 29,
+              "column": 3
+            },
+            {
+              "title": "CB-02 input has aria-expanded false on init",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2014,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-16T17:01:09.338Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4d1d94da37a628fdce-1f61af918681ee1488f8",
+              "file": "combobox.spec.js",
+              "line": 34,
+              "column": 3
+            },
+            {
+              "title": "CB-03 button click changes aria-expanded to true",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2815,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-16T17:01:09.726Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4d1d94da37a628fdce-7d2239793161f96340db",
+              "file": "combobox.spec.js",
+              "line": 39,
               "column": 3
             },
             {
@@ -184,15 +388,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1949,
+                      "duration": 3191,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-16T07:26:26.347Z",
+                      "startTime": "2026-08-16T17:01:15.239Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -202,7 +406,109 @@
               ],
               "id": "9a4d1d94da37a628fdce-829e4df058c6282badf1",
               "file": "combobox.spec.js",
-              "line": 9,
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "CB-01 input has role combobox",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1341,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-16T17:01:17.042Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4d1d94da37a628fdce-5cec5a80561bad9c4cca",
+              "file": "combobox.spec.js",
+              "line": 29,
+              "column": 3
+            },
+            {
+              "title": "CB-02 input has aria-expanded false on init",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1078,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-16T17:01:19.763Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4d1d94da37a628fdce-7e2f16bbf2443690fc82",
+              "file": "combobox.spec.js",
+              "line": 34,
+              "column": 3
+            },
+            {
+              "title": "CB-03 button click changes aria-expanded to true",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1207,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-16T17:01:19.960Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9a4d1d94da37a628fdce-c1164c3bc52199ad0256",
+              "file": "combobox.spec.js",
+              "line": 39,
               "column": 3
             }
           ]
@@ -212,9 +518,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-16T07:26:25.594Z",
-    "duration": 4857.474,
-    "expected": 3,
+    "startTime": "2026-08-16T17:01:05.269Z",
+    "duration": 16393.899,
+    "expected": 12,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

@@ -4,9 +4,12 @@ class WcCombobox extends HTMLElement{
   constructor() {
     super();
 
+    this.input = null;
+    this.button = null;
     this.listbox = null;
     this.options = [];
-    this.labelText = "";
+
+    this.labelText = null;
   }
 
   connectedCallback() {
@@ -28,7 +31,7 @@ class WcCombobox extends HTMLElement{
     <style>${styles}</style>
     <label id="combobox-label" for="combobox">${this.labelText}</label>
     <div class="combobox-wrapper">
-    <div class="combobox-controls">
+      <div class="combobox-controls">
         <input type="text"
           id="combobox"
           role="combobox" 
@@ -55,10 +58,41 @@ class WcCombobox extends HTMLElement{
       </ul>
     `
 
+    this.input = this.shadowRoot.querySelector('#combobox');
+    this.button = this.shadowRoot.querySelector('#combobox-button');
     this.listbox = this.shadowRoot.querySelector('#listbox');
     
+    this.bindEvents();
   }
 
+
+  bindEvents() {
+    // this.input.addEventListener('focus', () => this.showList());
+    this.input.addEventListener('blur', () => this.hideList());
+
+    // Button click showes listbox
+    this.button.addEventListener('mousedown', (e) => {
+      e.preventDefault();
+      this.listIsOpen() ? this.hideList() : this.showList();
+    });
+  
+  }
+
+  listIsOpen() {
+    return this.listbox.classList.contains('open');
+  }
+
+  showList() {
+    this.input.setAttribute('aria-expanded', 'true');
+    this.button.setAttribute('aria-expanded', 'true');
+    this.listbox.classList.add('open');
+  }
+
+  hideList() {
+    this.input.setAttribute('aria-expanded', 'false');
+    this.button.setAttribute('aria-expanded', 'false');
+    this.listbox.classList.remove('open');
+  }
 }
 
 export default customElements.define('wc-combobox', WcCombobox);
