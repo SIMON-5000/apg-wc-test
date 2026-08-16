@@ -6,7 +6,10 @@
     "type": "module",
     "scripts": {
         "start": "web-dev-server --node-resolve --open --watch --port 5001",
-        "test": "npx playwright test"
+        "test": "npx playwright test",
+        "test:md": "npx playwright test tests/modal.spec.js",
+        "test:cb": "npx playwright test tests/combobox.spec.js",
+        "test:check": "npx playwright test tests/checkbox.spec.js"
     },
     "keywords": [],
     "author": "",
