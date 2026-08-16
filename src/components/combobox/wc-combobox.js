@@ -6,6 +6,7 @@ class WcCombobox extends HTMLElement{
 
     this.listbox = null;
     this.options = [];
+    this.labelText = "";
   }
 
   connectedCallback() {
@@ -14,18 +15,18 @@ class WcCombobox extends HTMLElement{
 
     this.options = Array.from(this.querySelectorAll('li'));
 
-    // 
     this.options.forEach((li, i) => {
       li.setAttribute('role', 'option');
       li.setAttribute('aria-selected', 'false');
       li.id = `combobox-value-${i}`;
     })
 
-    // Label needs to accept dynamic content
-    // Buttons aria-label needs dynamic content
+    this.labelText = this.getAttribute('label');
+
+    // Label and Buttons aria-label now accepts dynamic content
     this.shadowRoot.innerHTML = `
     <style>${styles}</style>
-    <label id="combobox-label" for="combobox"></label>
+    <label id="combobox-label" for="combobox">${this.labelText}</label>
     <div class="combobox-wrapper">
     <div class="combobox-controls">
         <input type="text"
@@ -38,7 +39,7 @@ class WcCombobox extends HTMLElement{
         <button
           type="button"
           id="combobox-button"
-          aria-label=""
+          aria-label="Show ${this.labelText} options"
           aria-expanded="false"
           aria-controls="listbox"
           tabindex="-1"

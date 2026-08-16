@@ -1,8 +1,8 @@
 "requestedUrl","finalDisplayedUrl","fetchTime","gatherMode"
-"http://localhost:5001/combobox.html","http://localhost:5001/combobox.html","2026-08-16T06:17:17.917Z","navigation"
+"http://localhost:5001/combobox.html","http://localhost:5001/combobox.html","2026-08-16T07:25:42.090Z","navigation"
 
 category,score
-"accessibility","0.89"
+"accessibility","1"
 
 category,audit,score,displayValue,description
 "accessibility","accesskeys","null","","Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more about access keys](https://dequeuniversity.com/rules/axe/4.12/accesskeys)."
@@ -27,7 +27,7 @@ category,audit,score,displayValue,description
 "accessibility","aria-treeitem-name","null","","When a `treeitem` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more about labeling `treeitem` elements](https://dequeuniversity.com/rules/axe/4.12/aria-treeitem-name)."
 "accessibility","aria-valid-attr-value","1","","Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value)."
 "accessibility","aria-valid-attr","1","","Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more about valid ARIA attributes](https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr)."
-"accessibility","button-name","0","","When a button doesn't have an accessible name, screen readers announce it as ""button"", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.12/button-name)."
+"accessibility","button-name","1","","When a button doesn't have an accessible name, screen readers announce it as ""button"", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.12/button-name)."
 "accessibility","bypass","null","","Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more about bypass blocks](https://dequeuniversity.com/rules/axe/4.12/bypass)."
 "accessibility","color-contrast","1","","Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.12/color-contrast)."
 "accessibility","definition-list","null","","When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn how to structure definition lists correctly](https://dequeuniversity.com/rules/axe/4.12/definition-list)."
@@ -43,7 +43,7 @@ category,audit,score,displayValue,description
 "accessibility","image-alt","null","","Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.12/image-alt)."
 "accessibility","input-button-name","null","","Adding discernable and accessible text to input buttons may help screen reader users understand the purpose of the input button. [Learn more about input buttons](https://dequeuniversity.com/rules/axe/4.12/input-button-name)."
 "accessibility","input-image-alt","null","","When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn about input image alt text](https://dequeuniversity.com/rules/axe/4.12/input-image-alt)."
-"accessibility","label","0","","Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more about form element labels](https://dequeuniversity.com/rules/axe/4.12/label)."
+"accessibility","label","1","","Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more about form element labels](https://dequeuniversity.com/rules/axe/4.12/label)."
 "accessibility","link-in-text-block","null","","Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.12/link-in-text-block)."
 "accessibility","link-name","null","","Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.12/link-name)."
 "accessibility","list","null","","Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.12/list)."
