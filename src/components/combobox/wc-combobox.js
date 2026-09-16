@@ -203,21 +203,13 @@ class WcCombobox extends HTMLElement{
 
       li.setAttribute('aria-selected', 'true');
 
-      // Safari + VoiceOver: On the input element we set activedescendant to the id of the active <li>
-      // this is across DOM barrier and the referenced li is not in the same DOM as the input,
-      // the ARIA-activedescendant can not find the referenced element. 
-      // However when manual testing Safari and Voice over appears to connect them across DOM barrier because
-      // VoiceOver + Safari announces the color that is the text value of the selected <li> (Chrome or Firefix does not)
       console.log("li id: ", li.id);
       console.log('Shadow DOM: ', this.shadowRoot.querySelector(`#${li.id}`));
       console.log('DOM: ', document.getElementById(li.id));
-      this.input.setAttribute('aria-activedescendant', li.id);
-
-      // When setting activedescendant to a fixed value nothing changes (row 220), so this is not what causes
-      // VoiceOver to announce the value in Safari, however when removing aria-selected on row 204
-      // Voice over stops announcing the value. This means that the reference is not cross boundary, 
-      // the slotted element is set as active and this causes VoiceOver+Safari to announce the color.
-      // this.input.setAttribute('aria-activedescendant', 'combobox-value-1');
+      // https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaActiveDescendantElement
+      // Create a reflected element reference instead of relying on the ID.
+      // This method works for elements in the same, or (as in thius case) the parent DOM.
+      this.input.ariaActiveDescendantElement = li;
 
       // Scroll list to selected element
       li.scrollIntoView({ block: 'nearest' });

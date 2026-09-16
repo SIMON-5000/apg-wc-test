@@ -106,44 +106,28 @@ test.describe('wc-combobox tests', () => {
     const { input } = await getLocators(page);
     await input.click();
     await page.keyboard.press('ArrowDown')
-    const activeOpt = await input.getAttribute('aria-activedescendant');
-    console.log('ACTIVE OPTION', activeOpt);
 
-    // expect(activeOpt).toBe('combobox-value-0');
+    // Here we check that the selected and active descendant are 
+    // the same element node to make sure cross boundary reference works
+    const result = await page.evaluate(() => {
+      const host = document.querySelector('wc-combobox');
+      const inputEl = host.shadowRoot.querySelector('[role="combobox"]');
+      const selected = host.querySelector('[aria-selected="true"]');
 
-    // The failing test shows that the string is correct, 
-    // but the ariaActiveDescendantElement property returns null 
-    // since it can not find the element due to it being in another DOM
-    const result = await input.evaluate(input => ({
-      attribute: input.getAttribute('aria-activedescendant'),
-      resolvedId: input.ariaActiveDescendantElement?.id ?? null
-    }));
+      return {
+        selectedId: selected?.id ?? null,
+        descendantId: inputEl.ariaActiveDescendantElement?.id ?? null,
+        // compare nodes, not ID strings
+        selectedIsActive: selected != null && selected === inputEl.ariaActiveDescendantElement
+      }
+    });
 
     console.log('RESULT', result);
-    expect(result.attribute).toBe('combobox-value-0');
-    expect(result.resolvedId).toBe('combobox-value-0');
-
+    expect(result.selectedId).toBe('combobox-value-0');
+    expect(result.descendantId).toBe('combobox-value-0');
+    expect(result.selectedIsActive).toBe(true);
   });
 
-  // test('CB-00 test', async ({ page }) => {
-  //   const { input } = await getLocators(page);
-  //   await input.click();
-  //   await page.keyboard.press('ArrowDown')
-  //   const activeOpt = await input.getAttribute('aria-activedescendant');
-
-  //   // console.log(activeOpt);
-  //   await expect(activeOpt).toBe('combobox-value-0');
-
-    //   const referenceIsCorrect = await page.evaluate(() => {
-    //   const host = document.querySelector('wc-combobox');
-    //   const input = host.shadowRoot.querySelector('[role="combobox"]');
-    //   const selected = host.querySelector('[aria-selected="true"]');
-    //   console.log('INPUT.ariaActiveDescendantElement', input.ariaActiveDescendantElement);
-    //   return input.ariaActiveDescendantElement === selected;
-    // });
-
-    // expect(referenceIsCorrect).toBe(true);
-  // });
 
   // Static
   test('CB-STATIC Static test on combobox', async ({page}) => {
