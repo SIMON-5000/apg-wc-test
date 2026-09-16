@@ -67,7 +67,10 @@ class WcCombobox extends HTMLElement{
 
 
   bindEvents() {
+    console.log(this.input);
     // this.input.addEventListener('focus', () => this.showList());
+    this.input.addEventListener('input', () => this.onInput());
+    this.input.addEventListener('keydown', (e) => this.onKeydown(e));
     this.input.addEventListener('blur', () => this.hideList());
 
     // Button click showes listbox
@@ -92,6 +95,136 @@ class WcCombobox extends HTMLElement{
     this.input.setAttribute('aria-expanded', 'false');
     this.button.setAttribute('aria-expanded', 'false');
     this.listbox.classList.remove('open');
+  }
+
+  select(index) {
+    const li = this.options[index];
+    
+    if(!li) {
+      console.log("Selection out of range");
+      return;
+    }
+
+    this.input.value = li.textContent;
+    
+    this.hideList();
+    
+    // Reset options if hidden
+    this.options.forEach((opt) => {
+      opt.hidden = false
+    });
+  }
+
+  deselectAll() {
+    this.options.forEach((opt) => {
+      opt.setAttribute('aria-selected', 'false');
+    })
+  }
+
+  onKeydown(e) {
+    console.log("KEYDOWN ", e.key);
+    const visible = this.options.filter(li => !li.hidden);
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        this.showList();
+        if (e.altKey) {  
+          break;
+        } else {
+          {
+            const currentVisible = visible.indexOf(this.options[this.activeIndex]);
+            const next = visible[(currentVisible + 1) % visible.length];
+            this.setActive(this.options.indexOf(next));
+          }
+          break;
+        }
+      
+      case 'Alt' && 'ArrowDown':
+        e.preventDefault();
+        this.showList();
+        break;
+
+      case 'ArrowUp':
+        e.preventDefault();
+        this.showList();
+        {
+          const currentVisible = visible.indexOf(this.options[this.activeIndex]);
+          const prev = visible[(currentVisible - 1 + visible.length) % visible.length];
+          this.setActive(this.options.indexOf(prev));
+        }
+        break;
+
+      case 'Enter':
+        if (this.activeIndex >= 0) {
+          this.select(this.activeIndex);
+        }
+        this.hideList();
+        break;
+
+      case 'Escape':
+        if (this.listbox.classList.contains('open')) {
+          this.hideList();
+        } else {
+          this.input.value = '';
+          this.onInput();
+        }
+        break;
+    }
+  }
+
+  onInput() {
+    const value = this.input.value.toLowerCase();
+    let firstVisibleIndex = -1;
+
+    this.options.forEach((li, i) => {
+      const match = li.textContent.toLowerCase().startsWith(value);
+      li.hidden = !match;
+      if (match && firstVisibleIndex === -1) firstVisibleIndex = i;
+    });
+
+    if (value.length > 0) {
+      this.setActive(firstVisibleIndex);
+    } else {
+      this.setActive(-1);
+    }
+    this.showList();
+  }
+
+  setActive(index) {
+    if (this.activeIndex >= 0) {
+      this.options[this.activeIndex]?.setAttribute('aria-selected', 'false');
+    }
+
+    this.activeIndex = index;
+
+    if(index >= 0 && this.options[index]) {
+      const li = this.options[index];
+
+      li.setAttribute('aria-selected', 'true');
+
+      // Safari + VoiceOver: On the input element we set activedescendant to the id of the active <li>
+      // this is across DOM barrier and the referenced li is not in the same DOM as the input,
+      // the ARIA-activedescendant can not find the referenced element. 
+      // However when manual testing Safari and Voice over appears to connect them across DOM barrier because
+      // VoiceOver + Safari announces the color that is the text value of the selected <li> (Chrome or Firefix does not)
+      console.log("li id: ", li.id);
+      console.log('Shadow DOM: ', this.shadowRoot.querySelector(`#${li.id}`));
+      console.log('DOM: ', document.getElementById(li.id));
+      this.input.setAttribute('aria-activedescendant', li.id);
+
+      // When setting activedescendant to a fixed value nothing changes (row 220), so this is not what causes
+      // VoiceOver to announce the value in Safari, however when removing aria-selected on row 204
+      // Voice over stops announcing the value. This means that the reference is not cross boundary, 
+      // the slotted element is set as active and this causes VoiceOver+Safari to announce the color.
+      // this.input.setAttribute('aria-activedescendant', 'combobox-value-1');
+
+      // Scroll list to selected element
+      li.scrollIntoView({ block: 'nearest' });
+
+    } else {
+      this.input.removeAttribute('aria-activedescendant');
+    }
   }
 }
 

@@ -1,7 +1,7 @@
 const styles = `
   * {
       font-family: sans-serif;
-      border-radius: 8px;
+      border-radius: 4px;
   }
   .combobox-wrapper {
     display: flex;
@@ -49,6 +49,12 @@ const styles = `
     padding: 2px;
     border: 2px solid currentcolor;
     border-radius: 4px;
+  }
+
+  ::slotted(li:hover),
+  ::slotted([aria-selected="true"]) {
+    background: #05c;
+    color: #fff;
   }
 `;
 
