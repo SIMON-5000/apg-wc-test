@@ -10,6 +10,7 @@ class WcCombobox extends HTMLElement{
     this.options = [];
 
     this.labelText = null;
+    this.activeIndex = -1;
   }
 
   connectedCallback() {
@@ -68,7 +69,6 @@ class WcCombobox extends HTMLElement{
 
   bindEvents() {
     console.log(this.input);
-    // this.input.addEventListener('focus', () => this.showList());
     this.input.addEventListener('input', () => this.onInput());
     this.input.addEventListener('keydown', (e) => this.onKeydown(e));
     this.input.addEventListener('blur', () => this.hideList());
@@ -78,6 +78,18 @@ class WcCombobox extends HTMLElement{
       e.preventDefault();
       this.listIsOpen() ? this.hideList() : this.showList();
     });
+
+    this.options.forEach((li, index) => {
+      li.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+      });
+
+      li.addEventListener('click', () => {
+        this.setActive(index);
+        this.select(index);
+        this.input.focus();
+      })
+    })
   
   }
 
@@ -129,7 +141,7 @@ class WcCombobox extends HTMLElement{
       case 'ArrowDown':
         e.preventDefault();
         this.showList();
-        if (e.altKey) {  
+        if (e.altKey) {
           break;
         } else {
           {
@@ -140,15 +152,17 @@ class WcCombobox extends HTMLElement{
           break;
         }
       
-      case 'Alt' && 'ArrowDown':
-        e.preventDefault();
-        this.showList();
-        break;
+      // case 'Alt' && 'ArrowDown':
+      //   e.preventDefault();
+      //   this.showList();
+      //   break;
 
       case 'ArrowUp':
         e.preventDefault();
         this.showList();
-        {
+        if (e.altKey) {
+          break;
+        } else {
           const currentVisible = visible.indexOf(this.options[this.activeIndex]);
           const prev = visible[(currentVisible - 1 + visible.length) % visible.length];
           this.setActive(this.options.indexOf(prev));
@@ -215,7 +229,7 @@ class WcCombobox extends HTMLElement{
       li.scrollIntoView({ block: 'nearest' });
 
     } else {
-      this.input.removeAttribute('aria-activedescendant');
+      this.input.ariaActiveDescendantElement = null;
     }
   }
 }
