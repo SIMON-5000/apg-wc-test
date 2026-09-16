@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 466,
+                      "duration": 521,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:14.988Z",
+                      "startTime": "2026-09-16T08:42:42.656Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -153,12 +153,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 462,
+                      "duration": 520,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:14.988Z",
+                      "startTime": "2026-09-16T08:42:42.648Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -187,12 +187,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 470,
+                      "duration": 530,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:14.999Z",
+                      "startTime": "2026-09-16T08:42:42.635Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -221,12 +221,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 473,
+                      "duration": 530,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:15.010Z",
+                      "startTime": "2026-09-16T08:42:42.652Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -252,15 +252,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 221,
+                      "duration": 320,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:15.831Z",
+                      "startTime": "2026-09-16T08:42:43.648Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -286,15 +286,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 186,
+                      "duration": 279,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:15.834Z",
+                      "startTime": "2026-09-16T08:42:43.648Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -323,12 +323,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 356,
+                      "duration": 392,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:15.831Z",
+                      "startTime": "2026-09-16T08:42:43.650Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -357,12 +357,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 419,
+                      "duration": 503,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:15.836Z",
+                      "startTime": "2026-09-16T08:42:43.650Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -388,15 +388,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 414,
+                      "duration": 346,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:16.037Z",
+                      "startTime": "2026-09-16T08:42:43.944Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -422,15 +422,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 476,
+                      "duration": 453,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:16.069Z",
+                      "startTime": "2026-09-16T08:42:43.985Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -459,12 +459,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 438,
+                      "duration": 440,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:16.211Z",
+                      "startTime": "2026-09-16T08:42:44.066Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -479,7 +479,7 @@
             },
             {
               "title": "CB-12 arrow down opens listbox and sets active on first option",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -492,22 +492,55 @@
                     {
                       "workerIndex": 3,
                       "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 392,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 398,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"combobox-value-0\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"combobox-value-0\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js:124:31",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js",
+                          "column": 31,
+                          "line": 124
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 122 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'RESULT'\u001b[39m\u001b[33m,\u001b[39m result)\u001b[33m;\u001b[39m\n \u001b[90m 123 |\u001b[39m     expect(result\u001b[33m.\u001b[39mattribute)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 124 |\u001b[39m     expect(result\u001b[33m.\u001b[39mresolvedId)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js",
+                            "column": 31,
+                            "line": 124
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"combobox-value-0\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 122 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'RESULT'\u001b[39m\u001b[33m,\u001b[39m result)\u001b[33m;\u001b[39m\n \u001b[90m 123 |\u001b[39m     expect(result\u001b[33m.\u001b[39mattribute)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 124 |\u001b[39m     expect(result\u001b[33m.\u001b[39mresolvedId)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js:124:31\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "ACTIVE OPTION combobox-value-0\n"
+                        },
+                        {
+                          "text": "RESULT { attribute: \u001b[32m'combobox-value-0'\u001b[39m, resolvedId: \u001b[1mnull\u001b[22m }\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:16.286Z",
+                      "startTime": "2026-09-16T08:42:44.183Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/combobox-wc-combobox-tests-e9995-sets-active-on-first-option-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js",
+                        "column": 31,
+                        "line": 124
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "9a4d1d94da37a628fdce-1fb5f89d9be378e1bba7",
@@ -528,15 +561,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 760,
+                      "duration": 852,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:16.472Z",
+                      "startTime": "2026-09-16T08:42:44.307Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -546,7 +579,7 @@
               ],
               "id": "9a4d1d94da37a628fdce-2847b681dd95dbc985b6",
               "file": "combobox.spec.js",
-              "line": 138,
+              "line": 149,
               "column": 3
             },
             {
@@ -563,14 +596,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1753,
+                      "duration": 1885,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:17.799Z",
+                      "startTime": "2026-09-16T08:42:45.603Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -599,12 +632,12 @@
                       "workerIndex": 5,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2494,
+                      "duration": 2336,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:17.812Z",
+                      "startTime": "2026-09-16T08:42:45.661Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -633,12 +666,12 @@
                       "workerIndex": 6,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2261,
+                      "duration": 2701,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:17.971Z",
+                      "startTime": "2026-09-16T08:42:45.689Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -665,14 +698,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2113,
+                      "duration": 2601,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:18.457Z",
+                      "startTime": "2026-09-16T08:42:46.429Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -699,14 +732,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1488,
+                      "duration": 1434,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:20.739Z",
+                      "startTime": "2026-09-16T08:42:48.929Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -732,15 +765,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 0,
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1549,
+                      "duration": 1187,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:21.895Z",
+                      "startTime": "2026-09-16T08:42:50.234Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -767,14 +800,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 752,
+                      "duration": 969,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:22.247Z",
+                      "startTime": "2026-09-16T08:42:50.386Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -800,15 +833,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1472,
+                      "duration": 955,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:22.971Z",
+                      "startTime": "2026-09-16T08:42:51.371Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -834,15 +867,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 875,
+                      "duration": 786,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:23.073Z",
+                      "startTime": "2026-09-16T08:42:51.442Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -868,15 +901,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 0,
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 948,
+                      "duration": 1387,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:23.463Z",
+                      "startTime": "2026-09-16T08:42:51.516Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -902,15 +935,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 902,
+                      "duration": 1029,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:23.966Z",
+                      "startTime": "2026-09-16T08:42:52.242Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -925,7 +958,7 @@
             },
             {
               "title": "CB-12 arrow down opens listbox and sets active on first option",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -936,24 +969,57 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 588,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 1105,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"combobox-value-0\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"combobox-value-0\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js:124:31",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js",
+                          "column": 31,
+                          "line": 124
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 122 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'RESULT'\u001b[39m\u001b[33m,\u001b[39m result)\u001b[33m;\u001b[39m\n \u001b[90m 123 |\u001b[39m     expect(result\u001b[33m.\u001b[39mattribute)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 124 |\u001b[39m     expect(result\u001b[33m.\u001b[39mresolvedId)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js",
+                            "column": 31,
+                            "line": 124
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"combobox-value-0\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 122 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'RESULT'\u001b[39m\u001b[33m,\u001b[39m result)\u001b[33m;\u001b[39m\n \u001b[90m 123 |\u001b[39m     expect(result\u001b[33m.\u001b[39mattribute)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 124 |\u001b[39m     expect(result\u001b[33m.\u001b[39mresolvedId)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js:124:31\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "ACTIVE OPTION combobox-value-0\n"
+                        },
+                        {
+                          "text": "RESULT { attribute: \u001b[32m'combobox-value-0'\u001b[39m, resolvedId: \u001b[1mnull\u001b[22m }\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:24.429Z",
+                      "startTime": "2026-09-16T08:42:52.384Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/combobox-wc-combobox-tests-e9995-sets-active-on-first-option-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js",
+                        "column": 31,
+                        "line": 124
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "9a4d1d94da37a628fdce-c647a30c4fe8aba867fd",
@@ -974,15 +1040,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 2,
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1882,
+                      "duration": 2075,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:24.455Z",
+                      "startTime": "2026-09-16T08:42:52.715Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -992,7 +1058,7 @@
               ],
               "id": "9a4d1d94da37a628fdce-336f6f649df9b7d8ddd9",
               "file": "combobox.spec.js",
-              "line": 138,
+              "line": 149,
               "column": 3
             },
             {
@@ -1011,12 +1077,12 @@
                       "workerIndex": 8,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1593,
+                      "duration": 1872,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:26.289Z",
+                      "startTime": "2026-09-16T08:42:55.015Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1043,14 +1109,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1698,
+                      "duration": 1839,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:26.647Z",
+                      "startTime": "2026-09-16T08:42:55.213Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1079,12 +1145,12 @@
                       "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1777,
+                      "duration": 1882,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:26.728Z",
+                      "startTime": "2026-09-16T08:42:55.242Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1111,14 +1177,14 @@
                   "results": [
                     {
                       "workerIndex": 11,
-                      "parallelIndex": 2,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1533,
+                      "duration": 1661,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:29.019Z",
+                      "startTime": "2026-09-16T08:42:57.070Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1147,12 +1213,12 @@
                       "workerIndex": 8,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 968,
+                      "duration": 1134,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:28.541Z",
+                      "startTime": "2026-09-16T08:42:57.546Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1179,14 +1245,14 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 905,
+                      "duration": 1057,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:28.942Z",
+                      "startTime": "2026-09-16T08:42:57.553Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1215,12 +1281,12 @@
                       "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1213,
+                      "duration": 1280,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:29.076Z",
+                      "startTime": "2026-09-16T08:42:57.644Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1246,15 +1312,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1243,
+                      "duration": 1056,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:29.531Z",
+                      "startTime": "2026-09-16T08:42:58.673Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1280,15 +1346,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 1,
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1230,
+                      "duration": 974,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:29.880Z",
+                      "startTime": "2026-09-16T08:42:58.718Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1317,12 +1383,12 @@
                       "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1201,
+                      "duration": 1027,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:30.316Z",
+                      "startTime": "2026-09-16T08:42:59.017Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1348,15 +1414,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1050,
+                      "duration": 1012,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:30.806Z",
+                      "startTime": "2026-09-16T08:42:59.303Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1371,7 +1437,7 @@
             },
             {
               "title": "CB-12 arrow down opens listbox and sets active on first option",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -1382,24 +1448,57 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 862,
-                      "errors": [],
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 792,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"combobox-value-0\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"combobox-value-0\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js:124:31",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js",
+                          "column": 31,
+                          "line": 124
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 122 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'RESULT'\u001b[39m\u001b[33m,\u001b[39m result)\u001b[33m;\u001b[39m\n \u001b[90m 123 |\u001b[39m     expect(result\u001b[33m.\u001b[39mattribute)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 124 |\u001b[39m     expect(result\u001b[33m.\u001b[39mresolvedId)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js",
+                            "column": 31,
+                            "line": 124
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"combobox-value-0\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 122 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'RESULT'\u001b[39m\u001b[33m,\u001b[39m result)\u001b[33m;\u001b[39m\n \u001b[90m 123 |\u001b[39m     expect(result\u001b[33m.\u001b[39mattribute)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 124 |\u001b[39m     expect(result\u001b[33m.\u001b[39mresolvedId)\u001b[33m.\u001b[39mtoBe(\u001b[32m'combobox-value-0'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js:124:31\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "ACTIVE OPTION combobox-value-0\n"
+                        },
+                        {
+                          "text": "RESULT { attribute: \u001b[32m'combobox-value-0'\u001b[39m, resolvedId: \u001b[1mnull\u001b[22m }\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:31.167Z",
+                      "startTime": "2026-09-16T08:42:59.734Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/combobox-wc-combobox-tests-e9995-sets-active-on-first-option-webkit/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/combobox.spec.js",
+                        "column": 31,
+                        "line": 124
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "9a4d1d94da37a628fdce-726298d0a543e8bfdb60",
@@ -1420,15 +1519,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 9,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1463,
+                      "duration": 1393,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-16T08:31:31.331Z",
+                      "startTime": "2026-09-16T08:42:59.753Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1438,7 +1537,7 @@
               ],
               "id": "9a4d1d94da37a628fdce-829e4df058c6282badf1",
               "file": "combobox.spec.js",
-              "line": 138,
+              "line": 149,
               "column": 3
             }
           ]
@@ -1448,11 +1547,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-09-16T08:31:14.184Z",
-    "duration": 18652.943000000003,
-    "expected": 39,
+    "startTime": "2026-09-16T08:42:41.354Z",
+    "duration": 19834.989,
+    "expected": 36,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 3,
     "flaky": 0
   }
 }

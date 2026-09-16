@@ -102,19 +102,48 @@ test.describe('wc-combobox tests', () => {
     await expect(input).toHaveValue('');
   })
 
-  // test('CB-12 arrow down opens listbox and sets active on first option', async ({ page }) => {
+  test('CB-12 arrow down opens listbox and sets active on first option', async ({ page }) => {
+    const { input } = await getLocators(page);
+    await input.click();
+    await page.keyboard.press('ArrowDown')
+    const activeOpt = await input.getAttribute('aria-activedescendant');
+    console.log('ACTIVE OPTION', activeOpt);
+
+    // expect(activeOpt).toBe('combobox-value-0');
+
+    // The failing test shows that the string is correct, 
+    // but the ariaActiveDescendantElement property returns null 
+    // since it can not find the element due to it being in another DOM
+    const result = await input.evaluate(input => ({
+      attribute: input.getAttribute('aria-activedescendant'),
+      resolvedId: input.ariaActiveDescendantElement?.id ?? null
+    }));
+
+    console.log('RESULT', result);
+    expect(result.attribute).toBe('combobox-value-0');
+    expect(result.resolvedId).toBe('combobox-value-0');
+
+  });
+
+  // test('CB-00 test', async ({ page }) => {
   //   const { input } = await getLocators(page);
   //   await input.click();
   //   await page.keyboard.press('ArrowDown')
   //   const activeOpt = await input.getAttribute('aria-activedescendant');
-  //   console.log('ACTIVE OPTION', activeOpt);
 
-  //   // Automated test passes, but it is only comparing two string values.
-  //   // Manual testing show the reference is not made.
-  //   expect(activeOpt).toBe('combobox-value-0');
+  //   // console.log(activeOpt);
+  //   await expect(activeOpt).toBe('combobox-value-0');
+
+    //   const referenceIsCorrect = await page.evaluate(() => {
+    //   const host = document.querySelector('wc-combobox');
+    //   const input = host.shadowRoot.querySelector('[role="combobox"]');
+    //   const selected = host.querySelector('[aria-selected="true"]');
+    //   console.log('INPUT.ariaActiveDescendantElement', input.ariaActiveDescendantElement);
+    //   return input.ariaActiveDescendantElement === selected;
+    // });
+
+    // expect(referenceIsCorrect).toBe(true);
   // });
-
-
 
   // Static
   test('CB-STATIC Static test on combobox', async ({page}) => {
