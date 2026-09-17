@@ -36,14 +36,14 @@ class WcCombobox extends HTMLElement{
         <input type="text"
           id="combobox"
           role="combobox" 
-          aria-autocomplete="both"
+          aria-autocomplete="list"
           aria-controls="listbox"
           aria-expanded="false"
         >
         <button
           type="button"
           id="combobox-button"
-          aria-label="Show ${this.labelText} options"
+          aria-label="${this.labelText} options"
           aria-expanded="false"
           aria-controls="listbox"
           tabindex="-1"
@@ -68,17 +68,21 @@ class WcCombobox extends HTMLElement{
 
 
   bindEvents() {
-    console.log(this.input);
+    // console.log(this.input);
     this.input.addEventListener('input', () => this.onInput());
     this.input.addEventListener('keydown', (e) => this.onKeydown(e));
     this.input.addEventListener('blur', () => this.hideList());
 
-    // Button click showes listbox
+    // Button click shows listbox, prev default on mousedown.
     this.button.addEventListener('mousedown', (e) => {
       e.preventDefault();
-      this.listIsOpen() ? this.hideList() : this.showList();
     });
 
+    this.button.addEventListener('click', () => {
+      this.listIsOpen() ? this.hideList() : this.showList();
+    })
+
+    // Make options clickable
     this.options.forEach((li, index) => {
       li.addEventListener('mousedown', (e) => {
         e.preventDefault();
@@ -134,40 +138,34 @@ class WcCombobox extends HTMLElement{
   }
 
   onKeydown(e) {
-    console.log("KEYDOWN ", e.key);
+    // console.log("KEYDOWN ", e.key);
     const visible = this.options.filter(li => !li.hidden);
 
     switch (e.key) {
       case 'ArrowDown':
         e.preventDefault();
         this.showList();
-        if (e.altKey) {
+
+        if (e.altKey || visible.length === 0) {
           break;
         } else {
-          {
-            const currentVisible = visible.indexOf(this.options[this.activeIndex]);
-            const next = visible[(currentVisible + 1) % visible.length];
-            this.setActive(this.options.indexOf(next));
-          }
+          const currentVisible = visible.indexOf(this.options[this.activeIndex]);
+          const next = visible[(currentVisible + 1) % visible.length];
+          this.setActive(this.options.indexOf(next));
           break;
         }
-      
-      // case 'Alt' && 'ArrowDown':
-      //   e.preventDefault();
-      //   this.showList();
-      //   break;
 
       case 'ArrowUp':
         e.preventDefault();
         this.showList();
-        if (e.altKey) {
+        if (e.altKey || visible.length === 0) {
           break;
         } else {
           const currentVisible = visible.indexOf(this.options[this.activeIndex]);
           const prev = visible[(currentVisible - 1 + visible.length) % visible.length];
           this.setActive(this.options.indexOf(prev));
+          break;
         }
-        break;
 
       case 'Enter':
         if (this.activeIndex >= 0) {
@@ -189,23 +187,45 @@ class WcCombobox extends HTMLElement{
 
   onInput() {
     const value = this.input.value.toLowerCase();
-    let firstVisibleIndex = -1;
+    let matches = 0;
+    // let firstVisibleIndex = -1;
+
+    this.setActive(-1);
+    
 
     this.options.forEach((li, i) => {
       const match = li.textContent.toLowerCase().startsWith(value);
       li.hidden = !match;
-      if (match && firstVisibleIndex === -1) firstVisibleIndex = i;
+      if (match) matches++;
+
+      // if (!match) li.setAttribute('aria-selected', 'false');
+      // if (match && firstVisibleIndex === -1) firstVisibleIndex = i;
     });
 
-    if (value.length > 0) {
-      this.setActive(firstVisibleIndex);
+    // For autocomplete=list with "automatic selection", 
+    // Commented out because APG exampel is manual selection, so easier to compare this way.
+    // if (value.length > 0) {
+    //   this.setActive(firstVisibleIndex);
+    // } else {
+    //   this.setActive(-1);
+    // }
+
+    if(value.length > 0 && matches > 0) {
+      this.showList();
     } else {
-      this.setActive(-1);
+      this.hideList();
     }
-    this.showList();
+    
   }
 
   setActive(index) {
+    // Stutter on VoiceOver when using chrome:
+    // "Blue menue item 5 of 7" gets interrupted by a second "(5 of 7)".
+    // same problem in original WAI ARIA APG. Goes away if
+    // li.setAttribute('aria-selected', 'true'); is commented out.
+    // Not shadow DOM related.
+    // no stutter in safari or firefox
+
     if (this.activeIndex >= 0) {
       this.options[this.activeIndex]?.setAttribute('aria-selected', 'false');
     }
@@ -217,9 +237,6 @@ class WcCombobox extends HTMLElement{
 
       li.setAttribute('aria-selected', 'true');
 
-      console.log("li id: ", li.id);
-      console.log('Shadow DOM: ', this.shadowRoot.querySelector(`#${li.id}`));
-      console.log('DOM: ', document.getElementById(li.id));
       // https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaActiveDescendantElement
       // Create a reflected element reference instead of relying on the ID.
       // This method works for elements in the same, or (as in thius case) the parent DOM.
