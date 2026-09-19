@@ -29,7 +29,8 @@ Using ElementInternals to communicate role and ARIA Label
 | Firefox + VO | "Sandwich Condiments group" |
 | Safari + VO  | "Sandwich Condiments group" |
 
-!Example screenshot from Chrome](assets/ElementInternals1.png)
+![Example screenshot from Chrome](assets/ElementInternals1.png)
+
 Example from Chrome
 
 **Notes**
@@ -51,7 +52,8 @@ A second implementation test using the heading in the hosts Shadow DOM as a labe
 | Firefox + VO | "Sandwich Condiments group" |
 | Safari + VO  | No group announcement       |
 
-![Example screenshot from Chrome](assets/ElementInternals1.png)
+![Example screenshot from Chrome](assets/ElementInternals2.png)
+
 Example from Chrome
 
 **Notes**
