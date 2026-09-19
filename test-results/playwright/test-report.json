@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 533,
+                      "duration": 431,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:26.525Z",
+                      "startTime": "2026-09-19T13:21:59.008Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -153,12 +153,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 554,
+                      "duration": 424,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:26.512Z",
+                      "startTime": "2026-09-19T13:21:59.024Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -187,12 +187,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 538,
+                      "duration": 432,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:26.504Z",
+                      "startTime": "2026-09-19T13:21:59.011Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -221,12 +221,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 544,
+                      "duration": 419,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:26.525Z",
+                      "startTime": "2026-09-19T13:21:59.023Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -252,15 +252,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 292,
+                      "duration": 200,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:27.549Z",
+                      "startTime": "2026-09-19T13:21:59.875Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -274,7 +274,75 @@
               "column": 3
             },
             {
-              "title": "CBX-06 checkboxes toggle checked state on space",
+              "title": "CBX-05 checkboxes are initially unchecked",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 183,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T13:21:59.879Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-9b5adb07f78a13210eb8",
+              "file": "checkbox.spec.js",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "CBX-07 checkboxes toggle checked state on space",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 208,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T13:21:59.877Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-c950c7b215273be47ee8",
+              "file": "checkbox.spec.js",
+              "line": 78,
+              "column": 3
+            },
+            {
+              "title": "CBX-08 checkboxes toggle checked state on click",
               "ok": true,
               "tags": [],
               "tests": [
@@ -289,12 +357,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 286,
+                      "duration": 283,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:27.557Z",
+                      "startTime": "2026-09-19T13:21:59.880Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -302,9 +370,77 @@
                   "status": "expected"
                 }
               ],
-              "id": "9672140da2e3b015180d-4e262c831bb2e9d751ed",
+              "id": "9672140da2e3b015180d-31edc1467614a4871808",
               "file": "checkbox.spec.js",
-              "line": 72,
+              "line": 93,
+              "column": 3
+            },
+            {
+              "title": "CBX-09 checked values take part in Light DOM form data",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 266,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:123:31",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
+                          "column": 31,
+                          "line": 123
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 121 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Form values'\u001b[39m\u001b[33m,\u001b[39m formValues)\u001b[33m;\u001b[39m\n \u001b[90m 122 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 123 |\u001b[39m     expect(formValues\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 124 |\u001b[39m     expect(formValues)\u001b[33m.\u001b[39mtoContainEqual([ \u001b[32m'sandwich-condiments'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Lettuce'\u001b[39m ])\u001b[33m;\u001b[39m\n \u001b[90m 125 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 126 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
+                            "column": 31,
+                            "line": 123
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 121 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Form values'\u001b[39m\u001b[33m,\u001b[39m formValues)\u001b[33m;\u001b[39m\n \u001b[90m 122 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 123 |\u001b[39m     expect(formValues\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 124 |\u001b[39m     expect(formValues)\u001b[33m.\u001b[39mtoContainEqual([ \u001b[32m'sandwich-condiments'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Lettuce'\u001b[39m ])\u001b[33m;\u001b[39m\n \u001b[90m 125 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 126 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:123:31\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Form values []\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T13:22:00.075Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/checkbox-wc-checkbox-tests-8599e-part-in-Light-DOM-form-data-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
+                        "column": 31,
+                        "line": 123
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-5ea0cee76cb94e58144f",
+              "file": "checkbox.spec.js",
+              "line": 103,
               "column": 3
             },
             {
@@ -320,15 +456,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 916,
+                      "duration": 512,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:27.562Z",
+                      "startTime": "2026-09-19T13:22:00.097Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -338,7 +474,7 @@
               ],
               "id": "9672140da2e3b015180d-832cb599219cf687301f",
               "file": "checkbox.spec.js",
-              "line": 87,
+              "line": 127,
               "column": 3
             },
             {
@@ -355,14 +491,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1638,
+                      "duration": 1424,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:28.886Z",
+                      "startTime": "2026-09-19T13:22:00.816Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -388,15 +524,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2848,
+                      "duration": 1487,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:29.096Z",
+                      "startTime": "2026-09-19T13:22:00.864Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -422,15 +558,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 2,
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2468,
+                      "duration": 3349,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:29.079Z",
+                      "startTime": "2026-09-19T13:22:01.035Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -457,14 +593,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2089,
+                      "duration": 2332,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:29.839Z",
+                      "startTime": "2026-09-19T13:22:01.339Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -491,14 +627,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1241,
+                      "duration": 910,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:32.237Z",
+                      "startTime": "2026-09-19T13:22:03.250Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -512,7 +648,7 @@
               "column": 3
             },
             {
-              "title": "CBX-06 checkboxes toggle checked state on space",
+              "title": "CBX-05 checkboxes are initially unchecked",
               "ok": true,
               "tags": [],
               "tests": [
@@ -524,15 +660,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1035,
+                      "duration": 1322,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:33.391Z",
+                      "startTime": "2026-09-19T13:22:03.917Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -540,9 +676,145 @@
                   "status": "expected"
                 }
               ],
-              "id": "9672140da2e3b015180d-1965eea709086b289b6b",
+              "id": "9672140da2e3b015180d-25326e5e745ea307c959",
               "file": "checkbox.spec.js",
               "line": 72,
+              "column": 3
+            },
+            {
+              "title": "CBX-07 checkboxes toggle checked state on space",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 935,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T13:22:04.180Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-f71f05533d5d8fdd0e2b",
+              "file": "checkbox.spec.js",
+              "line": 78,
+              "column": 3
+            },
+            {
+              "title": "CBX-08 checkboxes toggle checked state on click",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1300,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T13:22:05.135Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-3f606d79c2efbdd14073",
+              "file": "checkbox.spec.js",
+              "line": 93,
+              "column": 3
+            },
+            {
+              "title": "CBX-09 checked values take part in Light DOM form data",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 1559,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:123:31",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
+                          "column": 31,
+                          "line": 123
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 121 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Form values'\u001b[39m\u001b[33m,\u001b[39m formValues)\u001b[33m;\u001b[39m\n \u001b[90m 122 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 123 |\u001b[39m     expect(formValues\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 124 |\u001b[39m     expect(formValues)\u001b[33m.\u001b[39mtoContainEqual([ \u001b[32m'sandwich-condiments'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Lettuce'\u001b[39m ])\u001b[33m;\u001b[39m\n \u001b[90m 125 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 126 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
+                            "column": 31,
+                            "line": 123
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 121 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Form values'\u001b[39m\u001b[33m,\u001b[39m formValues)\u001b[33m;\u001b[39m\n \u001b[90m 122 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 123 |\u001b[39m     expect(formValues\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 124 |\u001b[39m     expect(formValues)\u001b[33m.\u001b[39mtoContainEqual([ \u001b[32m'sandwich-condiments'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Lettuce'\u001b[39m ])\u001b[33m;\u001b[39m\n \u001b[90m 125 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 126 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:123:31\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Form values []\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T13:22:05.283Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/checkbox-wc-checkbox-tests-8599e-part-in-Light-DOM-form-data-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
+                        "column": 31,
+                        "line": 123
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-f1ba05a5bbc3709cf3a6",
+              "file": "checkbox.spec.js",
+              "line": 103,
               "column": 3
             },
             {
@@ -558,15 +830,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 7,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1711,
+                      "duration": 2076,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:33.509Z",
+                      "startTime": "2026-09-19T13:22:05.676Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -576,7 +848,7 @@
               ],
               "id": "9672140da2e3b015180d-cd529005326e1322d464",
               "file": "checkbox.spec.js",
-              "line": 87,
+              "line": 127,
               "column": 3
             },
             {
@@ -593,14 +865,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2222,
+                      "duration": 1901,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:36.715Z",
+                      "startTime": "2026-09-19T13:22:08.486Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -626,15 +898,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 2,
+                      "workerIndex": 10,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2143,
+                      "duration": 1869,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:36.813Z",
+                      "startTime": "2026-09-19T13:22:09.048Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -660,15 +932,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 1,
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2197,
+                      "duration": 1938,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:37.296Z",
+                      "startTime": "2026-09-19T13:22:08.690Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -695,14 +967,14 @@
                   "results": [
                     {
                       "workerIndex": 11,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1344,
+                      "duration": 1526,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:37.802Z",
+                      "startTime": "2026-09-19T13:22:10.446Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -728,15 +1000,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 8,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1004,
+                      "duration": 1149,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:40.018Z",
+                      "startTime": "2026-09-19T13:22:11.079Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -750,7 +1022,7 @@
               "column": 3
             },
             {
-              "title": "CBX-06 checkboxes toggle checked state on space",
+              "title": "CBX-05 checkboxes are initially unchecked",
               "ok": true,
               "tags": [],
               "tests": [
@@ -765,12 +1037,12 @@
                       "workerIndex": 9,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1022,
+                      "duration": 998,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:40.019Z",
+                      "startTime": "2026-09-19T13:22:11.411Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -778,9 +1050,145 @@
                   "status": "expected"
                 }
               ],
-              "id": "9672140da2e3b015180d-006c908b7f87d8e33831",
+              "id": "9672140da2e3b015180d-09c1fd5fd53e7db14a03",
               "file": "checkbox.spec.js",
               "line": 72,
+              "column": 3
+            },
+            {
+              "title": "CBX-07 checkboxes toggle checked state on space",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1168,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T13:22:11.783Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-01ee84dcd983a59a132c",
+              "file": "checkbox.spec.js",
+              "line": 78,
+              "column": 3
+            },
+            {
+              "title": "CBX-08 checkboxes toggle checked state on click",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 952,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T13:22:12.307Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-8b23c747b780616c92e8",
+              "file": "checkbox.spec.js",
+              "line": 93,
+              "column": 3
+            },
+            {
+              "title": "CBX-09 checked values take part in Light DOM form data",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 968,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:123:31",
+                        "location": {
+                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
+                          "column": 31,
+                          "line": 123
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 121 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Form values'\u001b[39m\u001b[33m,\u001b[39m formValues)\u001b[33m;\u001b[39m\n \u001b[90m 122 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 123 |\u001b[39m     expect(formValues\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 124 |\u001b[39m     expect(formValues)\u001b[33m.\u001b[39mtoContainEqual([ \u001b[32m'sandwich-condiments'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Lettuce'\u001b[39m ])\u001b[33m;\u001b[39m\n \u001b[90m 125 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 126 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
+                            "column": 31,
+                            "line": 123
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 121 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Form values'\u001b[39m\u001b[33m,\u001b[39m formValues)\u001b[33m;\u001b[39m\n \u001b[90m 122 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 123 |\u001b[39m     expect(formValues\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 124 |\u001b[39m     expect(formValues)\u001b[33m.\u001b[39mtoContainEqual([ \u001b[32m'sandwich-condiments'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Lettuce'\u001b[39m ])\u001b[33m;\u001b[39m\n \u001b[90m 125 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 126 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:123:31\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Form values []\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T13:22:12.495Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/checkbox-wc-checkbox-tests-8599e-part-in-Light-DOM-form-data-webkit/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
+                        "column": 31,
+                        "line": 123
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-7956ed6360a87ce135d5",
+              "file": "checkbox.spec.js",
+              "line": 103,
               "column": 3
             },
             {
@@ -796,15 +1204,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 11,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1511,
+                      "duration": 1441,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T12:00:40.143Z",
+                      "startTime": "2026-09-19T13:22:12.580Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -814,7 +1222,7 @@
               ],
               "id": "9672140da2e3b015180d-3cc343faee02ff16b1ca",
               "file": "checkbox.spec.js",
-              "line": 87,
+              "line": 127,
               "column": 3
             }
           ]
@@ -824,11 +1232,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-09-19T12:00:25.308Z",
-    "duration": 16640.707000000002,
-    "expected": 21,
+    "startTime": "2026-09-19T13:21:57.966Z",
+    "duration": 16157.73,
+    "expected": 27,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 3,
     "flaky": 0
   }
 }

@@ -69,7 +69,13 @@ test.describe('wc-checkbox tests', () => {
     await expect(mustard).toBeFocused()
   });
 
-  test('CBX-06 checkboxes toggle checked state on space', async ({ page }) => {
+  test('CBX-05 checkboxes are initially unchecked', async ({ page }) => {
+    const { lettuce } = getLocators(page);
+
+    await expect(lettuce).toHaveAttribute('aria-checked', 'false')
+  });
+
+  test('CBX-07 checkboxes toggle checked state on space', async ({ page }) => {
     const { lettuce } = getLocators(page);
 
     await expect(lettuce).toHaveAttribute('aria-checked', 'false')
@@ -82,6 +88,40 @@ test.describe('wc-checkbox tests', () => {
     await page.keyboard.press('Space');
 
     await expect(lettuce).toHaveAttribute('aria-checked', 'false')
+  });
+
+  test('CBX-08 checkboxes toggle checked state on click', async ({ page }) => {
+    const { lettuce } = getLocators(page);
+    
+    await lettuce.click()
+    await expect(lettuce).toHaveAttribute('aria-checked', 'true')
+
+    await lettuce.click()
+    await expect(lettuce).toHaveAttribute('aria-checked', 'false')
+  });
+
+  test('CBX-09 checked values take part in Light DOM form data', async ({ page }) => {
+    const { lettuce, mustard } = getLocators(page);
+    const form = await page.locator('form')
+
+    await lettuce.click();
+    await mustard.click();
+
+    const formValues = await form.evaluate(formEl => {
+      const formData = new FormData(formEl);
+      let result = [];
+
+      for (const pair of formData.entries()) {
+        result.push(pair)
+      }
+
+      return result;
+    });
+
+    console.log('Form values', formValues);
+
+    expect(formValues.length).toBeGreaterThan(0);
+    expect(formValues).toContainEqual([ 'sandwich-condiments', 'Lettuce' ]);
   });
 
   test('CBX-STATIC Static test on checkbox', async ({page}) => {
