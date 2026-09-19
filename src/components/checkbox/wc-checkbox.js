@@ -1,9 +1,16 @@
 import styles from './wc-checkbox-styles.js';
 
 class WcCheckbox extends HTMLElement{
+  // Make components a part of the form, called before constructor
+  static formAssociated = true;
+
   constructor() {
     super();
+
+    // Must be called in constructor
+    this._internals = this.attachInternals();
   }
+
   connectedCallback() {
     this.text = this.textContent;
     this.attachShadow({ mode: 'open' });
@@ -22,6 +29,7 @@ class WcCheckbox extends HTMLElement{
     this.setAttribute('aria-checked', 'false');
     this.setAttribute('tabindex', '0');
     this.setAttribute('aria-label', this.text);
+    this._internals.setFormValue(null);
 
     this.addListeners();
   }
@@ -29,8 +37,10 @@ class WcCheckbox extends HTMLElement{
   toggleCheckbox() {
     if (this.getAttribute('aria-checked') === 'true') {
       this.setAttribute('aria-checked', 'false');
+      this._internals.setFormValue(null);
     } else {
       this.setAttribute('aria-checked', 'true');
+      this._internals.setFormValue(this.text);
     }
   }
 
