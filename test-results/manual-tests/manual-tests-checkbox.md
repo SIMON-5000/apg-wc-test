@@ -14,6 +14,24 @@ Assistive technology: Voice Over Version 10 (993)
 
 ---
 
+
+| ID      | Manual test                       | Chrome + VO                               | Firefox + VO                       | Safari + VO                       | Observations                                                 |
+| ------- | --------------------------------- | ----------------------------------------- | ---------------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| CBX-M01 | Navigate into checkbox group      | Pass                                      | Pass                               | Pass                              | Slight differences in wording is noted. See output below.    |
+| CBX-M02 | Focus each checkbox               | Pass<br>"Tomato unticked Tick box, group" | Pass<br>"Tomato unticked checkbox" | Pass<br>"Tomato unticked tickbox" | Checkbox name, role and current state are announced          |
+| CBX-M03 | Press Tab through checkboxes      | Pass                                      | Pass                               | Pass                              | Focus moves through checkboxes in expected order             |
+| CBX-M04 | Press Space on unchecked checkbox | Pass<br>"ticked Tomato Tick box, group"   | Pass<br>"ticked Tomato checkbox"   | Pass<br>"ticked Tomato tickbox"   | Checkbox becomes checked and changed state is communicated   |
+| CBX-M05 | Press Space again                 | Pass<br>"unticked Tomato Tick box, group" | Pass<br>"unticked Tomato checkbox" | Pass<br>"unticked Tomato tickbox" | Checkbox becomes unchecked and changed state is communicated |
+| CBX-M06 | Keyboard focus on checkbox        | Pass                                      | Pass                               | Pass                              | Visible focus indicator is present                           |
+
+
+CBX-M01:
+Chrome: "Lettuce unticked Tick box, group Sandwich Condiments group"
+Safari:     "Lettuce unticked tickbox Sandwich Condiments group"
+Firefox:   "Lettuce unticked checkbox Sandwich Condiments group"
+
+
+---
 ## Using ElementInternals - Exploratory Test
 ---
 ### Role and ARIA label on host
@@ -36,10 +54,10 @@ Example from Chrome
 **Notes**
 - Consistent results across tested browsers
 - Does not add the `role` or `aria-label` attributes to the elements
-- Playwrights `getByRole` does not identify host as a group
+- Playwright's `getByRole` does not identify host as a group
 
 ---
-### Using labelled by element in the hosts child DOM:
+### Using labelled by element in the host's Shadow DOM:
 A second implementation test using the heading in the hosts Shadow DOM as a label
 ```JS
 	const header = this.shadowRoot.getElementById('id-group-label');
@@ -57,12 +75,12 @@ A second implementation test using the heading in the hosts Shadow DOM as a labe
 Example from Chrome
 
 **Notes**
-- This is reaching in to a child DOM, and according to the documentation it should be out of scope https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes#reflected_element_reference_scope
+- This is reaching in to a child DOM, and according to the documentation it should be outside of reflected-elements reference scope https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes#reflected_element_reference_scope
 - Inconsistent behaviour
 
 ---
 ### Playwright Problems
 
-- Playwright could not identify the group through its role
+- Playwright could not identify the group through its role, and did not identify the component as a group when it was communicated through ElementInternals
 - Related Playwright issue [https://github.com/microsoft/playwright/issues/34264](https://github.com/microsoft/playwright/issues/34264)
-
+- The final checkbox implementation exposes ARIA semantics directly on the host element, this also allows the semantics to be tested with Playwright's role based queries.
