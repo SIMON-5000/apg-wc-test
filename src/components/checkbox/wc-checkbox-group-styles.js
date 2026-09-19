@@ -1,10 +1,11 @@
 const styles = `
-  div {
+  :host {
     display: flex;
     flex-direction: column;
     width: fit-content;
     padding: 1rem;
-    // border: 5px solid red;
+    font-family: sans-serif;
+    border: 1px solid #eee;
   }
 
 `;
