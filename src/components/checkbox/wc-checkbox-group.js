@@ -3,8 +3,8 @@ import styles from './wc-checkbox-group-styles.js';
 class WcCheckboxGroup extends HTMLElement{
   constructor() {
     super();
-  
-    this._internals = this.attachInternals();
+
+    // this._internals = this.attachInternals();
     this.groupLabel = null;
     this.checkboxes = null;
   }
@@ -15,10 +15,13 @@ class WcCheckboxGroup extends HTMLElement{
     
     this.groupLabel = this.getAttribute('group-label');
 
+    this.setAttribute('role', 'group');
+    this.setAttribute('aria-label', this.groupLabel);
+
     // Using Internals does not expose a visible role attrobute, but AT can see it.
     // It is a working solution, but playwright can not find the element based on role.
-    this._internals.role = 'group';
-    this._internals.ariaLabel = this.groupLabel;
+    // this._internals.role = 'group';
+    // this._internals.ariaLabel = this.groupLabel;
 
     this.shadowRoot.innerHTML = `
     <style>${styles}</style>

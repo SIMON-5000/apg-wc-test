@@ -100,7 +100,7 @@
         {
           "title": "wc-checkbox tests",
           "file": "checkbox.spec.js",
-          "line": 15,
+          "line": 18,
           "column": 6,
           "specs": [
             {
@@ -119,12 +119,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 506,
+                      "duration": 533,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T09:28:35.601Z",
+                      "startTime": "2026-09-19T12:00:26.525Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -134,11 +134,11 @@
               ],
               "id": "9672140da2e3b015180d-7a1f8d3874de6795fd6a",
               "file": "checkbox.spec.js",
-              "line": 21,
+              "line": 24,
               "column": 3
             },
             {
-              "title": "CBX-02 ",
+              "title": "CBX-02 expect checkboxes to have accessible names",
               "ok": true,
               "tags": [],
               "tests": [
@@ -153,12 +153,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 500,
+                      "duration": 554,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T09:28:35.605Z",
+                      "startTime": "2026-09-19T12:00:26.512Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -166,14 +166,14 @@
                   "status": "expected"
                 }
               ],
-              "id": "9672140da2e3b015180d-5e475f27e2acfdb6701d",
+              "id": "9672140da2e3b015180d-e795e5c54e344d905b75",
               "file": "checkbox.spec.js",
-              "line": 32,
+              "line": 35,
               "column": 3
             },
             {
               "title": "CBX-03 group has role group",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -186,53 +186,159 @@
                     {
                       "workerIndex": 2,
                       "parallelIndex": 2,
-                      "status": "failed",
-                      "duration": 5514,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-checkbox-group')\nExpected: \u001b[32m\"group\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-checkbox-group')\u001b[22m\n\u001b[2m    14 × locator resolved to <wc-checkbox-group group-label=\"Sandwich Condiments\">…</wc-checkbox-group>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-checkbox-group')\nExpected: \u001b[32m\"group\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-checkbox-group')\u001b[22m\n\u001b[2m    14 × locator resolved to <wc-checkbox-group group-label=\"Sandwich Condiments\">…</wc-checkbox-group>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:48:27",
-                        "location": {
-                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
-                          "column": 27,
-                          "line": 48
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 46 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \u001b[90m// await expect(group).toBeVisible();\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'role'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'group'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 49 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 50 |\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
-                            "column": 27,
-                            "line": 48
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-checkbox-group')\nExpected: \u001b[32m\"group\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-checkbox-group')\u001b[22m\n\u001b[2m    14 × locator resolved to <wc-checkbox-group group-label=\"Sandwich Condiments\">…</wc-checkbox-group>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 46 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \u001b[90m// await expect(group).toBeVisible();\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'role'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'group'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 49 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 50 |\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:48:27\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 538,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T09:28:35.609Z",
+                      "startTime": "2026-09-19T12:00:26.504Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/checkbox-wc-checkbox-tests-CBX-03-group-has-role-group-chromium/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
-                        "column": 27,
-                        "line": 48
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9672140da2e3b015180d-cd4b1004855ae24a18c6",
               "file": "checkbox.spec.js",
-              "line": 41,
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "CBX-04 group has accessibnle name",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 544,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:26.525Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-28002522e24902713092",
+              "file": "checkbox.spec.js",
+              "line": 52,
+              "column": 3
+            },
+            {
+              "title": "CBX-05 checkboxes are in tab sequence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 292,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:27.549Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-d6abd5297c8ec9c52dac",
+              "file": "checkbox.spec.js",
+              "line": 59,
+              "column": 3
+            },
+            {
+              "title": "CBX-06 checkboxes toggle checked state on space",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 286,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:27.557Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-4e262c831bb2e9d751ed",
+              "file": "checkbox.spec.js",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "CBX-STATIC Static test on checkbox",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 916,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:27.562Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-832cb599219cf687301f",
+              "file": "checkbox.spec.js",
+              "line": 87,
               "column": 3
             },
             {
@@ -248,15 +354,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1290,
+                      "duration": 1638,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T09:28:35.598Z",
+                      "startTime": "2026-09-19T12:00:28.886Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -266,11 +372,45 @@
               ],
               "id": "9672140da2e3b015180d-4861d91fcdc0a302bfe0",
               "file": "checkbox.spec.js",
-              "line": 21,
+              "line": 24,
               "column": 3
             },
             {
-              "title": "CBX-02 ",
+              "title": "CBX-02 expect checkboxes to have accessible names",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2848,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:29.096Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-48d91f246ddf36f21bdd",
+              "file": "checkbox.spec.js",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "CBX-03 group has role group",
               "ok": true,
               "tags": [],
               "tests": [
@@ -283,14 +423,14 @@
                   "results": [
                     {
                       "workerIndex": 5,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1329,
+                      "duration": 2468,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T09:28:37.232Z",
+                      "startTime": "2026-09-19T12:00:29.079Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -298,14 +438,48 @@
                   "status": "expected"
                 }
               ],
-              "id": "9672140da2e3b015180d-79badc8ade648ad76ac4",
+              "id": "9672140da2e3b015180d-3855fc3427615f27a51b",
               "file": "checkbox.spec.js",
-              "line": 32,
+              "line": 42,
               "column": 3
             },
             {
-              "title": "CBX-03 group has role group",
-              "ok": false,
+              "title": "CBX-04 group has accessibnle name",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2089,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:29.839Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-8ae562ea0d37a9849364",
+              "file": "checkbox.spec.js",
+              "line": 52,
+              "column": 3
+            },
+            {
+              "title": "CBX-05 checkboxes are in tab sequence",
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -317,54 +491,92 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 6829,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-checkbox-group')\nExpected: \u001b[32m\"group\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-checkbox-group')\u001b[22m\n\u001b[2m    13 × locator resolved to <wc-checkbox-group group-label=\"Sandwich Condiments\">…</wc-checkbox-group>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-checkbox-group')\nExpected: \u001b[32m\"group\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-checkbox-group')\u001b[22m\n\u001b[2m    13 × locator resolved to <wc-checkbox-group group-label=\"Sandwich Condiments\">…</wc-checkbox-group>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:48:27",
-                        "location": {
-                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
-                          "column": 27,
-                          "line": 48
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 46 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \u001b[90m// await expect(group).toBeVisible();\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'role'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'group'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 49 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 50 |\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
-                            "column": 27,
-                            "line": 48
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-checkbox-group')\nExpected: \u001b[32m\"group\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-checkbox-group')\u001b[22m\n\u001b[2m    13 × locator resolved to <wc-checkbox-group group-label=\"Sandwich Condiments\">…</wc-checkbox-group>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 46 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \u001b[90m// await expect(group).toBeVisible();\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'role'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'group'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 49 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 50 |\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:48:27\u001b[22m"
-                        }
-                      ],
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1241,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T09:28:37.238Z",
+                      "startTime": "2026-09-19T12:00:32.237Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/checkbox-wc-checkbox-tests-CBX-03-group-has-role-group-firefox/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
-                        "column": 27,
-                        "line": 48
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
-              "id": "9672140da2e3b015180d-3855fc3427615f27a51b",
+              "id": "9672140da2e3b015180d-095b860453c388b0d175",
               "file": "checkbox.spec.js",
-              "line": 41,
+              "line": 59,
+              "column": 3
+            },
+            {
+              "title": "CBX-06 checkboxes toggle checked state on space",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1035,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:33.391Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-1965eea709086b289b6b",
+              "file": "checkbox.spec.js",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "CBX-STATIC Static test on checkbox",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1711,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:33.509Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-cd529005326e1322d464",
+              "file": "checkbox.spec.js",
+              "line": 87,
               "column": 3
             },
             {
@@ -380,15 +592,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 8,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2164,
+                      "duration": 2222,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T09:28:39.830Z",
+                      "startTime": "2026-09-19T12:00:36.715Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -398,11 +610,11 @@
               ],
               "id": "9672140da2e3b015180d-5609c8d99efa1477049a",
               "file": "checkbox.spec.js",
-              "line": 21,
+              "line": 24,
               "column": 3
             },
             {
-              "title": "CBX-02 ",
+              "title": "CBX-02 expect checkboxes to have accessible names",
               "ok": true,
               "tags": [],
               "tests": [
@@ -414,15 +626,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 1,
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1384,
+                      "duration": 2143,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T09:28:41.414Z",
+                      "startTime": "2026-09-19T12:00:36.813Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -430,14 +642,14 @@
                   "status": "expected"
                 }
               ],
-              "id": "9672140da2e3b015180d-a9d47b8089faef423de6",
+              "id": "9672140da2e3b015180d-58ac7c4bae1ec7dd5d85",
               "file": "checkbox.spec.js",
-              "line": 32,
+              "line": 35,
               "column": 3
             },
             {
               "title": "CBX-03 group has role group",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -448,55 +660,161 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 8,
-                      "parallelIndex": 2,
-                      "status": "failed",
-                      "duration": 5721,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-checkbox-group')\nExpected: \u001b[32m\"group\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-checkbox-group')\u001b[22m\n\u001b[2m    14 × locator resolved to <wc-checkbox-group group-label=\"Sandwich Condiments\">…</wc-checkbox-group>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-checkbox-group')\nExpected: \u001b[32m\"group\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-checkbox-group')\u001b[22m\n\u001b[2m    14 × locator resolved to <wc-checkbox-group group-label=\"Sandwich Condiments\">…</wc-checkbox-group>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:48:27",
-                        "location": {
-                          "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
-                          "column": 27,
-                          "line": 48
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 46 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \u001b[90m// await expect(group).toBeVisible();\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'role'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'group'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 49 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 50 |\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
-                            "column": 27,
-                            "line": 48
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('wc-checkbox-group')\nExpected: \u001b[32m\"group\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('wc-checkbox-group')\u001b[22m\n\u001b[2m    14 × locator resolved to <wc-checkbox-group group-label=\"Sandwich Condiments\">…</wc-checkbox-group>\u001b[22m\n\u001b[2m       - unexpected value \"null\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 46 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \u001b[90m// await expect(group).toBeVisible();\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m     \u001b[36mawait\u001b[39m expect(wcGroup)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'role'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'group'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 49 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 50 |\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js:48:27\u001b[22m"
-                        }
-                      ],
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2197,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-19T09:28:43.372Z",
+                      "startTime": "2026-09-19T12:00:37.296Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/test-results/playwright/checkbox-wc-checkbox-tests-CBX-03-group-has-role-group-webkit/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/simon/dbwebb-kurser/exjobb/apg-wc-test/tests/checkbox.spec.js",
-                        "column": 27,
-                        "line": 48
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9672140da2e3b015180d-bc8c15ebc5223f892b20",
               "file": "checkbox.spec.js",
-              "line": 41,
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "CBX-04 group has accessibnle name",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1344,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:37.802Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-074d3aa31c122f92dc95",
+              "file": "checkbox.spec.js",
+              "line": 52,
+              "column": 3
+            },
+            {
+              "title": "CBX-05 checkboxes are in tab sequence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1004,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:40.018Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-47d1a12ba675d12f5a2a",
+              "file": "checkbox.spec.js",
+              "line": 59,
+              "column": 3
+            },
+            {
+              "title": "CBX-06 checkboxes toggle checked state on space",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1022,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:40.019Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-006c908b7f87d8e33831",
+              "file": "checkbox.spec.js",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "CBX-STATIC Static test on checkbox",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1511,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:00:40.143Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9672140da2e3b015180d-3cc343faee02ff16b1ca",
+              "file": "checkbox.spec.js",
+              "line": 87,
               "column": 3
             }
           ]
@@ -506,11 +824,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-09-19T09:28:34.560Z",
-    "duration": 14889.374,
-    "expected": 6,
+    "startTime": "2026-09-19T12:00:25.308Z",
+    "duration": 16640.707000000002,
+    "expected": 21,
     "skipped": 0,
-    "unexpected": 3,
+    "unexpected": 0,
     "flaky": 0
   }
 }
