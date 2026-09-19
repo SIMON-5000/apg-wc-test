@@ -122,6 +122,27 @@ test.describe('wc-checkbox tests', () => {
 
     expect(formValues.length).toBeGreaterThan(0);
     expect(formValues).toContainEqual([ 'sandwich-condiments', 'Lettuce' ]);
+    expect(formValues).toContainEqual([ 'sandwich-condiments', 'Mustard' ]);
+    expect(formValues).not.toContainEqual([ 'sandwich-condiments', 'Tomato' ]);
+  });
+
+  test('CBX-10 unchecked values does not take part in Light DOM form data', async ({ page }) => {
+    const form = await page.locator('form')
+
+    const formValues = await form.evaluate(formEl => {
+      const formData = new FormData(formEl);
+      let result = [];
+
+      for (const pair of formData.entries()) {
+        result.push(pair)
+      }
+
+      return result;
+    });
+
+    console.log('Form values', formValues);
+
+    expect(formValues).toEqual([]);
   });
 
   test('CBX-STATIC Static test on checkbox', async ({page}) => {
