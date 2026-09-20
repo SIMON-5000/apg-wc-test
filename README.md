@@ -7,7 +7,9 @@ The implemented patterns are:
 - Combobox
 - Checkbox
 
-Tests using playwright / axe-core and Lighthouse
+Tests using playwright / axe-core and Lighthouse:
+Playwright test files in `tests/<component name>`
+
 The test output can be found in:
 
 ```sh
@@ -34,6 +36,7 @@ The test output can be found in:
 ```sh
 npm ci
 npx playwright install
+npm start
 ```
 ### Run tests
 Playwright:
@@ -42,6 +45,7 @@ Lighthouse:
 `tests/lhtest.bash <component-name>`
 
 ---
+
 ## Testing environment
 ### Automated testing:
 Playwright 1.60.0, utilizing browsers versions:
