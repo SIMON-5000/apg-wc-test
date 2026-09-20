@@ -51,9 +51,9 @@ Safari and VoiceOver appeared to resolve the cross boundary `aria-activedescenda
 
 | Manual test                                                 | Safari + VoiceOver                   | Chrome + VoiceOver                                       |
 | ----------------------------------------------------------- | ------------------------------------ | -------------------------------------------------------- |
-| `aria-selected` changes + `aria-activedescendant` changes   | Announces `"Yellow, text (4 of 8)"`  | Announces `"menu item (2 of 8)"`, no color announcement. |
-| `aria-activedescendant` fixed to one option                 | Behaviour unchanged, announces color | Behaviour unchanged, no color announcement               |
+| `aria-activedescendant` fixed to one option                 | Behaviour unchanged, announces color | No color or position announcement                        |
 | Remove `aria-selected`; only change `aria-activedescendant` | No color or position announcement    | No color or position announcement                        |
+| `aria-selected` changes + `aria-activedescendant` changes   | Announces `"Yellow, text (4 of 8)"`  | Announces `"menu item (2 of 8)"`, no color announcement. |
 
 
 [https://github.com/SIMON-5000/apg-wc-test/blob/2761b7c36dfea994a3722d5755ec65cbb2f37c22/src/components/combobox/wc-combobox.js#L194](https://github.com/SIMON-5000/apg-wc-test/blob/2761b7c36dfea994a3722d5755ec65cbb2f37c22/src/components/combobox/wc-combobox.js#L194)
